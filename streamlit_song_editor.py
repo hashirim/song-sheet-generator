@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import os
 from typing import List, Dict, Any
+from urllib.parse import urlparse
 
 # Set page config
 st.set_page_config(page_title="Song Editor", layout="wide")
@@ -68,12 +69,75 @@ def parse_sources_input(sources_str: str) -> List[Dict[str, str]]:
     
     return sources
 
+def get_domain(url: str) -> str:
+    """Extract domain name from URL."""
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc.replace('www.', '')
+        domain_parts = domain.split('.')
+        if len(domain_parts) > 1:
+            return domain_parts[-2]
+        return domain
+    except:
+        return 'unknown'
+
+
+def parse_urls_display(urls: Dict[str, str]) -> str:
+    """Convert URLs dict to editable string format (one URL per line)."""
+    url_strings = []
+    for key, url in urls.items():
+        url_strings.append(url)
+    return "\n".join(url_strings)
+
+def parse_urls_input(urls_str: str) -> Dict[str, str]:
+    """Convert editable string format to URLs dict."""
+    if not urls_str.strip():
+        return {}
+    
+    urls = {}
+    url_lines = urls_str.strip().split('\n')
+    
+    for line in url_lines:
+        url = line.strip()
+        if not url:
+            continue
+        
+        # Extract service name from URL
+        service_name = get_domain(url)
+        urls[service_name] = url
+    
+    return urls
+
+def create_new_song() -> Dict[str, Any]:
+    """Create a new song with default structure."""
+    return {
+        "title": "",
+        "authors": [],
+        "sources": [],
+        "urls": {},
+        "tags": [],
+        "lyrics": "",
+        "notes": "",
+        "language": ""
+    }
+
 def main():
     st.title("🎵 Song Editor")
     
     # Load songs
     data = load_songs()
     songs = data.get('songs', [])
+    
+    # Add new song button at the top
+    col1, col2, col3 = st.columns([1, 1, 3])
+    with col1:
+        if st.button("➕ Add New Song", use_container_width=True):
+            new_song = create_new_song()
+            songs.append(new_song)
+            data['songs'] = songs
+            save_songs(data)
+            st.success("✅ New song created!")
+            st.rerun()
     
     if not songs:
         st.error("No songs found in songs.json")
@@ -117,6 +181,13 @@ def main():
             help="Comma-separated list of authors"
         )
         
+        # Language
+        language = st.text_input(
+            "Language",
+            value=selected_song.get('language', ''),
+            help="Language of the song"
+        )
+        
         # Tags
         tags_str = ', '.join(selected_song.get('tags', []))
         tags_input = st.text_input(
@@ -149,6 +220,15 @@ def main():
             help="Additional notes about the song"
         )
         
+        # URLs
+        urls_display = parse_urls_display(selected_song.get('urls', {}))
+        urls_input = st.text_area(
+            "URLs",
+            value=urls_display,
+            height=100,
+            help="One URL per line (service name will be auto-detected from domain)"
+        )
+        
         # Save button
         submit_button = st.form_submit_button("💾 Save Changes", use_container_width=True)
         
@@ -157,15 +237,18 @@ def main():
             authors = [a.strip() for a in authors_input.split(',') if a.strip()]
             tags = [t.strip() for t in tags_input.split(',') if t.strip()]
             sources = parse_sources_input(sources_input)
+            urls = parse_urls_input(urls_input)
             
             # Update song
             songs[selected_idx].update({
                 'title': title,
                 'authors': authors,
+                'language': language,
                 'tags': tags,
                 'sources': sources,
                 'lyrics': lyrics,
-                'notes': notes
+                'notes': notes,
+                'urls': urls
             })
             
             # Save to file
@@ -177,3 +260,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -1,0 +1,12 @@
+@font-face { font-family:"Taamey David CLM"; src: url(TaameyDavidCLM-Medium.ttf);}
+@font-face { font-family:"Liberation Serif"; src: url(LiberationSerif-Regular.ttf);}
+@font-face { font-family:"Liberation Serif-Italics"; src: url(LiberationSerif-Italic.ttf);}
+@font-face { font-family:"Liberation Serif-Bold"; src: url(LiberationSerif-Bold.ttf);}
+p { margin-bottom: 0.25cm; line-height: 115%; background: transparent; page-break-before: auto; font-family: "Liberation Serif"}
+h1 { margin-top: 0cm; margin-bottom: 0cm; color: #158466; text-align: center; background: transparent; page-break-before: auto; page-break-after: avoid ; font-weight: bold; font-size: 16pt; font-family: "Liberation Serif-Bold", serif}
+h2 { margin-top: 1cm; margin-bottom: 0cm; background: transparent; page-break-after: avoid;font-size: 12pt; font-family: "Liberation Serif-Bold"}
+p.hebrew {margin-top: 0cm; margin-bottom: 0cm; font-family: "Taamey David CLM", sans-serif ;line-height:115%; text-align:right}
+p.transliteration { margin-top: 0cm; margin-bottom: 0cm }
+blockquote {margin-left:0cm;  margin-top: 0cm; margin-bottom: 0.25cm; color: #666666; background: transparent;line-height:115%; font-family: "Liberation Serif-Italics"}
+a:link { color: #000080; text-decoration: underline }
+a:visited { color: #800000; text-decoration: underline }
