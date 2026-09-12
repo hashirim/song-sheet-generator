@@ -145,11 +145,13 @@
         "youtube": "https://www.youtube.com/watch?v=3M88GWbui9g"
       },
       "tags": [
-        "shacharit"
+        "shacharit",
+        "nature",
+        "yearning"
       ],
       "lyrics": "<p class=\"hebrew\">כְּאַיָּל תַּעֲרֹג עַל־אֲפִיקֵי־מָיִם<br/>\nכֵּן נַפְשִׁי תַעֲרֹג אֵלֶיךָ אֱלֹהִים<br/>\nצָמְאָה נַפְשִׁי לֵאלֹהִים לְאֵל חָי</p>\n<p class=\"transliteration\">(k’ayal ta’arog al afikei mayim<br/>\nkein nafshi ta’arog eilecha elohim)(2x)<br/>\ntzamah nafshi leilohim l’eil chai</p>\n<blockquote>Like a deer longs for streams of water<br/>\nso my soul longs for you, divine one<br/>\nmy soul is thirsty for the holy one, the living God</blockquote>",
       "notes": "",
-      "language": "hebrew, nature"
+      "language": "hebrew"
     },
     {
       "title": "Hal'luyah",
@@ -192,7 +194,8 @@
         "youtu": "https://youtu.be/yElV439cnZw"
       },
       "tags": [
-        "shacharit praise"
+        "shacharit",
+        "praise"
       ],
       "lyrics": "<p class=\"hebrew\">הַלְלוּ־יָהּ</p>\n<p class=\"hebrew\">הַלְלוּ אֶת־יְיָ מִן־הַשָּׁמַיִם הַלְלוּהוּ בַּמְּרוֹמִים<br/>\nהַלְלוּהוּ כׇל־מַלְאָכָיו הַלְלוּהוּ כׇּל־צְבָאָו<br/>\nהַלְלוּהוּ שֶׁמֶשׁ וְיָרֵחַ הַלְלוּהוּ כׇּל־כּוֹכְבֵי אוֹר<br/>\nהַלְלוּהוּ שְׁמֵי הַשָּׁמָיִם וְהַמַּיִם אֲשֶׁר  מֵעַל הַשָּׁמָיִם<br/>\nיְהַלְלוּ אֶת־שֵׁם יְיָ כִּי הוּא צִוָּה וְנִבְרָאוּ<br/>\nוַיַּעֲמִידֵם לָעַד לְעוֹלָם חׇק־נָתַן וְלֹא יַעֲבוֹר</p>\n<p class=\"transliteration\">(hal'luyah)(4x)<br/>\nhal'lu et adonai min hashamayim, hal'luhu bam'romim<br/>\nhal'luhu kol mal'achav, hal'luhu kol tz'va'av<br/>\nhal'luhu shemesh v'yare'ach, hal'luhu kol kochvei or<br/>\nhal'luhu sh'mei hashamayim v'hamayim asher mei'al hashamayim<br/>\n(y'hal'lu et sheim adonai, ki hu tzivah v'nivra'u<br/>\nvaya'amideim la'ad l'olam, chok natan v'lo ya'avor)(2x)</p>\n<blockquote>Hallelujah. Praise God from the heavens; give praise on high. Give praise, all you angels, give praise, all divine hosts. Give praise, sun and moon, give praise, all bright stars. Give praise, highest heavens, and you waters that are above the heavens. Let them praise the name of God who commanded that they be created, and who made them endure forever, establishing an order that shall never change.</blockquote>",
       "notes": "",
@@ -1202,7 +1205,7 @@
       ],
       "sources": [
         {
-          "book": "Eicha",
+          "book": "Lamentations",
           "chapter": "5",
           "verse": "21"
         }
@@ -1656,7 +1659,8 @@
     {
       "title": "Passing through",
       "authors": [
-        "Julia Cadrain & Becky Mann"
+        "Julia Cadrain",
+        "Becky Mann"
       ],
       "sources": [
         {
@@ -1934,7 +1938,8 @@
     {
       "title": "Eilah",
       "authors": [
-        "Miriam Rubin"
+        "Miriam Rubin",
+        "Elana Brody"
       ],
       "sources": [
         {
@@ -2060,7 +2065,7 @@
         "youtu": "https://youtu.be/VKvlbopLD2w"
       },
       "tags": [
-        "simcha torah"
+        "simchat torah"
       ],
       "lyrics": "<p class=\"hebrew\">בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ, וַיַּבְדֵּל, יְהִי אוֹר</p>\n<p class=\"transliteration\">((bein ha'or u'vein ha'choshech)(2x)<br/>\n(vayavdel)(6x))(3x)<br/>\n(y'hi or)(9x)</p>\n<blockquote>God separated the light from the darkness. There was light.</blockquote>",
       "notes": "",
@@ -2082,7 +2087,7 @@
         "youtu": "https://youtu.be/HSAUZ8JItyc"
       },
       "tags": [
-        "shmina atzeret",
+        "shmini atzeret",
         "nature"
       ],
       "lyrics": "<p class=\"hebrew\">מַשִּׁיב הָרוּחַ וּמוֹרִיד הַגֶּשֶׁם</p>\n<p class=\"transliteration\">\n(mashiv ha'ruach u'morid hageshem)(4x)</p>\n<blockquote>God makes the wind blow and rain fall  </blockquote>\n<p>((For our sake)(2x) don't hold back the water)(4x)</p>\n<p>(Don't hold back the water)(8x) \n</p>\n<p>Remember Miriam whose prophecy flowed like water, She watched her brother float down the Nile water, Crossed the sea with thousands through the water, <br/>\nAnd in the desert, wherever she went, there was water. \n</p>\n<p>(For Miriam's sake, don't hold back the water)(2x)<br/>\n((For our sake)(2x) don't hold back the water)(2x)</p>\n<p>(Don't hold back the water)(8x)</p>",
@@ -2105,7 +2110,7 @@
         "youtu": "https://youtu.be/xJOZ9StM3wQ"
       },
       "tags": [
-        "shmina atzeret",
+        "shmini atzeret",
         "nature"
       ],
       "lyrics": "<p class=\"hebrew\">כַּ֭מַּיִם הַפָּנִ֣ים לַפָּנִ֑ים כֵּ֤ן לֵֽב־הָ֝אָדָ֗ם לָאָדָֽם</p>\n<p class=\"transliteration\">((kamayim)(3x) hapanim lapanim)(2x) <br/>\n((kein lev ha'adam)(3x) la'adam)(2x)</p>\n<blockquote>Just as the face of water reflects a face <br/>\nso does the human heart reflect the person.</blockquote>",
@@ -2145,7 +2150,7 @@
         "bandcamp": "https://yaelchannah.bandcamp.com/track/mimainei-by-avra-shapiro-feat-yael-schonzeit"
       },
       "tags": [
-        "shmina atzeret",
+        "shmini atzeret",
         "pesach",
         "justice"
       ],
@@ -2169,7 +2174,7 @@
         "youtube": "https://www.youtube.com/watch?v=CBFG-W0HC8Y"
       },
       "tags": [
-        "shmina atzeret",
+        "shmini atzeret",
         "nature"
       ],
       "lyrics": "<p class=\"hebrew\">וּשְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן מִמַּעַיְנֵי הַיְשׁוּעָה</p>\n<p class=\"transliteration\">Ushavtem mayim be'sason mimaynei hayeshua</p>\n<blockquote>With joy we draw water out of the wells of salvation.</blockquote>",
@@ -2196,7 +2201,7 @@
       ],
       "lyrics": "<p>CHORUS:<br/>\nI am light, I am light<br/>\nI am light, I am light<br/>\nI am light, I am light<br/>\nI am light, I am light</p>\n<p>I am not the things my family did<br/>\nI am not the voices in my head<br/>\nI am not the pieces of the brokenness inside<br/>\nI am light, I am light</p>\n<p>CHORUS</p>\n<p>I'm not the mistakes that I have made<br/>\nOr any of the things that caused me pain<br/>\nI am not the pieces of the dream I left behind<br/>\nI am light, I am light</p>\n<p>CHORUS</p>\n<p>I am not the color of my eyes<br/>\nI am not the skin on the outside<br/>\nI am not my age<br/>\nI am not my race<br/>\nMy soul inside is all light, all light</p>\n<p>I am light, I am light<br/>\nI am light, I am light<br/>\nI am divinity defined<br/>\nI am the God on the inside<br/>\nI am a star, a piece of it all<br/>\nI am light</p>",
       "notes": "",
-      "language": "english only"
+      "language": "english"
     },
     {
       "title": "G'vurah",
@@ -2582,7 +2587,7 @@
     {
       "title": "Orah v’simchah",
       "authors": [
-        "Deborah Stacks Mintz"
+        "Deborah Sacks Mintz"
       ],
       "sources": [
         {
@@ -2815,7 +2820,7 @@
       ],
       "sources": [
         {
-          "book": "Berachot",
+          "book": "Berakhot",
           "chapter": "59b",
           "verse": "7"
         },
@@ -3160,7 +3165,7 @@
     {
       "title": "Va'ani Ashir Uzecha",
       "authors": [
-        "Josh Warshawski"
+        "Josh Warshawsky"
       ],
       "sources": [
         {
@@ -3332,7 +3337,7 @@
           "verse": "19"
         },
         {
-          "book": "Song of songs",
+          "book": "Song of Songs",
           "chapter": "2",
           "verse": "10"
         }
@@ -3466,7 +3471,7 @@
       ],
       "lyrics": "<p>I'm not alone (8x)</p>\n<p>I forgot, for a minute<br/>\nWho I belong to<br/>\nThe mama earth<br/>\nthe wind and rain<br/>\nThe beauty and the pain</p>\n<p>I'm not alone<br/>\nFor me the world was created<br/>\nI'm not alone <br/>\nTo dust I will return</p>",
       "notes": "",
-      "language": "english only"
+      "language": "english"
     },
     {
       "title": "Rubies",
@@ -3540,7 +3545,7 @@
     {
       "title": "Erev shel shoshanim",
       "authors": [
-        "Melita"
+        "Melita Silberstein"
       ],
       "sources": [
         {
@@ -3567,7 +3572,7 @@
       ],
       "sources": [
         {
-          "book": "Song of songs",
+          "book": "Song of Songs",
           "chapter": "2",
           "verse": "16"
         }
@@ -3764,7 +3769,8 @@
         "youtu": "https://youtu.be/2W_XxCh2b30?t=86"
       },
       "tags": [
-        "additional songs"
+        "protection",
+        "gratitude"
       ],
       "lyrics": "<p class=\"hebrew\">וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם׃<br/>\nוַאֲנַחְנוּ נְבָרֵךְ יָהּ מֵעַתָּה וְעַד־עוֹלָם׃</p>\n<p class=\"transliteration\">v'asu li mikdash v'shochanti b'tocham<br/>\nva'anachnu n'vareich yah mei'atah v'ad olam</p>\n<blockquote>Build for me a sanctuary so that I will dwell among them. And we shall praise God, now and forever.</blockquote>\n<p>Oh God, prepare me to be a sanctuary<br/>\nPure and holy, tried and true,<br/>\nAnd with thanksgiving, I’ll be a living sanctuary for you.</p>",
       "notes": "",
@@ -3900,7 +3906,7 @@
     {
       "title": "Magnificence",
       "authors": [
-        "Adamah fellows 2014"
+        "Adamah Fellows 2014"
       ],
       "sources": [
         {
