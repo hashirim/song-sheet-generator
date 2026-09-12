@@ -134,13 +134,18 @@ def show():
         book_display = ["All Books"] + [f"{book} ({count_book_songs(songs, book)})" for book in books]
         book_mapping = {display: book for display, book in zip(book_display, book_options)}
         
+        # Find the index safely
+        selected_index = 0
+        if st.session_state.selected_book:
+            for i, display in enumerate(book_display):
+                if book_mapping[display] == st.session_state.selected_book:
+                    selected_index = i
+                    break
+        
         selected_book_display = st.selectbox(
             "Book",
             options=book_display,
-            index=0 if not st.session_state.selected_book else (
-                book_display.index(f"{st.session_state.selected_book} ({count_book_songs(songs, st.session_state.selected_book)})") 
-                if st.session_state.selected_book else 0
-            ),
+            index=selected_index,
             key="book_select"
         )
         st.session_state.selected_book = book_mapping[selected_book_display]
@@ -159,14 +164,18 @@ def show():
             ]
             chapter_mapping = {display: chapter for display, chapter in zip(chapter_display, chapter_options)}
             
+            # Find the index safely
+            selected_index = 0
+            if st.session_state.selected_chapter:
+                for i, display in enumerate(chapter_display):
+                    if chapter_mapping[display] == st.session_state.selected_chapter:
+                        selected_index = i
+                        break
+            
             selected_chapter_display = st.selectbox(
                 "Chapter",
                 options=chapter_display,
-                index=0 if not st.session_state.selected_chapter else (
-                    chapter_display.index(
-                        f"{st.session_state.selected_chapter} ({count_chapter_songs(songs, st.session_state.selected_book, st.session_state.selected_chapter)})"
-                    ) if st.session_state.selected_chapter else 0
-                ),
+                index=selected_index,
                 key="chapter_select"
             )
             st.session_state.selected_chapter = chapter_mapping[selected_chapter_display]
@@ -186,14 +195,18 @@ def show():
             ]
             verse_mapping = {display: verse for display, verse in zip(verse_display, verse_options)}
             
+            # Find the index safely
+            selected_index = 0
+            if st.session_state.selected_verse:
+                for i, display in enumerate(verse_display):
+                    if verse_mapping[display] == st.session_state.selected_verse:
+                        selected_index = i
+                        break
+            
             selected_verse_display = st.selectbox(
                 "Verse",
                 options=verse_display,
-                index=0 if not st.session_state.selected_verse else (
-                    verse_display.index(
-                        f"{st.session_state.selected_verse} ({count_verse_songs(songs, st.session_state.selected_book, st.session_state.selected_chapter, st.session_state.selected_verse)})"
-                    ) if st.session_state.selected_verse else 0
-                ),
+                index=selected_index,
                 key="verse_select"
             )
             st.session_state.selected_verse = verse_mapping[selected_verse_display]

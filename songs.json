@@ -13,12 +13,7 @@
         },
         {
           "book": "liturgy",
-          "chapter": "",
-          "verse": ""
-        },
-        {
-          "book": "shacharit",
-          "chapter": "",
+          "chapter": "shacharit",
           "verse": ""
         }
       ],
@@ -27,7 +22,10 @@
         "bandcamp": "https://shivikeller.bandcamp.com/track/mode-ani"
       },
       "tags": [
-        "shacharit"
+        "shacharit",
+        "gratitude",
+        "redemption",
+        "love"
       ],
       "lyrics": "<p class=\"hebrew\">מוֹדֶה אֲנִי לְפָנֶיךָ, מֶלֶךְ חַי וְקַיָּם<br/>\nשֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּחֶמְלָה רַבָּה אֱמוּנָתֶךָ<br/>\nמוֹדֶה אֲנִי לְפָנֶיךָ יְיָ אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי<br/>\nרִבּוֹן כָּל הַמַּעֲשִׂים וְאַדוֹן כָּל הַנְּשָׁמוֹת<br/>\nוְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ<br/>\nזֶה כְּלַל גָּדוֹל בַּתּוֹרָה<br/>\nזֶה כְּלַל גָּדוֹל בַּאֱמוּנָה</p>\n<p class=\"hebrew\">אַתָּה בְרָאתָהּ יְצַרְתָּהּ וְנָפַחְתָּהּ<br/>\nאַתָּה מְשַׁמְּרָהּ בְּקִרְבִּי<br/>\nוְאַתָּה עָתִיד לִטְּלָהּ מִמֶּנִּי וּלְהַחֲזִירָהּ בִּי לֶעָתִיד לָבֹא</p>\n<p class=\"transliteration\">(modeh ani l'fanecha melech (chai)(2x) v'kayam<br/>\nshehechezarta bi nishmati b'chemlah rabah emunatecha)(2x)<br/>\n(modeh ani l'fanecha adonai elohai veilohei avotai<br/>\nribon kol hama'asim v'adon kol han'shamot)(2x)<br/>\n(v'ahavta l'rei'acha kamocha)(3x)<br/>\nzeh k'lal gadol batorah<br/>\n(v'ahavta l'rei'acha kamocha)(3x)<br/>\nzeh k'lal gadol ba'emunah<br/>\n(atah b'ratah y'tzartah v'nafachtah<br/>\natah (m'shamrah)(2x) b'kirbi<br/>\nv'atah atid lit'lah mimeni ul'hachzirah bi le'atid lavo)(2x)</p>\n<blockquote>I give thanks to You living and everlasting ruler for You have restored my soul with mercy.<br/>\nGreat is Your faithfulness.<br/>\nSo long as the soul is within me I give thanks to You, my God, and God of my ancestors, Lord of all creatures, Master of all souls.<br/>\nYou shall love your neighbor as yourself – that verse represents the central tenet of the Torah &amp; faith.<br/>\nYou created it, formed it, breathed it into me. You preserve it within me. You will eventually take it from me, and restore it in me in the time to come.</blockquote>",
       "notes": "",
@@ -474,9 +472,9 @@
       ],
       "sources": [
         {
-          "book": "lyrics",
-          "chapter": "Yedid Nefesh",
-          "verse": ""
+          "book": "piyyut",
+          "chapter": "Elazar ben Moshe Azikri",
+          "verse": "Yedid Nefesh"
         }
       ],
       "urls": {
@@ -764,11 +762,13 @@
     },
     {
       "title": "Eiliyahu hanavi",
-      "authors": [],
+      "authors": [
+        "unknown"
+      ],
       "sources": [
         {
           "book": "piyyut",
-          "chapter": "uknown",
+          "chapter": "unknown",
           "verse": ""
         }
       ],
@@ -811,7 +811,13 @@
       "authors": [
         "Leila Gal Berner"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "writing",
+          "chapter": "Leila Gal Berner",
+          "verse": ""
+        }
+      ],
       "urls": {
         "youtu": "https://youtu.be/ZGOpgkzZRkk?t=38"
       },
@@ -852,7 +858,7 @@
       ],
       "sources": [
         {
-          "book": "writer",
+          "book": "writing",
           "chapter": "Leila Gal Berner",
           "verse": ""
         }
@@ -1715,9 +1721,9 @@
       ],
       "sources": [
         {
-          "book": "other",
-          "chapter": "piyyut",
-          "verse": "Moses Ibn Ezra"
+          "book": "piyyut",
+          "chapter": "Moses Ibn Ezra",
+          "verse": ""
         }
       ],
       "urls": {
@@ -1744,7 +1750,7 @@
         },
         {
           "book": "piyyut",
-          "chapter": "uknown",
+          "chapter": "unknown",
           "verse": ""
         }
       ],
@@ -1881,13 +1887,13 @@
       ],
       "sources": [
         {
-          "book": "other",
-          "chapter": "M-anon",
+          "book": "piyyut",
+          "chapter": "unknown",
           "verse": ""
         }
       ],
       "urls": {
-        "youtu": "https://youtu.be/jR7PFCjgIk0?si=6PPEYFTPuq0swM4A"
+        "youtu": "https://youtu.be/jR7PFCjgIk0"
       },
       "tags": [
         "high holidays"
@@ -2012,7 +2018,7 @@
           "verse": ""
         },
         {
-          "book": "writer",
+          "book": "writing",
           "chapter": "David Seidenberg",
           "verse": "Seder Ushpizin and Ushpizata"
         }
@@ -2024,7 +2030,7 @@
       "tags": [
         "sukkot"
       ],
-      "lyrics": "<p class=\"hebrew\">עוּלוּ אוּשְׁפִּיזִין עִלָּאִין קַדִּישִׁין<br/>\nעוּלוּ אִימָּהָתָא עִלָּאָתָא קְדִּישָׁתָא<br/>\nעוּלוּ אֲבָהָן עִלָּאִין קַדִּישִׁין</p>\n<p style=\"line-height: 100%; margin-bottom: 0cm; page-break-before: auto\">\n(ulu ushpizin ila'in kadishin)(4x) (ulu)(19x)<br/>\n(ulu imahata ila'ata k'dishata)(4x) (ulu)(19x)<br/>\n(ulu avahan ila'in kadishin)(4x) (ulu)(19x)</p>\n<blockquote>Come in exalted holy guests<br/>\nCome in exalted holy mothers<br/>\nCome in exalted holy fathers</blockquote>",
+      "lyrics": "<p class=\"hebrew\">עוּלוּ אוּשְׁפִּיזִין עִלָּאִין קַדִּישִׁין<br/>\nעוּלוּ אִימָּהָתָא עִלָּאָתָא קְדִּישָׁתָא<br/>\nעוּלוּ אֲבָהָן עִלָּאִין קַדִּישִׁין</p>\n<p class=\"transliteration\">\n(ulu ushpizin ila'in kadishin)(4x) (ulu)(19x)<br/>\n(ulu imahata ila'ata k'dishata)(4x) (ulu)(19x)<br/>\n(ulu avahan ila'in kadishin)(4x) (ulu)(19x)</p>\n<blockquote>Come in exalted holy guests<br/>\nCome in exalted holy mothers<br/>\nCome in exalted holy fathers</blockquote>",
       "notes": "",
       "language": "aramaic"
     },
@@ -2188,9 +2194,9 @@
       ],
       "sources": [
         {
-          "book": "other",
-          "chapter": "writer",
-          "verse": "India Arie"
+          "book": "writing",
+          "chapter": "India Arie",
+          "verse": ""
         }
       ],
       "urls": {
@@ -2897,7 +2903,7 @@
       ],
       "sources": [
         {
-          "book": "writer",
+          "book": "writing",
           "chapter": "Rabbi Jill Hammer",
           "verse": ""
         },
@@ -2908,12 +2914,13 @@
         }
       ],
       "urls": {
-        "youtube": "https://www.youtube.com/watch?v=iPfYhYOm05c&list=RDiPfYhYOm05c",
+        "youtube": "https://www.youtube.com/watch?v=iPfYhYOm05c",
         "bandcamp": "https://elianalight.bandcamp.com/track/orah-hi"
       },
       "tags": [
         "pesach",
-        "feminine god"
+        "feminine god",
+        "call and response"
       ],
       "lyrics": "<p class=\"hebrew\">אוֹרָה הִיא</p>\n<p>(orah hi)(3x)</p>\n<p>CHORUS:</p>\n<p class=\"hebrew\">תִבְנֶה בֵיתָה בְּקָרוֹב<br/>\nבִּמְהֵרַה בְּיָמֵינוּ בְּקָרוֹב אֶלַה בְּנִי בֵיתֵךְ בְּקָרוֹב</p>\n<p>tivneh veitah b'karov<br/>\n(bimheirah)(2x) b'yameinu b'karov<br/>\nelah b’ni, elah b’ni b’ni veiteich b'karov</p>\n<p class=\"hebrew\">בִּינָה הִיא, גִילָה הִיא, דִמְעָה הִיא</p>\n<p>binah hi gilah hi dim'ah hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">הַדָר הִיא, וֶרֶד הִיא, זֶרֶם הִיא</p>\n<p>hadar hi vered hi zerem hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">חִידוּשׁ הִיא, טִבּוּר הִיא, יִחוּד הִיא</p>\n<p>chidush hi tibur hi yichud hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">כֶּסֶא הִיא, לֵידָה הִיא, מַעָיָן הִיא</p>\n<p>kese hi leidah hi ma'ayan hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">נְחַמָה הִיא, סְלִיחָה הִיא, עוֹצְמָה הִיא</p>\n<p>n'chamah hi s'lichah hi otzmah hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">פִּדְיוֹן הִיא, צֶדֶק הִיא, קוֹדֶשׁ הִיא</p>\n<p>pidyon hi tzedek hi kodesh hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">רַעַיָה הִיא, שׁוֹנָה הִיא, תָּמַה הִיא</p>\n<p>ra'ayah hi shonah hi tamah hi</p>\n<blockquote>She is light, she is light. May she build her house soon, soon, speedily and in our days. God, build your house soon, close to us in time and space.<br/>\nShe is wisdom, she is joy, she is tears.<br/>\nShe is splendor, she is a rose, she is a flowing stream.<br/>\nShe is renewal, she is the center, she is oneness.<br/>\nShe is the full moon, she is birth, she is the fountain-source.<br/>\nShe is comfort, she is forgiveness, she is strength.<br/>\nShe is redemption, she is righteousness, she is holiness.<br/>\nShe is a beloved companion, she is always changing, she is complete and perfect.</blockquote>",
       "notes": "",
@@ -3503,7 +3510,7 @@
       ],
       "sources": [
         {
-          "book": "writer",
+          "book": "writing",
           "chapter": "Rami Shapiro",
           "verse": ""
         }
@@ -3747,7 +3754,9 @@
     },
     {
       "title": "Sanctuary",
-      "authors": [],
+      "authors": [
+        "Romemu"
+      ],
       "sources": [
         {
           "book": "Exodus",
@@ -3760,7 +3769,7 @@
           "verse": "18"
         },
         {
-          "book": "writer",
+          "book": "writing",
           "chapter": "Randy Scruggs",
           "verse": ""
         }
@@ -3774,7 +3783,7 @@
       ],
       "lyrics": "<p class=\"hebrew\">וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם׃<br/>\nוַאֲנַחְנוּ נְבָרֵךְ יָהּ מֵעַתָּה וְעַד־עוֹלָם׃</p>\n<p class=\"transliteration\">v'asu li mikdash v'shochanti b'tocham<br/>\nva'anachnu n'vareich yah mei'atah v'ad olam</p>\n<blockquote>Build for me a sanctuary so that I will dwell among them. And we shall praise God, now and forever.</blockquote>\n<p>Oh God, prepare me to be a sanctuary<br/>\nPure and holy, tried and true,<br/>\nAnd with thanksgiving, I’ll be a living sanctuary for you.</p>",
       "notes": "",
-      "language": ""
+      "language": "english and hebrew"
     },
     {
       "title": "Ana el na",
@@ -3897,7 +3906,8 @@
       "tags": [
         "journey",
         "mourning",
-        "justice"
+        "justice",
+        "call and response"
       ],
       "lyrics": "<p>(May the life I lead speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the life I lead speak for me</p>\n<p>(May the songs I sing speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the songs I sing speak for me</p>\n<p>(May the work I do speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the work I do speak for me</p>\n<p>(May the words I speak speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the words I speak speak for me</p>\n<p>(May the path I walk speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the path I walk speak for me</p>\n<p>(May the land I tend speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the land I tend speak for me</p>\n<p>(May the seeds I sow speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the seeds I sow speak for me</p>\n<p>(May the mountain we climb speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the mountain we climb speak for me</p>\n<p>When I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the life I lead speak for me</p>",
       "notes": "",
@@ -3910,7 +3920,7 @@
       ],
       "sources": [
         {
-          "book": "author",
+          "book": "writing",
           "chapter": "Peter Makena",
           "verse": ""
         }
@@ -3921,7 +3931,8 @@
       "tags": [
         "round",
         "rosh hashanah",
-        "nature"
+        "nature",
+        "shmini atzeret"
       ],
       "lyrics": "<p>Part 1:</p>\n<p>Wash me away so that all that's left is love, great spirit</p>\n<p>Part 2:</p>\n<p>Hallelujah, Hallelujah</p>\n<p>Part 3:</p>\n<p>Halelu, hallelujah,Halelu, hallelujah,</p>\n<p>Part 4:</p>\n<p>There is so much magnificence, in the ocean. Waves are coming in, waves are coming in</p>",
       "notes": "",
@@ -3934,7 +3945,7 @@
       ],
       "sources": [
         {
-          "book": "writer",
+          "book": "writing",
           "chapter": "Judy Chicago",
           "verse": "merger poem"
         }
@@ -3946,7 +3957,7 @@
         "redemption",
         "peace"
       ],
-      "lyrics": "<p>And then, and then, every person will be gentle<br/>\nAnd then, and then, every person will be strong<br/>\nThen all will be so varied, rich, and free<br/>\nThen every where will be called Eden once again<br/>\nThen all will be so varied, rich, and free<br/>\nThen every where will be called Eden once again</p>",
+      "lyrics": "<p>And then, and then, every person will be gentle<br/>\nAnd then, and then, every person will be strong<br/>\nThen all will be so varied, rich, and free<br/>\nThen every where will be called Eden once again<br/>",
       "notes": "",
       "language": "english"
     },
