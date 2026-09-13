@@ -444,7 +444,7 @@
     {
       "title": "Higaleh na",
       "authors": [
-        "Shir Yaakov"
+        "Shir Feit"
       ],
       "sources": [
         {
@@ -490,7 +490,7 @@
     },
     {
       "title": "Yishm'chu hashamayim",
-      "authors": [],
+      "authors": ["unknown"],
       "sources": [
         {
           "book": "Psalm",
@@ -648,7 +648,7 @@
     {
       "title": "Hinei el y'shu'ati",
       "authors": [
-        "Rav Shaul Yedidya Elazar"
+        "Shaul Yedidya Elazar"
       ],
       "sources": [
         {
@@ -720,7 +720,7 @@
     },
     {
       "title": "Separation piyyut",
-      "authors": [],
+      "authors": ["unknown"],
       "sources": [
         {
           "book": "piyyut",
@@ -1593,7 +1593,7 @@
     {
       "title": "Lishmo'a",
       "authors": [
-        "Weisenberg"
+        "Joey Weisenberg"
       ],
       "sources": [
         {
@@ -1881,28 +1881,6 @@
       "language": "english"
     },
     {
-      "title": "Ya'aleh koleinu",
-      "authors": [
-        "Weisenberg"
-      ],
-      "sources": [
-        {
-          "book": "piyyut",
-          "chapter": "unknown",
-          "verse": ""
-        }
-      ],
-      "urls": {
-        "youtu": "https://youtu.be/jR7PFCjgIk0"
-      },
-      "tags": [
-        "high holidays"
-      ],
-      "lyrics": "<p class=\"hebrew\">יַעֲלֶה תַחֲנוּנֵנוּ מֵעֶרֶב<br/>\nוְיָבֹא שַׁוְעָתֵנוּ מִבֹּקֶר<br/>\nוְיֵרָאֶה רִנּוּנֵנוּ עַד עָרֶב<br/>\nיַעֲלֶה קוֹלֵנוּ מֵעֶרֶב<br/>\nיַעֲלֶה יַעֲלֶה יַעֲלֶה, יַעֲלֶה קוֹלֵנוּ</p>\n<p class=\"transliteration\">ya'aleh tachanuneinu mei'erev<br/>\nv'yavo shav'ateinu miboker<br/>\nv'yeira'eh rinuneinu ad arev<br/>\nya'aleh koleinu mei'erev<br/>\n((ya'aleh)(3x) ya'aleh koleinu)(2x)<br/>\n[niggun]</p>\n<blockquote>Let our needs rise up with the darkness, <br/>\nour cries with the rays of the sun.<br/>\nAll day our praise is before you, <br/>\nsongs of joy and bliss till evening comes.<br/>\nFrom the pain, it will resurrect me <br/>\nAnd fill me with inspiration.</blockquote>",
-      "notes": "",
-      "language": ""
-    },
-    {
       "title": "Hineini",
       "authors": [
         "Ariel Wolpe"
@@ -1959,7 +1937,8 @@
       },
       "tags": [
         "feminine god",
-        "shacharit"
+        "shacharit",
+        "call and response"
       ],
       "lyrics": "<p class=\"hebrew\">מִן הָעוֹלָם וְעַד הָעוֹלָם, אַתְּ אֵלָה<br/>\nרוּחַ כָּל בָּשָׂר תְּפָאֵר וּתְרוֹמֵם זִכְרֵךְ<br/>\nפּוֹדָה וּמַצִּילָה. וְעוֹנָה וּמְרַחֶמֶת<br/>\nאֵין לָנוּ מַלְכָּה אֶלָּא אַתְּ</p>\n<p class=\"transliteration\">((min ha'olam v'ad ha'olam, at eilah)(2x)</p>\n<p class=\"transliteration\">(eilah)(12x))(2x)<br/>\n(ruach kol basar t'fa'eir ut'romeim zichreich)(8x)<br/>\n((podah)(4x) (podah umatzilah)(2x)<br/>\n(podah umatzilah v'onah)(2x) (um'rachemet)(4x))(2x)<br/>\n((ein lanu malkah)(3x) ela at)(4x)</p>\n<blockquote>From eternity to eternity, you are Goddess. The spirit of all flesh will glorify and exalt your memory. Liberates and rescues, redeems and saves. Aside from you we have no Queen but you.</blockquote>",
       "notes": "",
@@ -3410,7 +3389,7 @@
     {
       "title": "Broken hearted",
       "authors": [
-        "Shir Yaakov"
+        "Shir Feit"
       ],
       "sources": [
         {

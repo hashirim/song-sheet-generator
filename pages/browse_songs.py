@@ -231,7 +231,7 @@ def show():
     
     # Display songs table
     for idx, song in enumerate(filtered_songs):
-        col_check, col_title, col_authors = st.columns([1, 3, 2])
+        col_check, col_title, col_authors, col_details = st.columns([1, 3, 2, 2])
         
         with col_check:
             # Find if song is already selected
@@ -268,8 +268,9 @@ def show():
             st.write(authors_str)
         
         # Allow selecting a song row
-        if st.button(f"View Details", key=f"details_{idx}_{song['title']}"):
-            st.session_state.selected_song_index = idx
+        with col_details:
+            if st.button(f"View Details", key=f"details_{idx}_{song['title']}"):
+                st.session_state.selected_song_index = idx
     
     # Display selected song details
     if st.session_state.selected_song_index is not None and st.session_state.selected_song_index < len(filtered_songs):
