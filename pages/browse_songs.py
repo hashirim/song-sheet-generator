@@ -13,7 +13,7 @@ from utils.url_handler import get_song_url
 from utils.source_formatter import format_sources
 
 def show():
-    st.title("Browse Songs")
+    #st.title("Browse Songs")
     
     songs = load_songs()
     
@@ -227,77 +227,84 @@ def show():
         lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
     )
     
-    st.subheader(f"Songs ({len(filtered_songs)})")
+    
+    
+    col1, col2 = st.columns(2)
     
     # Display songs table
-    for idx, song in enumerate(filtered_songs):
-        col_check, col_title, col_authors, col_details = st.columns([1, 3, 2, 2])
-        
-        with col_check:
-            # Find if song is already selected
-            song_in_selected = False
-            for selected in st.session_state.selected_songs:
-                if selected['title'] == song['title'] and selected['authors'] == song['authors']:
-                    song_in_selected = True
-                    break
+    with col1:
+        st.subheader(f"Songs ({len(filtered_songs)})")
+        for idx, song in enumerate(filtered_songs):
+            col_check, col_title, col_authors, col_details = st.columns([1, 3, 2, 2])
             
-            if st.checkbox(
-                "Select",
-                value=song_in_selected,
-                key=f"song_check_{idx}_{song['title']}"
-            ):
-                # Add to selected if not already there
-                if not song_in_selected:
-                    st.session_state.selected_songs.append(song)
-            else:
-                # Remove from selected if unchecked
-                st.session_state.selected_songs = [
-                    s for s in st.session_state.selected_songs 
-                    if not (s['title'] == song['title'] and s['authors'] == song['authors'])
-                ]
-        
-        with col_title:
-            url = get_song_url(song.get("urls", {}))
-            if url:
-                st.markdown(f"[{song['title']}]({url})")
-            else:
-                st.write(song['title'])
-        
-        with col_authors:
-            authors_str = ", ".join(song.get("authors", []))
-            st.write(authors_str)
-        
-        # Allow selecting a song row
-        with col_details:
-            if st.button(f"View Details", key=f"details_{idx}_{song['title']}"):
-                st.session_state.selected_song_index = idx
+            with col_check:
+                # Find if song is already selected
+                song_in_selected = False
+                for selected in st.session_state.selected_songs:
+                    if selected['title'] == song['title'] and selected['authors'] == song['authors']:
+                        song_in_selected = True
+                        break
+                
+                if st.checkbox(
+                    "Select",
+                    value=song_in_selected,
+                    key=f"song_check_{idx}_{song['title']}"
+                ):
+                    # Add to selected if not already there
+                    if not song_in_selected:
+                        st.session_state.selected_songs.append(song)
+                else:
+                    # Remove from selected if unchecked
+                    st.session_state.selected_songs = [
+                        s for s in st.session_state.selected_songs 
+                        if not (s['title'] == song['title'] and s['authors'] == song['authors'])
+                    ]
+            
+            with col_title:
+                url = get_song_url(song.get("urls", {}))
+                if url:
+                    st.markdown(f"[{song['title']}]({url})")
+                else:
+                    st.write(song['title'])
+            
+            with col_authors:
+                authors_str = ", ".join(song.get("authors", []))
+                st.write(authors_str)
+            
+            # Allow selecting a song row
+            with col_details:
+                if st.button(f"View Details", key=f"details_{idx}_{song['title']}"):
+                    st.session_state.selected_song_index = idx
     
     # Display selected song details
-    if st.session_state.selected_song_index is not None and st.session_state.selected_song_index < len(filtered_songs):
-        st.divider()
+    with col2:
         st.subheader("Song Details")
-        
-        selected_song = filtered_songs[st.session_state.selected_song_index]
-        
-        # Title and authors
-        authors_str = ", ".join(selected_song.get("authors", []))
-        st.markdown(f"### {selected_song['title']}")
-        st.write(f"**Authors:** {authors_str}")
-        
-        # Lyrics (render as HTML)
-        st.markdown("#### Lyrics")
-        lyrics_html = selected_song.get("lyrics", "")
-        st.markdown(lyrics_html, unsafe_allow_html=True)
-        
-        # Notes
-        if selected_song.get("notes"):
-            st.markdown("#### Notes")
-            st.write(selected_song.get("notes"))
-        
-        # Sources
-        sources = format_sources(selected_song.get("sources", []))
-        if sources:
-            st.markdown("#### Sources")
-            for source in sources:
-                st.write(source)
+        if st.session_state.selected_song_index is not None and st.session_state.selected_song_index < len(filtered_songs):
+            
+            
+            selected_song = filtered_songs[st.session_state.selected_song_index]
+            
+            # Title and authors
+            authors_str = ", ".join(selected_song.get("authors", []))
+            st.markdown(f"### {selected_song['title']}")
+            st.write(f"**Authors:** {authors_str}")
+            
+            # Lyrics (render as HTML)
+            st.markdown("#### Lyrics")
+            lyrics_html = selected_song.get("lyrics", "")
+            st.markdown(lyrics_html, unsafe_allow_html=True)
+            
+            # Notes
+            if selected_song.get("notes"):
+                st.markdown("#### Notes")
+                st.write(selected_song.get("notes"))
+            
+            # Sources
+            sources = format_sources(selected_song.get("sources", []))
+            if sources:
+                st.markdown("#### Sources")
+                for source in sources:
+                    st.write(source)
+        else:
+            st.markdown("Select 'view details' to see song lyrics.")
 
