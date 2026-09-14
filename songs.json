@@ -490,7 +490,9 @@
     },
     {
       "title": "Yishm'chu hashamayim",
-      "authors": ["unknown"],
+      "authors": [
+        "unknown"
+      ],
       "sources": [
         {
           "book": "Psalm",
@@ -720,7 +722,9 @@
     },
     {
       "title": "Separation piyyut",
-      "authors": ["unknown"],
+      "authors": [
+        "unknown"
+      ],
       "sources": [
         {
           "book": "piyyut",
@@ -4114,14 +4118,55 @@
       "language": "hebrew"
     },
     {
-      "title": "",
-      "authors": [],
-      "sources": [],
-      "urls": {},
-      "tags": [],
-      "lyrics": "",
+      "title": "Brich Rachamana",
+      "authors": [
+        "Noah Aronson"
+      ],
+      "sources": [
+        {
+          "book": "Berakhot",
+          "chapter": "40b",
+          "verse": "6"
+        }
+      ],
+      "urls": {
+        "youtu": "https://youtu.be/OXQ87VxAXfk"
+      },
+      "tags": [
+        "meals",
+        "round",
+        "gratitude"
+      ],
+      "lyrics": "<p class=\"hebrew\">בְּרִיךְ רַחֲמָנָא, מַלְכָּא דְעַלְמָא, מָרֵיהּ דְּהַאי פִּיתָּא</p>\n<p class=\"transliteration\">(brich rachamana malka d'alma marei d'hai pita)(4x)<br/>\n(brich rachamana malka d'alma (marei d'hai pita)(2x))(2x)</p>\n<blockquote>Blessed is the All-Merciful, Master of this bread</blockquote>",
       "notes": "",
-      "language": ""
+      "language": "aramaic"
+    },
+    {
+      "title": "Ozi",
+      "authors": [
+        "Kol Hai"
+      ],
+      "sources": [
+        {
+          "book": "Psalm",
+          "chapter": "118",
+          "verse": "14"
+        },
+        {
+          "book": "Exodus",
+          "chapter": "15",
+          "verse": "2"
+        }
+      ],
+      "urls": {
+        "youtube": "https://www.youtube.com/watch?v=lEpbfHWWjFY"
+      },
+      "tags": [
+        "hallel"
+      ],
+      "lyrics": "<p class=\"hebrew\">עָזִּי וְזִמְרָת יָהּ וַיְהִי לִי לִישׁוּעָה</p>\n<p class=\"transliteration\">(ozi v'zimrat yah vay'hi li lishuah)(2x)<br/>\nozi v'zimrat yah (vay'hi li lishuah)2x</p>\n<blockquote>God is my strength and might.<br/>\nGod has become my deliverance.</blockquote>\n",
+      "notes": "",
+      "language": "hebrew"
     }
   ]
 }
