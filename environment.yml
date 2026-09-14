@@ -1,0 +1,12 @@
+name: streamlitenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas >=2.0.0
+  - streamlit >= 1.28.0
+  - beautifulsoup4 >= 4.12.0
+  - python-docx>=0.8.11
+  - pip:
+    - streamlit-sortables
+prefix: /home/mark/miniconda3/envs/streamlitenv
