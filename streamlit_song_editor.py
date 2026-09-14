@@ -116,7 +116,13 @@ def create_new_song() -> Dict[str, Any]:
         "sources": [],
         "urls": {},
         "tags": [],
-        "lyrics": "",
+        "lyrics": """<p class="hebrew"><br/>
+</p>
+<p class="transliteration"><br/>
+</p>
+<blockquote><br/>
+</blockquote>
+  """,
         "notes": "",
         "language": ""
     }
