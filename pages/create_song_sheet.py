@@ -1,6 +1,7 @@
 import streamlit as st
 from utils.export import export_html, export_docx
 import pandas as pd
+from streamlit_sortables import sort_items
 
 def show():
     st.title("Create Song Sheet")
@@ -11,22 +12,48 @@ def show():
     
     st.subheader("Selected Songs")
     
-    # Display selected songs in table
-    songs_data = []
-    for song in st.session_state.selected_songs:
-        songs_data.append({
-            "Title": song.get("title", ""),
-            "Authors": ", ".join(song.get("authors", []))
-        })
+    # Create list of song display strings with unique keys
+    songs_display = []
+    for i, song in enumerate(st.session_state.selected_songs):
+        title = song.get("title", "")
+        authors = ", ".join(song.get("authors", []))
+        display_text = f"{title} - {authors}" if authors else title
+        songs_display.append(display_text)
     
-    df = pd.DataFrame(songs_data)
-    st.dataframe(df, use_container_width=True)
+    # Use streamlit-sortables for drag-and-drop reordering
+    st.info("Drag to reorder songs")
+    sort_style = """
+.sortable-component {
+    font-size: 16px;
+    counter-reset: item;
+}
+.sortable-item {
+    background-color: black;
+    color: white;
+}
+.sortable-item, .sortable-item:hover {
+    background-color: rgb(62, 95, 92);
+    font-color: #FFFFFF;
+    font-weight: bold;
+}
+"""
+
+    sorted_songs = sort_items(songs_display, direction='vertical', custom_style=sort_style)
     
-    st.info(f"{len(st.session_state.selected_songs)} song(s) selected")
-    
-    # Note: Streamlit doesn't have built-in drag-and-drop sorting for data
-    # You can implement manual reordering with buttons or use a third-party library
-    
+    # Reorder the actual song data based on the sorted display order
+    if sorted_songs:
+        # Create a mapping of display text to original song data
+        display_to_song = {}
+        for i, song in enumerate(st.session_state.selected_songs):
+            title = song.get("title", "")
+            authors = ", ".join(song.get("authors", []))
+            display_text = f"{title} - {authors}" if authors else title
+            display_to_song[display_text] = song
+        
+        # Reorder songs based on sorted display order
+        reordered_songs = [display_to_song[display] for display in sorted_songs]
+        st.session_state.selected_songs = reordered_songs
+
     # Song sheet name
     st.subheader("Song Sheet Details")
     sheet_name = st.text_input(
@@ -78,4 +105,3 @@ def _show_font_warning():
     - [Liberation Fonts](https://github.com/liberationfonts/liberation-fonts)
     - [Taamey David CLM](https://github.com/opensiddur/opensiddur-server/wiki/Taamey-David-CLM)
     """)
-
