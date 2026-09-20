@@ -9,58 +9,101 @@ def format_sources(sources: List[Dict[str, Any]]) -> List[str]:
     # Keep numeric verses grouped so that adjacent verses can be merged, while
     # formatting non-numeric verses as individual references.
     grouped = {}
+
     for source in sources:
         book = str(source.get("book", "") or "")
         chapter = str(source.get("chapter", "") or "")
         verse = str(source.get("verse", "") or "")
 
-        # A source containing an unknown component is not a useful reference.
-        if any("unknown" in value.lower() for value in (book, chapter, verse)):
+        # 1) skip unknown entries
+        if any("unknown" in value.lower() for value in (book, chapter, verse) if value):
             continue
 
         key = (book, chapter)
-        group = grouped.setdefault(
-            key, {"numeric": [], "non_numeric": [], "empty": False}
-        )
-        if not verse:
-            group["empty"] = True
-        elif verse.isdigit():
-            group["numeric"].append(verse)
-        else:
-            group["non_numeric"].append(verse)
+        if key not in grouped:
+            grouped[key] = {"book": book, "chapter": chapter, "verses": []}
+
+        if verse:
+            grouped[key]["verses"].append(verse)
 
     formatted = []
-    for (book, chapter), group in sorted(grouped.items()):
-        numeric_verses = sorted(set(group["numeric"]), key=int)
-        if numeric_verses:
-            merged_verses = _merge_numeric_ranges(numeric_verses)
-            parts = [part for part in (book, chapter) if part]
-            prefix = " ".join(parts)
-            formatted.append(f"{prefix}:{merged_verses}" if prefix else merged_verses)
 
-        for verse in sorted(set(group["non_numeric"])):
-            reference = _format_non_numeric_source(book, chapter, verse)
-            if reference:
-                formatted.append(reference)
+    for (book, chapter), data in sorted(grouped.items()):
+        verses = sorted(set(data["verses"]), key=_sort_verse_values)
 
-        if group["empty"] and not numeric_verses and not group["non_numeric"]:
-            reference = _format_non_numeric_source(book, chapter, "")
-            if reference:
-                formatted.append(reference)
+        # 3) lowercase book
+        if book and book[:1].islower():
+            if not chapter and not verses:
+                continue
+
+            # no dash if only one side is there
+            if chapter and verses:
+                verse_text = _format_verse_list(verses)
+                formatted.append(f"{chapter} - {verse_text}")
+            elif chapter:
+                formatted.append(chapter)
+            elif verses:
+                formatted.append(_format_verse_list(verses))
+            continue
+
+        # 4) uppercase book
+        if not verses:
+            if book and chapter:
+                formatted.append(f"{book} {chapter}".strip())
+            elif book:
+                formatted.append(book)
+            elif chapter:
+                formatted.append(chapter)
+            continue
+
+        # 2) numeric verse handling
+        if all(v.isdigit() for v in verses):
+            merged_verses = _merge_numeric_ranges(verses)
+            if book and chapter:
+                formatted.append(f"{book} {chapter}:{merged_verses}")
+            elif book:
+                formatted.append(f"{book}:{merged_verses}")
+            elif chapter:
+                formatted.append(f"{chapter}:{merged_verses}")
+            else:
+                formatted.append(merged_verses)
+            continue
+
+        # non-numeric verse(s)
+        verse_text = _format_verse_list(verses)
+        if book and chapter:
+            formatted.append(f"{book} {chapter} {verse_text}".strip())
+        elif book:
+            formatted.append(f"{book} {verse_text}".strip())
+        elif chapter:
+            formatted.append(f"{chapter} {verse_text}".strip())
+        else:
+            formatted.append(verse_text)
 
     return formatted
 
+def _sort_verse_values(value: str):
+    """Sort numeric verses before non-numeric ones, while preserving natural order."""
+    if value.isdigit():
+        return (0, int(value))
+    return (1, value)
 
-def _format_non_numeric_source(book: str, chapter: str, verse: str) -> str:
-    """Format a source whose verse is not numeric (or is empty)."""
-    if book and book[0].islower():
-        # Lowercase books are shorthand references: omit the book name.
-        if chapter and verse:
-            return f"{chapter} - {verse}"
-        return chapter or verse
 
-    # Uppercase books use the full reference, without trailing spaces.
-    return " ".join(part for part in (book, chapter, verse) if part)
+def _format_verse_list(verses: List[str]) -> str:
+    """Format a list of unique verses without trailing spaces."""
+    if not verses:
+        return ""
+
+    numeric = [v for v in verses if v.isdigit()]
+    non_numeric = [v for v in verses if not v.isdigit()]
+
+    if numeric:
+        merged = _merge_numeric_ranges(sorted(set(numeric), key=int))
+        if non_numeric:
+            return f"{merged}, {', '.join(sorted(set(non_numeric)))}"
+        return merged
+
+    return ", ".join(sorted(set(non_numeric)))
 
 
 def _merge_numeric_ranges(verses: List[str]) -> str:
@@ -68,26 +111,15 @@ def _merge_numeric_ranges(verses: List[str]) -> str:
     if not verses:
         return ""
 
-    numeric_verses = []
-    non_numeric = []
-
-    for v in verses:
-        try:
-            numeric_verses.append((int(v), v))
-        except ValueError:
-            non_numeric.append(v)
-
+    numeric_verses = sorted(set(int(v) for v in verses if str(v).isdigit()))
     if not numeric_verses:
         return ", ".join(verses)
 
-    numeric_verses.sort()
-
     merged = []
-    start = numeric_verses[0][0]
-    end = numeric_verses[0][0]
+    start = numeric_verses[0]
+    end = numeric_verses[0]
 
-    for i in range(1, len(numeric_verses)):
-        current = numeric_verses[i][0]
+    for current in numeric_verses[1:]:
         if current == end + 1:
             end = current
         else:
@@ -103,5 +135,4 @@ def _merge_numeric_ranges(verses: List[str]) -> str:
     else:
         merged.append(f"{start}-{end}")
 
-    result = merged + non_numeric
-    return ", ".join(result)
+    return ", ".join(merged)
