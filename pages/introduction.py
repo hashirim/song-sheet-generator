@@ -28,7 +28,7 @@ def show():
     
     ### Font Installation
     
-    After exporting your song sheet, you may need to install the following fonts to ensure proper formatting:
+    Our documents format text using open-source fonts. To ensure proper formatting, you will need to install the following fonts:
     
     - **Taamey David CLM** - For Hebrew text
     - **Liberation Serif** - For English text
@@ -36,8 +36,23 @@ def show():
     - **Liberation Serif Italics** - For italic text
     
     You can download these fonts from:
-    - [Liberation Fonts](https://github.com/liberationfonts/liberation-fonts)
-    - [Taamey David CLM](https://github.com/opensiddur/opensiddur-server/wiki/Taamey-David-CLM)
+    - [Liberation Fonts](https://www.dafont.com/liberation-serif.font)
+    - [Taamey David CLM](https://opensiddur.org/wp-content/uploads/fonts/TaameyDavidCLM/TaameyDavidCLM.zip)
+    
+    Once you download the fonts, you can search for how to install fonts on your specific operating system.
+    
+    ### A note on song selection
+    
+    
+    ### A note on language choice
+    
+    We have strived to provide consistent and accurate Hebrew, transliteration, and translation  throughout the database, but we invariably have made a mistake. If you notice anything that can be improved, please comment on the github page. 
+
+To avoid accidentally desecrating God's name in printed song sheets, we have replaced God's hebrew name with the yud-yud stand-in, which has been used for hundreds of years as a conservative alternative to make sure God's name is respected.
+
+In the transliteration of God's name, we have chosen to primarily use Adonai, sometimes even when the artist chose a different term, since this is the most common Hebrew word associated with God for many Jews. We find using Adonai in our songs helps uplift the spirituality and holiness of singing in community.
+
+We recognize that other people have different, perfectly valid practices, and we encourage anyone using this resource to adjust the words to their practice.
     
     ### Having Questions or Suggestions?
     
@@ -48,6 +63,6 @@ def show():
     
     ### About This Project
     
-    Song Sheet Generator is a community tool designed to make it easy to create beautiful, personalized song sheets for services, events, and personal use.
+    This program was written and designed by AI. No human will answer any of your questions or concerns. Song Sheet Generator is a community tool designed to make it easy to create beautiful, personalized song sheets for services, events, and personal use.
     """)
 
