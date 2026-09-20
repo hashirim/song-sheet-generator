@@ -75,7 +75,8 @@ def add_section_with_columns(doc):
     sectPr = section._sectPr
     cols = sectPr.xpath('./w:cols')[0] if sectPr.xpath('./w:cols') else OxmlElement('w:cols')
     cols.set(qn('w:num'), '2')  # 2 columns
-    cols.set(qn('w:sep'), '0')  # no gap between columns
+    cols.set(qn('w:sep'), '0')  # no separator line between columns
+    cols.set(qn('w:space'), '0')  # no gap between columns
     if not sectPr.xpath('./w:cols'):
         sectPr.append(cols)
 
@@ -178,7 +179,8 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
             if url:
                 title_run = title_para.add_run(f"{idx}. ") 
                 #title_run.font.name = "Liberation Serif"
-                title_run = title_para.add_run(f"{title_text} - {authors_str}")
+                #title_run = title_para.add_run(f"{title_text} - {authors_str}")
+                title_run = title_para.add_run(f"{title_text}")
                 #title_run.font.name = "Liberation Serif"
                 # Add hyperlink
                 r_id = doc.part.relate_to(url, 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink', is_external=True)
@@ -195,9 +197,16 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
                 title_run = title_para.add_run(f"{idx}. {title_text} - {authors_str}")
 
             # Add with sources if they exist
-            if sources:
-                footnote_text = ", ".join(sources)
-                all_sources += f"{idx}. {footnote_text}" + '\n'
+            if sources or authors_str:
+                all_sources += f"{idx}. "
+                if authors_str:
+                    all_sources += f"Artist(s): {authors_str} "
+                if sources and authors_str:
+                    all_sources += "| "
+                if sources:
+                    footnote_text = ", ".join(sources)
+                    all_sources += f"Source(s): {footnote_text}"
+                all_sources += '\n'
             #    title_run_note = title_para.add_run(f" [{footnote_text}]")
             #    title_run_note.font.size = Pt(10)
         except Exception as e:
@@ -214,7 +223,7 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
     # Add Sources
     p = doc.add_paragraph()
     p.style = "Song Heading"
-    run = p.add_run("Song Sources")
+    run = p.add_run("Song Information")
     run.font.size = Pt(9)
     p = doc.add_paragraph()
     p.style = "Body Text"
@@ -225,7 +234,7 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
     section = doc.add_section(WD_SECTION.CONTINUOUS)
     sectPr = section._sectPr
     cols = sectPr.xpath('./w:cols')[0] if sectPr.xpath('./w:cols') else OxmlElement('w:cols')
-    cols.set(qn('w:num'), '1')  # 2 columns
+    cols.set(qn('w:num'), '1') # 1 column
     footer_para = doc.add_paragraph()
     footer_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
     footer_para.paragraph_format.space_before = Pt(9)
