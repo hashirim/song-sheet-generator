@@ -246,7 +246,7 @@ def show():
                         break
                 
                 if st.checkbox(
-                    "Select",
+                    "",
                     value=song_in_selected,
                     key=f"song_check_{idx}_{song['title']}"
                 ):
@@ -273,7 +273,7 @@ def show():
             
             # Allow selecting a song row
             with col_details:
-                if st.button(f"View Details", key=f"details_{idx}_{song['title']}"):
+                if st.button(f"Details", key=f"details_{idx}_{song['title']}"):
                     st.session_state.selected_song_index = idx
     
     # Display selected song details
