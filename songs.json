@@ -146,7 +146,8 @@
         "shacharit",
         "nature",
         "yearning",
-        "yom kippur"
+        "yom kippur",
+        "sukkot"
       ],
       "lyrics": "<p class=\"hebrew\">כְּאַיָּל תַּעֲרֹג עַל־אֲפִיקֵי־מָיִם<br/>\nכֵּן נַפְשִׁי תַעֲרֹג אֵלֶיךָ אֱלֹהִים<br/>\nצָמְאָה נַפְשִׁי לֵאלֹהִים לְאֵל חָי</p>\n<p class=\"transliteration\">(k'ayal ta’arog al afikei mayim<br/>\nkein nafshi ta'arog eilecha elohim)(2x)<br/>\n(tzamah nafshi leilohim (l'eil chai)(2x)<br/>\ntzamah nafshi)(2x) tzamah nafshi</p>\n<blockquote>Like a deer longs for streams of water<br/>\nso my soul longs for you, divine one<br/>\nmy soul is thirsty for the holy one, the living God</blockquote>",
       "notes": "",
@@ -1720,7 +1721,7 @@
       },
       "tags": [
         "shacharit",
-        "rosh hashanah"
+        "sukkot"
       ],
       "lyrics": "<p class=\"hebrew\">צָמְאָה לְךָ  נַפְשִׁי כָּמַהּ לְךָ בְשָׂרִי בְּאֶרֶץ־צִיָּה וְעָיֵף בְּלִי־מָיִם<br/>\nכֵּן בַּקֹּדֶשׁ חֲזִיתִךָ לִרְאוֹת עֻזְּךָ וּכְבוֹדֶךָ</p>\n<p class=\"transliteration\">tzamah l'cha nafshi kamah l'kha v'sari<br/>\nb'eretz tziyah v'ayef b'li mayim<br/>\n(ken bakodesh chazitikha lirot uz'cha uch'vodekha)(3x)</p>\n<blockquote>God, You are my God; I search for You, my soul thirsts for You, my body yearns for You, as a parched and thirsty land that has no water.<br/>\nI shall behold You in the sanctuary, and see Your might and glory.</blockquote>",
       "notes": "",
@@ -2758,9 +2759,9 @@
       ],
       "sources": [
         {
-          "book": "haggadah",
-          "chapter": "magid",
-          "verse": ""
+          "book": "liturgy",
+          "chapter": "haggadah",
+          "verse": "magid"
         }
       ],
       "urls": {
@@ -2781,9 +2782,9 @@
       ],
       "sources": [
         {
-          "book": "haggadah",
-          "chapter": "magid",
-          "verse": ""
+          "book": "liturgy",
+          "chapter": "haggadah",
+          "verse": "magid"
         }
       ],
       "urls": {
@@ -2804,9 +2805,9 @@
       ],
       "sources": [
         {
-          "book": "haggadah",
-          "chapter": "magid",
-          "verse": ""
+          "book": "liturgy",
+          "chapter": "haggadah",
+          "verse": "magid"
         }
       ],
       "urls": {
@@ -2832,9 +2833,9 @@
           "verse": "7"
         },
         {
-          "book": "haggadah",
-          "chapter": "hallel",
-          "verse": ""
+          "book": "liturgy",
+          "chapter": "haggadah",
+          "verse": "hallel"
         }
       ],
       "urls": {
@@ -2909,9 +2910,9 @@
           "verse": ""
         },
         {
-          "book": "haggadah",
-          "chapter": "nirtzah",
-          "verse": "adir hu"
+          "book": "liturgy",
+          "chapter": "haggadah",
+          "verse": "nirtzah-adir hu"
         }
       ],
       "urls": {
@@ -3684,7 +3685,7 @@
           "verse": "8"
         },
         {
-          "book": "Berachot",
+          "book": "Berakhot",
           "chapter": "30b",
           "verse": "17"
         },
@@ -4038,7 +4039,7 @@
       "sources": [
         {
           "book": "liturgy",
-          "chapter": "midah",
+          "chapter": "amidah",
           "verse": ""
         }
       ],
