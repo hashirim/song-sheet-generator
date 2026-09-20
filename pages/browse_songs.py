@@ -234,6 +234,7 @@ def show():
     # Display songs table
     with col1:
         st.subheader(f"Songs ({len(filtered_songs)})")
+        st.markdown("Select songs to include in the song sheet")
         for idx, song in enumerate(filtered_songs):
             col_check, col_title, col_authors, col_details = st.columns([1, 3, 2, 2])
             
