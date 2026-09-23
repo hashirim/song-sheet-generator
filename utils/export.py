@@ -24,9 +24,9 @@ def format_authors(authors: List[str]) -> str:
     return ", ".join(authors[:-1]) + f" & {authors[-1]}"
 
 def export_html(songs: List[Dict[str, Any]], sheet_name: str) -> str:
-    """Generate HTML export of song sheet"""
+    """Generate HTML export of song sheet with source tooltips on song titles."""
     css = load_css()
-    
+
     html_content = f"""<!DOCTYPE html>
 <html>
 <head>
@@ -39,34 +39,55 @@ def export_html(songs: List[Dict[str, Any]], sheet_name: str) -> str:
 <body>
     <h1>{html.escape(sheet_name)}</h1>
 """
-    
+
     for idx, song in enumerate(songs, 1):
         title = song.get("title", "")
         authors = song.get("authors", [])
         lyrics = song.get("lyrics", "")
         url = get_song_url(song.get("urls", {}))
-        
+
         authors_str = format_authors(authors)
-        
-        # Title line with URL
+
+        # Format the sources using the existing source formatter.
+        sources = format_sources(song.get("sources", []))
+        source_text = ", ".join(sources)
+
+        # Use the native HTML title attribute for the hover tooltip.
+        # Escape quotes and other special characters because this value is
+        # inserted into an HTML attribute.
+        tooltip_attribute = (
+            f' title="{html.escape(source_text, quote=True)}"'
+            if source_text
+            else ""
+        )
+
+        # Title line with optional URL and source tooltip.
         if url:
-            html_content += f'    <h2><a href="{html.escape(url)}" target="_blank">{idx}. {html.escape(title)} - {html.escape(authors_str)}</a></h2>\n'
+            html_content += (
+                f'    <h2{tooltip_attribute}>'
+                f'<a href="{html.escape(url, quote=True)}" target="_blank">'
+                f'{idx}. {html.escape(title)} - {html.escape(authors_str)}'
+                f'</a></h2>\n'
+            )
         else:
-            html_content += f'    <h2>{idx}. {html.escape(title)} - {html.escape(authors_str)}</h2>\n'
-        
-        # Lyrics
+            html_content += (
+                f'    <h2{tooltip_attribute}>'
+                f'{idx}. {html.escape(title)} - {html.escape(authors_str)}'
+                f'</h2>\n'
+            )
+
+        # Lyrics are already HTML and should remain unescaped.
         html_content += f"    {lyrics}\n"
-    
-    # Footer
+
     html_content += """
     <p style="font-size: 0.9em; margin-top: 2cm;">
-        Created by <a href="https://github.com/hashirim/song-sheet-generator" target="_blank">Song Sheet Generator</a>. 
+        Created by <a href="https://github.com/hashirim/song-sheet-generator" target="_blank">Song Sheet Generator</a>.
         Check it out for sources and notes about the songs.
     </p>
 </body>
 </html>
 """
-    
+
     return html_content
 
 def add_section_with_columns(doc):
