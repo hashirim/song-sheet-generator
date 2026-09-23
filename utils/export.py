@@ -5,7 +5,7 @@ from utils.url_handler import get_song_url
 from utils.source_formatter import format_sources
 from bs4 import BeautifulSoup
 from docx import Document
-from docx.shared import Pt, Inches, RGBColor
+from docx.shared import Pt, Cm, Inches, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.style import WD_STYLE_TYPE
 from docx.enum.section import WD_SECTION
@@ -87,6 +87,8 @@ def modify_styles(doc):
     styles["Normal"].font.name = "Liberation Serif"
     styles["Normal"].font.size = Pt(12)
     styles['Normal'].font.color.rgb = RGBColor(0, 0, 0)
+    styles['Normal'].paragraph_format.line_spacing = 1
+    
     
     style = styles["Body Text"]
     rPr = style.element.get_or_add_rPr()
@@ -96,6 +98,7 @@ def modify_styles(doc):
     rFonts.set(qn("w:eastAsia"), "Liberation Serif")
     rFonts.set(qn("w:hAnsi"), "Liberation Serif")
     styles["Body Text"].font.size = Pt(12)
+    styles['Normal'].paragraph_format.line_spacing = 1
     
     # 1. Modify Heading 1
     heading1 = styles.add_style('Song Heading', WD_STYLE_TYPE.PARAGRAPH)
@@ -128,6 +131,14 @@ def modify_styles(doc):
     #style.font.name = {'ascii':"Liberation Serif", 'cs': "Taamey David CLM", 'eastAsia': "Liberation Serif"}
     style.paragraph_format.space_after = Pt(0)
     style.paragraph_format.right_to_left = True
+    style.paragraph_format.line_spacing = Cm(0.48)
+    style.font.size = Pt(12.5)
+    # change complex font size
+    szCs = OxmlElement("w:szCs")
+    szCs.set(qn("w:val"), "25")  # 12.5 pt = 25 half-points
+    rPr.append(szCs)
+    #rPr.get_or_add_szCs().set(qn("w:val"), "25")  # 12.5 pt = 25 half-points
+
     
     style = styles.add_style('transliteration', WD_STYLE_TYPE.PARAGRAPH)
     style.base_style = styles["Body Text"]
@@ -188,13 +199,13 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
                 hyperlink.set(qn("r:id"), r_id)
                 run = OxmlElement("w:r")
                 text = OxmlElement("w:t")
-                text.text = f"{idx}. {title_text} - {authors_str}"
+                text.text = f"{idx}. {title_text}"
                 run.append(text)
                 hyperlink.append(run)
                 title_para._element.clear_content()
                 title_para._element.append(hyperlink)
             else:
-                title_run = title_para.add_run(f"{idx}. {title_text} - {authors_str}")
+                title_run = title_para.add_run(f"{idx}. {title_text}")
 
             # Add with sources if they exist
             if sources or authors_str:
