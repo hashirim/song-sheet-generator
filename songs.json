@@ -442,7 +442,7 @@
         "food"
       ],
       "lyrics": "<p class=\"hebrew\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p class=\"transliteration\">v'achalta, v'savata, u'veirachta</p>\n<blockquote>Eat, be satisfied, and bless</blockquote>\n<p>We ate when we were hungry,<br/>\nand now we're satisfied.<br/>\nWe thank the source of blessing<br/>\nfor all that God provides.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>Hunger is a yearning<br/>\nin body and in soul.<br/>\nEarth, air, fire, water,<br/>\nand spirit make us whole.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>Giving and receiving,<br/>\nwe open up our hands.<br/>\nFrom seedtime through the harvest,<br/>\nwe're partners with the land.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>We all share a vision<br/>\nof wholeness and release,<br/>\nwhere every child is nourished<br/>\nand we all live in peace.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>",
-      "notes": "",
+      "notes": "This uses lyrics updated by Adamah Fellows 2014, and further updated by Mark Goldman and Molly Fisch-Friedman to un-gender the translation of god. ",
       "language": "english and hebrew"
     },
     {
@@ -1696,36 +1696,8 @@
         "round"
       ],
       "lyrics": "<p>((Passing through)(2x)<br/>\nWe are only passing through)(2x)</p>\n<p class=\"hebrew\">הַנְּשָׁמָה לָךְ וְהַגּוּף פָּעֳלָךְ</p>\n<p class=\"transliteration\">(han'shamah n'shamah lach v'haguf po'alach)(2x)</p>\n<blockquote>The soul is Yours, and the body is Your handiwork.</blockquote>",
-      "notes": "",
+      "notes": "Intro for sukkot song circle: The sukkah is a temporary shelter, and we only get to spend a brief time in it on our way to the rest of our year. We, like the sukkah are also temporary vessels. Let us acknowledge the transient nature with this song from the slichot liturgy. It is a round. We will sing it twice through and then you can choose your own adventure.",
       "language": "english and hebrew"
-    },
-    {
-      "title": "Tzama lecha nafsi",
-      "authors": [
-        "Rena Branson"
-      ],
-      "sources": [
-        {
-          "book": "Psalm",
-          "chapter": "63",
-          "verse": "2"
-        },
-        {
-          "book": "Psalm",
-          "chapter": "63",
-          "verse": "3"
-        }
-      ],
-      "urls": {
-        "youtu": "https://youtu.be/S-_3MKTZC7U"
-      },
-      "tags": [
-        "shacharit",
-        "sukkot"
-      ],
-      "lyrics": "<p class=\"hebrew\">צָמְאָה לְךָ  נַפְשִׁי כָּמַהּ לְךָ בְשָׂרִי בְּאֶרֶץ־צִיָּה וְעָיֵף בְּלִי־מָיִם<br/>\nכֵּן בַּקֹּדֶשׁ חֲזִיתִךָ לִרְאוֹת עֻזְּךָ וּכְבוֹדֶךָ</p>\n<p class=\"transliteration\">tzamah l'cha nafshi kamah l'kha v'sari<br/>\nb'eretz tziyah v'ayef b'li mayim<br/>\n(ken bakodesh chazitikha lirot uz'cha uch'vodekha)(3x)</p>\n<blockquote>God, You are my God; I search for You, my soul thirsts for You, my body yearns for You, as a parched and thirsty land that has no water.<br/>\nI shall behold You in the sanctuary, and see Your might and glory.</blockquote>",
-      "notes": "",
-      "language": "hebrew"
     },
     {
       "title": "El nora alilah",
@@ -2028,7 +2000,7 @@
         "sukkot"
       ],
       "lyrics": "<p class=\"hebrew\">עוּלוּ אוּשְׁפִּיזִין עִלָּאִין קַדִּישִׁין<br/>\nעוּלוּ אִימָּהָתָא עִלָּאָתָא קְדִּישָׁתָא<br/>\nעוּלוּ אֲבָהָן עִלָּאִין קַדִּישִׁין</p>\n<p class=\"transliteration\">\n(ulu ushpizin ila'in kadishin)(4x) (ulu)(19x)<br/>\n(ulu imahata ila'ata k'dishata)(4x) (ulu)(19x)<br/>\n(ulu avahan ila'in kadishin)(4x) (ulu)(19x)</p>\n<blockquote>Come in exalted holy guests<br/>\nCome in exalted holy mothers<br/>\nCome in exalted holy fathers</blockquote>",
-      "notes": "",
+      "notes": "Intro for sukkot song circle: The kabbalists invited guests (ushpizin). These guests included our founding ancestors of judaism and also the needy among us. Bringing people together was a core aim of this holiday. We can invite our ancestors in with this passage from our liturgy.",
       "language": "aramaic"
     },
     {
@@ -3744,10 +3716,11 @@
         "youtu": "https://youtu.be/h6nzAD4tIj8"
       },
       "tags": [
-        "havayah"
+        "havayah",
+        "protection"
       ],
       "lyrics": "<p class=\"hebrew\">שִׁוִּיתִי יְיָ לְנֶגְדִּי תָמִיד אַהֲבָה</p>\n<p class=\"transliteration\">(shiviti havayah l’negdi tamid)(2x)<br/>\n((havayah)(5x) (ahavah)(5x))(2x)</p>\n<blockquote>I am ever mindful of God’s presence</blockquote>",
-      "notes": "",
+      "notes": "Intro for sukkot song circle: As we gather in our sukkah, partially covered and partially open, let us acknowledge the presence of life around us with Shivti ",
       "language": "hebrew"
     },
     {
@@ -4222,8 +4195,18 @@
         "journey"
       ],
       "lyrics": "<p>CHORUS:\nWe are living ‘neath the great big dipper<br/>\nWe are washed by the very same rain<br/>\nWe are swimming in this stream together<br/>\nSome in power and some in pain<br/>\nWe can worship this ground we walk on<br/>\nCherishing the beings that we live beside<br/>\nLoving spirits will live forever<br/>\nWe’re all swimming to the other side</p>\n\n<p>I am alone and I am searching<br/>\nHungering for answers in my time<br/>\nI am balanced at the brink of wisdom<br/>\nI’m impatient to receive a sign<br/>\nI move forward with my senses open<br/>\nImperfection, it be my crime<br/>\nIn humility I will listen<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>On this journey through thoughts and feelings<br/>\nBinding intuition, my head, my heart<br/>\nI am gathering the tools together<br/>\nI’m preparing to do my part<br/>\nAll of those who have come before me<br/>\nBand together and be my guide<br/>\nLoving lessons that I will follow<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>When we get there, we’ll discover<br/>\nAll of the gifts we’ve been given to share<br/>\nHave been with us since life’s beginning<br/>\nAnd we never noticed they were there<br/>\nWe can balance at the brink of wisdom<br/>\nNever recognizing that we’ve arrived<br/>\nLoving spirits will live together<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>(Loving spirits will live forever<br/>\nWe’re all swimming to the other side)2x)</p>",
-      "notes": "",
+      "notes": "Intro to sukkot song circle: This next song has a similar theme of passing through, emphasizing that it is us, communally, passing through.",
       "language": "english"
+    },
+    {
+      "title": "",
+      "authors": [],
+      "sources": [],
+      "urls": {},
+      "tags": [],
+      "lyrics": "<p class=\"hebrew\"><br/>\n</p>\n<p class=\"transliteration\"><br/>\n</p>\n<blockquote><br/>\n</blockquote>\n  ",
+      "notes": "",
+      "language": ""
     }
   ]
 }
