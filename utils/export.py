@@ -127,7 +127,7 @@ def modify_styles(doc):
     heading1.font.size = Pt(12)
     heading1.paragraph_format.space_after = Pt(0)
     heading1.paragraph_format.space_before = Pt(0)
-    heading1.font.name = "Liberation Serif"
+    heading1.font.name = "Inter SemiBold"
     
     # 2. Modify Block Quote
     blockquote = styles["Quote"]
