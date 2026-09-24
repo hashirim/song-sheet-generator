@@ -1,31 +1,38 @@
 import streamlit as st
 
 def show():
-    st.title("Welcome to Song Sheet Generator")
-    
     st.markdown("""
         
-    ### About This Project
+    ## About Song Sheet Generator
     
     This program was written and designed Mark Goldman and Molly Fisch-Friedman to help us prepare for our monthly Hadar Rising Song Singing Circle. We are sharing this tool in case others would like to easily make well-formatted and consistent song sheets for their song circles.
 
     ## How to use this app
     
-    ### 1. Generate your song sheet
+    ### 1. Browse songs
     
-    A. **Browse Songs**: Visit the "Browse Songs" page to explore our song database. You can filter songs by various categories.
-    B. **Select Songs**: Check the checkbox next to songs you want to include in your song sheet. You'll be able to see full details including lyrics, notes, and sources.
-    C. **Order Songs**: In the "Create Song Sheet" page, drag and drop the songs to the order that you prefer. 
-    D. **Download Song Sheet**: In the "Create Song Sheet", click "Export as HTML" or "Export as DOCX". Once you have clicked that, a download button should appear for your to download the file.
+    Visit the "Browse Songs" page to explore our song database. You can filter songs by various categories. You can see each song's details (including lyrics, notes, and sources) by clicking on the 'Details' button. 
     
-    ### 2. Install Fonts
+    ### 2. Select Songs
     
-    The exported documents use open-source fonts. To ensure proper formatting, you will need to install the following fonts:
+    Check the checkbox next to songs you want to include in your song sheet. 
+    
+    ### 3. Order Songs
+    
+     In the "Create Song Sheet" page, drag and drop the songs to the order that you prefer. 
+    
+    ### 4. Download Song Sheet
+    
+    In the "Create Song Sheet", click "Export as HTML" or "Export as DOCX". Once you have clicked that, a download button should appear for your to download the file.
+    
+    ### 5. Install Fonts
+    
+    The exported documents use open-source fonts which are not installed by default on all operating systems. To ensure proper formatting of your song sheet, you will need to install the following fonts:
     
     - **Taamey David CLM** - For Hebrew text
     - **Liberation Serif** - For English text
-    - **Inter SemiBold** - For English headings
     - **Liberation Serif Italics** - For English italic text
+    - **Inter SemiBold** - For English headings
     
     You can download these fonts from the [github repository](https://github.com/hashirim/song-sheet-generator/tree/main/fonts) or from these sources:
     - [Liberation Fonts](https://www.dafont.com/liberation-serif.font)
@@ -45,17 +52,12 @@ def show():
     
     We also strive to have songs from a variety of artists. 
     
-    ### I found a mistake in a song. How can I help get it fixed?
-    
-    Fill out an [issue on github](https://github.com/hashirim/song-sheet-generator/issues).
-    
-    ### I feel like you are missing a great song. How can I help get it added?
+    ### I feel like the database is missing a great song. How can I help get it added?
     
     If there is a song that you think would be great to have here, you can add it in the following way:
-        1. fill out an [issue on github](https://github.com/hashirim/song-sheet-generator/issues) with the song title, lyrics, and a link to the song.
-        2. modify the json file and create a pull request in github (for those who are more tech savy).
     
-    We have made a separate streamlit app for updating the song database. It is called `streamlit_song_editor.py`. You can download the github repository and run this app locally to modify the database. 
+    1. fill out an [issue on github](https://github.com/hashirim/song-sheet-generator/issues) with the song title, lyrics, and a link to the song.
+    2. modify the json file and create a pull request in github (for those who are more tech savy). We have made a separate streamlit app for updating the song database. It is called `streamlit_song_editor.py`. You can download the github repository and run this app locally to modify the database. 
     
     ### How did you decide on the language for God?
     
@@ -67,7 +69,11 @@ def show():
     
     We recognize that other people have different, perfectly valid practices, and we encourage anyone using this resource to adjust the words to their practice.
     
-    ### I can't seem to get the application to work right now?
+    ### I found a mistake in a song. How can I help get it fixed?
+    
+    Fill out an [issue on github](https://github.com/hashirim/song-sheet-generator/issues).
+    
+    ### The application seems broken. How do help I get it fixed?
 
     Fill out an [issue on github](https://github.com/hashirim/song-sheet-generator/issues).
     
