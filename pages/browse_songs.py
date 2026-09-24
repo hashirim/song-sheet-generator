@@ -247,9 +247,10 @@ def show():
                         break
                 
                 if st.checkbox(
-                    "",
+                    "Add to database",
                     value=song_in_selected,
-                    key=f"song_check_{idx}_{song['title']}"
+                    key=f"song_check_{idx}_{song['title']}",
+                    label_visibility='hidden'
                 ):
                     # Add to selected if not already there
                     if not song_in_selected:
