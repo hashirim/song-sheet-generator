@@ -14,11 +14,14 @@ from docx.oxml import OxmlElement
 import streamlit as st
 
 def format_authors(authors: List[str]) -> str:
-    """Format authors with ampersand before last author"""
+    """Format authors with ampersand before last author. Excludes 'unknown'"""
+    
     if not authors:
         return ""
-    if len(authors) == 1:
+    if (len(authors) == 1) and (authors[0] != 'unknown'):
         return authors[0]
+    if (len(authors) == 1) and (authors[0] == 'unknown'):
+        return ""
     if len(authors) == 2:
         return f"{authors[0]} & {authors[1]}"
     return ", ".join(authors[:-1]) + f" & {authors[-1]}"
@@ -128,19 +131,19 @@ def modify_styles(doc):
     heading1.paragraph_format.space_after = Pt(0)
     heading1.paragraph_format.space_before = Pt(0)
     heading1.font.name = "Inter SemiBold"
+    heading1.font.underline = True
     
     # 2. Modify Block Quote
     blockquote = styles["Quote"]
     # Grey text
-    blockquote.font.color.rgb = RGBColor(160, 160, 160)
+    blockquote.font.color.rgb = RGBColor(102, 102, 102)
     # Remove left/right paragraph indentation
     pf = blockquote.paragraph_format
     pf.left_indent = Pt(0)
     pf.right_indent = Pt(0)
     pf.first_line_indent = Pt(0)
     
-
-    # 3. Create Hebrew and Transliteration styles
+    # 3. Create Hebrew style
     style = styles.add_style('hebrew', WD_STYLE_TYPE.PARAGRAPH)
     style.base_style = styles["Body Text"]
     rPr = style.element.get_or_add_rPr()
@@ -158,17 +161,21 @@ def modify_styles(doc):
     szCs = OxmlElement("w:szCs")
     szCs.set(qn("w:val"), "25")  # 12.5 pt = 25 half-points
     rPr.append(szCs)
-    #rPr.get_or_add_szCs().set(qn("w:val"), "25")  # 12.5 pt = 25 half-points
 
-    
-    style = styles.add_style('transliteration', WD_STYLE_TYPE.PARAGRAPH)
-    style.base_style = styles["Body Text"]
-    style.paragraph_format.space_after = Pt(0)
-    
-    # 3. Create source style
+    # 4. Create individual source style
     style = styles.add_style('source', WD_STYLE_TYPE.PARAGRAPH)
     style.base_style = styles["Body Text"]
     styles["source"].font.size = Pt(9)
+    style.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    style.paragraph_format.right_indent = Cm(0.5)
+    style.font.color.rgb = RGBColor(102, 102, 102)
+    style.paragraph_format.space_after = Pt(8)
+    
+    # 5. Create Transliteration style
+    style = styles.add_style('transliteration', WD_STYLE_TYPE.PARAGRAPH)
+    style.base_style = styles["Body Text"]
+    style.paragraph_format.space_after = Pt(0)
+
         
 def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
     """Generate DOCX export of song sheet"""
@@ -189,6 +196,7 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
         #title_run.font.size = Pt(12)
         #title_run.font.color = RGBColor(0, 0, 255)
         document_header.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        document_header.font.underline = False
             
     # Add two columns
     add_section_with_columns(doc)
@@ -228,17 +236,6 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
             else:
                 title_run = title_para.add_run(f"{idx}. {title_text}")
 
-            # Add with sources if they exist
-            if sources or authors_str:
-                all_sources += f"{idx}. "
-                if authors_str:
-                    all_sources += f"Artist(s): {authors_str} "
-                if sources and authors_str:
-                    all_sources += "| "
-                if sources:
-                    footnote_text = ", ".join(sources)
-                    all_sources += f"Source(s): {footnote_text}"
-                all_sources += '\n'
             #    title_run_note = title_para.add_run(f" [{footnote_text}]")
             #    title_run_note.font.size = Pt(10)
         except Exception as e:
@@ -251,16 +248,41 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
         # Parse and add lyrics
         soup = BeautifulSoup(lyrics_html, 'html.parser')
         _add_html_to_docx(doc, soup)
+        # remove after paragraph spaces for last paragraph in song:
+        doc.paragraphs[-1].paragraph_format.space_after = Pt(1)
+        
+        # Add with sources if they exist
+        if sources or authors_str:
+            this_source = ""
+            all_sources += f"{idx}. "
+            if authors_str:
+                if len(authors) == 1:
+                    this_source += f"Artist: {authors_str} "
+                else:
+                    this_source += f"Artists: {authors_str} "
+            if sources and authors_str:
+                this_source += "| "
+            if sources:
+                footnote_text = ", ".join(sources)
+                if len(sources) == 1:
+                    this_source += f"Source: {footnote_text}"
+                else:
+                    this_source += f"Sources: {footnote_text}"
+            all_sources += this_source + '\n'
+            
+            source_para = doc.add_paragraph()
+            source_para.style = 'source'
+            source_run = source_para.add_run(this_source)
     
     # Add Sources
-    p = doc.add_paragraph()
-    p.style = "Song Heading"
-    run = p.add_run("Song Information")
-    run.font.size = Pt(9)
-    p = doc.add_paragraph()
-    p.style = "Body Text"
-    run = p.add_run(all_sources[:-1])
-    run.font.size = Pt(9)
+    #p = doc.add_paragraph()
+    #p.style = "Song Heading"
+    #run = p.add_run("Song Information")
+    #run.font.size = Pt(9)
+    #p = doc.add_paragraph()
+    #p.style = "Body Text"
+    #run = p.add_run(all_sources[:-1])
+    #run.font.size = Pt(9)
     
     # Add footer
     section = doc.add_section(WD_SECTION.CONTINUOUS)
