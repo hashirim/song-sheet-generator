@@ -104,6 +104,78 @@ def add_section_with_columns(doc):
     if not sectPr.xpath('./w:cols'):
         sectPr.append(cols)
 
+
+def add_numbering_to_heading(doc, style_name):
+    # Access numbering definitions
+    numbering = doc.part.numbering_part.element
+
+    # Create an abstract numbering definition
+    abstract_num = OxmlElement("w:abstractNum")
+    abstract_num.set(qn("w:abstractNumId"), "100")
+
+    # Level 0 = Heading 1
+    lvl = OxmlElement("w:lvl")
+    lvl.set(qn("w:ilvl"), "0")
+
+    start = OxmlElement("w:start")
+    start.set(qn("w:val"), "1")
+    lvl.append(start)
+
+    num_fmt = OxmlElement("w:numFmt")
+    num_fmt.set(qn("w:val"), "decimal")
+    lvl.append(num_fmt)
+
+    lvl_text = OxmlElement("w:lvlText")
+    lvl_text.set(qn("w:val"), "%1.")
+    lvl.append(lvl_text)
+
+    lvl_jc = OxmlElement("w:lvlJc")
+    lvl_jc.set(qn("w:val"), "left")
+    lvl.append(lvl_jc)
+
+    abstract_num.append(lvl)
+    numbering.append(abstract_num)
+
+    # Create a concrete numbering instance
+    num = OxmlElement("w:num")
+    num.set(qn("w:numId"), "100")
+
+    abstract_num_id = OxmlElement("w:abstractNumId")
+    abstract_num_id.set(qn("w:val"), "100")
+    num.append(abstract_num_id)
+
+    numbering.append(num)
+
+    # Attach numbering to Heading 1 style
+    style = doc.styles[style_name]
+    pPr = style.element.get_or_add_pPr()
+
+    numPr = OxmlElement("w:numPr")
+
+    ilvl = OxmlElement("w:ilvl")
+    ilvl.set(qn("w:val"), "0")
+    numPr.append(ilvl)
+
+    #reduce spacing after number
+    # Position of the heading text
+    ind = OxmlElement("w:ind")
+    ind.set(qn("w:left"), "390")
+    ind.set(qn("w:hanging"), "390")
+    pPr.append(ind)
+    tabs = OxmlElement("w:tabs")
+    tab = OxmlElement("w:tab")
+    tab.set(qn("w:val"), "num")
+    tab.set(qn("w:pos"), "390")
+    tabs.append(tab)
+    pPr.append(tabs)
+
+    numId = OxmlElement("w:numId")
+    numId.set(qn("w:val"), "100")
+    numPr.append(numId)
+
+    pPr.append(numPr)
+
+
 def modify_styles(doc):
     styles = doc.styles
     #st.markdown([x for x in styles])
@@ -124,7 +196,16 @@ def modify_styles(doc):
     styles["Body Text"].font.size = Pt(12)
     styles['Normal'].paragraph_format.line_spacing = 1
     
-    # 1. Modify Heading 1
+    # 0. Create song sheet title style
+    style = styles.add_style('Song Sheet Title', WD_STYLE_TYPE.PARAGRAPH)
+    style.font.color.rgb = RGBColor(0, 70, 150)
+    style.font.size = Pt(12)
+    style.paragraph_format.space_after = Pt(0)
+    style.paragraph_format.space_before = Pt(0)
+    style.font.name = "Inter SemiBold"
+    
+    
+    # 1. Create song Heading style
     heading1 = styles.add_style('Song Heading', WD_STYLE_TYPE.PARAGRAPH)
     heading1.font.color.rgb = RGBColor(0, 70, 150)
     heading1.font.size = Pt(12)
@@ -132,6 +213,7 @@ def modify_styles(doc):
     heading1.paragraph_format.space_before = Pt(0)
     heading1.font.name = "Inter SemiBold"
     heading1.font.underline = True
+    add_numbering_to_heading(doc,'Song Heading')
     
     # 2. Modify Block Quote
     blockquote = styles["Quote"]
@@ -191,12 +273,8 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
         section.right_margin = Inches(0.39)
         document_header = section.header.paragraphs[0]
         title_run = document_header.add_run(sheet_name)
-        document_header.style = 'Song Heading'
-        #title_run.bold = True
-        #title_run.font.size = Pt(12)
-        #title_run.font.color = RGBColor(0, 0, 255)
+        document_header.style = 'Song Sheet Title'
         document_header.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        document_header.font.underline = False
             
     # Add two columns
     add_section_with_columns(doc)
@@ -217,7 +295,7 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
             title_para = doc.add_paragraph()
             title_para.style = 'Song Heading'
             if url:
-                title_run = title_para.add_run(f"{idx}. ") 
+                #title_run = title_para.add_run(f"{idx}. ") 
                 #title_run.font.name = "Liberation Serif"
                 #title_run = title_para.add_run(f"{title_text} - {authors_str}")
                 title_run = title_para.add_run(f"{title_text}")
@@ -228,13 +306,13 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
                 hyperlink.set(qn("r:id"), r_id)
                 run = OxmlElement("w:r")
                 text = OxmlElement("w:t")
-                text.text = f"{idx}. {title_text}"
+                text.text = f"{title_text}"
                 run.append(text)
                 hyperlink.append(run)
                 title_para._element.clear_content()
                 title_para._element.append(hyperlink)
             else:
-                title_run = title_para.add_run(f"{idx}. {title_text}")
+                title_run = title_para.add_run(f"{title_text}")
 
             #    title_run_note = title_para.add_run(f" [{footnote_text}]")
             #    title_run_note.font.size = Pt(10)
