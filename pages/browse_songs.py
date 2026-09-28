@@ -47,7 +47,19 @@ def show():
     # Author filter
     with col1:
         authors = get_all_authors(songs)
-        author_options = [f"{author} ({count_author_songs(songs, author)})" for author in authors]
+        # Calculate counts based on all songs initially
+        current_filtered = filter_songs(
+            songs,
+            languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
+            service_tags=st.session_state.selected_service_tags if st.session_state.selected_service_tags else None,
+            theme_tags=st.session_state.selected_theme_tags if st.session_state.selected_theme_tags else None,
+            other_tags=st.session_state.selected_other_tags if st.session_state.selected_other_tags else None,
+            book=st.session_state.selected_book,
+            chapter=st.session_state.selected_chapter,
+            verse=st.session_state.selected_verse,
+            lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+        )
+        author_options = [f"{author} ({count_author_songs(current_filtered, author)})" for author in authors]
         author_labels = {opt: author for opt, author in zip(author_options, authors)}
         
         selected_author_options = st.multiselect(
@@ -61,7 +73,19 @@ def show():
     # Language filter
     with col2:
         languages = get_all_languages(songs)
-        language_options = [f"{lang} ({count_language_songs(songs, lang)})" for lang in languages]
+        # Calculate counts excluding author filter
+        current_filtered = filter_songs(
+            songs,
+            authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
+            service_tags=st.session_state.selected_service_tags if st.session_state.selected_service_tags else None,
+            theme_tags=st.session_state.selected_theme_tags if st.session_state.selected_theme_tags else None,
+            other_tags=st.session_state.selected_other_tags if st.session_state.selected_other_tags else None,
+            book=st.session_state.selected_book,
+            chapter=st.session_state.selected_chapter,
+            verse=st.session_state.selected_verse,
+            lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+        )
+        language_options = [f"{lang} ({count_language_songs(current_filtered, lang)})" for lang in languages]
         language_labels = {opt: lang for opt, lang in zip(language_options, languages)}
         
         selected_language_options = st.multiselect(
@@ -75,7 +99,19 @@ def show():
     # Service & Holiday tags filter
     with col3:
         service_tags = get_service_tags(songs)
-        service_options = [f"{tag} ({count_tag_songs(songs, tag)})" for tag in service_tags]
+        # Calculate counts excluding service filter
+        current_filtered = filter_songs(
+            songs,
+            authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
+            languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
+            theme_tags=st.session_state.selected_theme_tags if st.session_state.selected_theme_tags else None,
+            other_tags=st.session_state.selected_other_tags if st.session_state.selected_other_tags else None,
+            book=st.session_state.selected_book,
+            chapter=st.session_state.selected_chapter,
+            verse=st.session_state.selected_verse,
+            lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+        )
+        service_options = [f"{tag} ({count_tag_songs(current_filtered, tag)})" for tag in service_tags]
         service_labels = {opt: tag for opt, tag in zip(service_options, service_tags)}
         
         selected_service_options = st.multiselect(
@@ -91,7 +127,19 @@ def show():
     # Theme tags filter
     with col4:
         theme_tags = get_theme_tags(songs)
-        theme_options = [f"{tag} ({count_tag_songs(songs, tag)})" for tag in theme_tags]
+        # Calculate counts excluding theme filter
+        current_filtered = filter_songs(
+            songs,
+            authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
+            languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
+            service_tags=st.session_state.selected_service_tags if st.session_state.selected_service_tags else None,
+            other_tags=st.session_state.selected_other_tags if st.session_state.selected_other_tags else None,
+            book=st.session_state.selected_book,
+            chapter=st.session_state.selected_chapter,
+            verse=st.session_state.selected_verse,
+            lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+        )
+        theme_options = [f"{tag} ({count_tag_songs(current_filtered, tag)})" for tag in theme_tags]
         theme_labels = {opt: tag for opt, tag in zip(theme_options, theme_tags)}
         
         selected_theme_options = st.multiselect(
@@ -105,7 +153,19 @@ def show():
     # Other tags filter
     with col5:
         other_tags = get_other_tags(songs)
-        other_options = [f"{tag} ({count_tag_songs(songs, tag)})" for tag in other_tags]
+        # Calculate counts excluding other tags filter
+        current_filtered = filter_songs(
+            songs,
+            authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
+            languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
+            service_tags=st.session_state.selected_service_tags if st.session_state.selected_service_tags else None,
+            theme_tags=st.session_state.selected_theme_tags if st.session_state.selected_theme_tags else None,
+            book=st.session_state.selected_book,
+            chapter=st.session_state.selected_chapter,
+            verse=st.session_state.selected_verse,
+            lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+        )
+        other_options = [f"{tag} ({count_tag_songs(current_filtered, tag)})" for tag in other_tags]
         other_labels = {opt: tag for opt, tag in zip(other_options, other_tags)}
         
         selected_other_options = st.multiselect(
@@ -130,8 +190,20 @@ def show():
     
     with source_col1:
         books = get_all_books(songs)
+        # Calculate counts excluding book filter
+        current_filtered = filter_songs(
+            songs,
+            authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
+            languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
+            service_tags=st.session_state.selected_service_tags if st.session_state.selected_service_tags else None,
+            theme_tags=st.session_state.selected_theme_tags if st.session_state.selected_theme_tags else None,
+            other_tags=st.session_state.selected_other_tags if st.session_state.selected_other_tags else None,
+            chapter=st.session_state.selected_chapter,
+            verse=st.session_state.selected_verse,
+            lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+        )
         book_options = [""] + books
-        book_display = ["All Books"] + [f"{book} ({count_book_songs(songs, book)})" for book in books]
+        book_display = ["All Books"] + [f"{book} ({count_book_songs(current_filtered, book)})" for book in books]
         book_mapping = {display: book for display, book in zip(book_display, book_options)}
         
         # Find the index safely
@@ -157,9 +229,21 @@ def show():
     with source_col2:
         if st.session_state.selected_book:
             chapters = get_chapters_for_book(songs, st.session_state.selected_book)
+            # Calculate counts excluding chapter filter
+            current_filtered = filter_songs(
+                songs,
+                authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
+                languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
+                service_tags=st.session_state.selected_service_tags if st.session_state.selected_service_tags else None,
+                theme_tags=st.session_state.selected_theme_tags if st.session_state.selected_theme_tags else None,
+                other_tags=st.session_state.selected_other_tags if st.session_state.selected_other_tags else None,
+                book=st.session_state.selected_book,
+                verse=st.session_state.selected_verse,
+                lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+            )
             chapter_options = [""] + chapters
             chapter_display = ["All Chapters"] + [
-                f"{chapter} ({count_chapter_songs(songs, st.session_state.selected_book, chapter)})" 
+                f"{chapter} ({count_chapter_songs(current_filtered, st.session_state.selected_book, chapter)})" 
                 for chapter in chapters
             ]
             chapter_mapping = {display: chapter for display, chapter in zip(chapter_display, chapter_options)}
@@ -188,9 +272,21 @@ def show():
     with source_col3:
         if st.session_state.selected_book and st.session_state.selected_chapter:
             verses = get_verses_for_book_chapter(songs, st.session_state.selected_book, st.session_state.selected_chapter)
+            # Calculate counts excluding verse filter
+            current_filtered = filter_songs(
+                songs,
+                authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
+                languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
+                service_tags=st.session_state.selected_service_tags if st.session_state.selected_service_tags else None,
+                theme_tags=st.session_state.selected_theme_tags if st.session_state.selected_theme_tags else None,
+                other_tags=st.session_state.selected_other_tags if st.session_state.selected_other_tags else None,
+                book=st.session_state.selected_book,
+                chapter=st.session_state.selected_chapter,
+                lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
+            )
             verse_options = [""] + verses
             verse_display = ["All Verses"] + [
-                f"{verse} ({count_verse_songs(songs, st.session_state.selected_book, st.session_state.selected_chapter, verse)})"
+                f"{verse} ({count_verse_songs(current_filtered, st.session_state.selected_book, st.session_state.selected_chapter, verse)})"
                 for verse in verses
             ]
             verse_mapping = {display: verse for display, verse in zip(verse_display, verse_options)}
@@ -309,4 +405,3 @@ def show():
                     st.write(source)
         else:
             st.markdown("Select 'view details' to see song lyrics.")
-
