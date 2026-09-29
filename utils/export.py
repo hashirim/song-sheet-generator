@@ -105,7 +105,7 @@ def add_section_with_columns(doc):
         sectPr.append(cols)
 
 
-def add_numbering_to_heading(doc, style_name):
+def add_numbering_to_heading(doc, style_name, number_songs=20):
     # Access numbering definitions
     numbering = doc.part.numbering_part.element
 
@@ -156,16 +156,22 @@ def add_numbering_to_heading(doc, style_name):
     ilvl.set(qn("w:val"), "0")
     numPr.append(ilvl)
 
-    #reduce spacing after number
-    # Position of the heading text
+    # adjust space based on number of songs. This is font dependent.
+    if number_songs < 10:
+        heading_gap = "240"
+    elif number_songs < 20:
+        heading_gap = "340"
+    else:
+        heading_gap = "390"
+    #adjust spacing after number
     ind = OxmlElement("w:ind")
-    ind.set(qn("w:left"), "390")
-    ind.set(qn("w:hanging"), "390")
+    ind.set(qn("w:left"), heading_gap)
+    ind.set(qn("w:hanging"), heading_gap)
     pPr.append(ind)
     tabs = OxmlElement("w:tabs")
     tab = OxmlElement("w:tab")
     tab.set(qn("w:val"), "num")
-    tab.set(qn("w:pos"), "390")
+    tab.set(qn("w:pos"), heading_gap)
     tabs.append(tab)
     pPr.append(tabs)
 
@@ -213,7 +219,6 @@ def modify_styles(doc):
     heading1.paragraph_format.space_before = Pt(0)
     heading1.font.name = "Inter SemiBold"
     heading1.font.underline = True
-    add_numbering_to_heading(doc,'Song Heading')
     
     # 2. Modify Block Quote
     blockquote = styles["Quote"]
@@ -263,7 +268,8 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
     """Generate DOCX export of song sheet"""
     doc = Document()
     modify_styles(doc)
-    
+    add_numbering_to_heading(doc,'Song Heading', len(songs))
+
     # Set margins to 1 cm and add headers and footers
     sections = doc.sections
     for section in sections:
