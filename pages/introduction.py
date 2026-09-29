@@ -9,23 +9,7 @@ def show():
 
     ## How to use this app
     
-    ### 1. Browse songs
-    
-    Visit the "Browse Songs" page to explore our song database. You can filter songs by various categories. You can see each song's details (including lyrics, notes, and sources) by clicking on the 'Details' button. 
-    
-    ### 2. Select Songs
-    
-    Check the checkbox next to songs you want to include in your song sheet. 
-    
-    ### 3. Order Songs
-    
-     In the "Create Song Sheet" page, drag and drop the songs to the order that you prefer. 
-    
-    ### 4. Download Song Sheet
-    
-    In the "Create Song Sheet", click "Export as HTML" or "Export as DOCX". Once you have clicked that, a download button should appear for your to download the file.
-    
-    ### 5. Install Fonts
+    ### 1. Install Fonts
     
     The exported documents use open-source fonts which are not installed by default on all operating systems. To ensure proper formatting of your song sheet, you will need to install the following fonts:
     
@@ -41,7 +25,27 @@ def show():
 
     Once you download the fonts, search for how to install fonts on your specific operating system. It is typically pretty simple, though it varies for different operating systems.
     
+    ### 2. Browse songs
+    
+    Visit the "Browse Songs" page to explore our song database. You can filter songs by various categories. You can see each song's details (including lyrics, notes, and sources) by clicking on the 'Details' button. 
+    
+    ### 3. Select Songs
+    
+    Check the checkbox next to songs you want to include in your song sheet. 
+    
+    ### 4. Order Songs
+    
+     In the "Create Song Sheet" page, drag and drop the songs to the order that you prefer. 
+    
+    ### 5. Download Song Sheet
+    
+    In the "Create Song Sheet", click "Export as HTML" or "Export as DOCX". Once you have clicked that, a download button should appear for your to download the file.
+    
     ## Frequently asked questions?
+    
+    ### The formatting of the songs looks weird. How can I fix this?
+    
+    First, make sure the appropriate fonts are installed. Then if the issue persists, fill out an [issue on github](https://github.com/hashirim/song-sheet-generator/issues) so we can know about and fix the error.
     
     ### How did you decide what songs to include?
     
