@@ -39,6 +39,24 @@ def show():
     if "selected_song_index" not in st.session_state:
         st.session_state.selected_song_index = None
     
+    # Cache for display options - these are created once and never change
+    if "author_display_cache" not in st.session_state:
+        st.session_state.author_display_cache = {}
+    if "language_display_cache" not in st.session_state:
+        st.session_state.language_display_cache = {}
+    if "service_display_cache" not in st.session_state:
+        st.session_state.service_display_cache = {}
+    if "theme_display_cache" not in st.session_state:
+        st.session_state.theme_display_cache = {}
+    if "other_display_cache" not in st.session_state:
+        st.session_state.other_display_cache = {}
+    if "book_display_cache" not in st.session_state:
+        st.session_state.book_display_cache = {}
+    if "chapter_display_cache" not in st.session_state:
+        st.session_state.chapter_display_cache = {}
+    if "verse_display_cache" not in st.session_state:
+        st.session_state.verse_display_cache = {}
+    
     # Filters section
     st.subheader("Filters")
     
@@ -47,7 +65,6 @@ def show():
     # Author filter
     with col1:
         authors = get_all_authors(songs)
-        # Calculate counts based on all songs initially
         current_filtered = filter_songs(
             songs,
             languages=st.session_state.selected_languages if st.session_state.selected_languages else None,
@@ -59,21 +76,32 @@ def show():
             verse=st.session_state.selected_verse,
             lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
         )
-        author_options = [f"{author} ({count_author_songs(current_filtered, author)})" for author in authors]
-        author_labels = {opt: author for opt, author in zip(author_options, authors)}
+        
+        # Build display options, using cache if available
+        author_options = []
+        author_value_map = {}
+        for author in authors:
+            count = count_author_songs(current_filtered, author)
+            # Only show if count > 0 or if already selected
+            if count > 0 or author in st.session_state.selected_authors:
+                # Use cached display if available, otherwise create it
+                if author not in st.session_state.author_display_cache:
+                    st.session_state.author_display_cache[author] = f"{author} ({count})"
+                display = st.session_state.author_display_cache[author]
+                author_options.append(display)
+                author_value_map[display] = author
         
         selected_author_options = st.multiselect(
             "Artist/Author",
             options=author_options,
-            default=[opt for opt in author_options if author_labels[opt] in st.session_state.selected_authors],
+            default=[opt for opt in author_options if author_value_map[opt] in st.session_state.selected_authors],
             key="author_multiselect"
         )
-        st.session_state.selected_authors = [author_labels[opt] for opt in selected_author_options]
+        st.session_state.selected_authors = [author_value_map[opt] for opt in selected_author_options]
     
     # Language filter
     with col2:
         languages = get_all_languages(songs)
-        # Calculate counts excluding author filter
         current_filtered = filter_songs(
             songs,
             authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
@@ -85,21 +113,29 @@ def show():
             verse=st.session_state.selected_verse,
             lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
         )
-        language_options = [f"{lang} ({count_language_songs(current_filtered, lang)})" for lang in languages]
-        language_labels = {opt: lang for opt, lang in zip(language_options, languages)}
+        
+        language_options = []
+        language_value_map = {}
+        for language in languages:
+            count = count_language_songs(current_filtered, language)
+            if count > 0 or language in st.session_state.selected_languages:
+                if language not in st.session_state.language_display_cache:
+                    st.session_state.language_display_cache[language] = f"{language} ({count})"
+                display = st.session_state.language_display_cache[language]
+                language_options.append(display)
+                language_value_map[display] = language
         
         selected_language_options = st.multiselect(
             "Language",
             options=language_options,
-            default=[opt for opt in language_options if language_labels[opt] in st.session_state.selected_languages],
+            default=[opt for opt in language_options if language_value_map[opt] in st.session_state.selected_languages],
             key="language_multiselect"
         )
-        st.session_state.selected_languages = [language_labels[opt] for opt in selected_language_options]
+        st.session_state.selected_languages = [language_value_map[opt] for opt in selected_language_options]
     
     # Service & Holiday tags filter
     with col3:
         service_tags = get_service_tags(songs)
-        # Calculate counts excluding service filter
         current_filtered = filter_songs(
             songs,
             authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
@@ -111,23 +147,31 @@ def show():
             verse=st.session_state.selected_verse,
             lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
         )
-        service_options = [f"{tag} ({count_tag_songs(current_filtered, tag)})" for tag in service_tags]
-        service_labels = {opt: tag for opt, tag in zip(service_options, service_tags)}
+        
+        service_options = []
+        service_value_map = {}
+        for tag in service_tags:
+            count = count_tag_songs(current_filtered, tag)
+            if count > 0 or tag in st.session_state.selected_service_tags:
+                if tag not in st.session_state.service_display_cache:
+                    st.session_state.service_display_cache[tag] = f"{tag} ({count})"
+                display = st.session_state.service_display_cache[tag]
+                service_options.append(display)
+                service_value_map[display] = tag
         
         selected_service_options = st.multiselect(
             "Service & Holiday",
             options=service_options,
-            default=[opt for opt in service_options if service_labels[opt] in st.session_state.selected_service_tags],
+            default=[opt for opt in service_options if service_value_map[opt] in st.session_state.selected_service_tags],
             key="service_multiselect"
         )
-        st.session_state.selected_service_tags = [service_labels[opt] for opt in selected_service_options]
+        st.session_state.selected_service_tags = [service_value_map[opt] for opt in selected_service_options]
     
     col4, col5, col6 = st.columns(3)
     
     # Theme tags filter
     with col4:
         theme_tags = get_theme_tags(songs)
-        # Calculate counts excluding theme filter
         current_filtered = filter_songs(
             songs,
             authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
@@ -139,21 +183,29 @@ def show():
             verse=st.session_state.selected_verse,
             lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
         )
-        theme_options = [f"{tag} ({count_tag_songs(current_filtered, tag)})" for tag in theme_tags]
-        theme_labels = {opt: tag for opt, tag in zip(theme_options, theme_tags)}
+        
+        theme_options = []
+        theme_value_map = {}
+        for tag in theme_tags:
+            count = count_tag_songs(current_filtered, tag)
+            if count > 0 or tag in st.session_state.selected_theme_tags:
+                if tag not in st.session_state.theme_display_cache:
+                    st.session_state.theme_display_cache[tag] = f"{tag} ({count})"
+                display = st.session_state.theme_display_cache[tag]
+                theme_options.append(display)
+                theme_value_map[display] = tag
         
         selected_theme_options = st.multiselect(
             "Theme Tags",
             options=theme_options,
-            default=[opt for opt in theme_options if theme_labels[opt] in st.session_state.selected_theme_tags],
+            default=[opt for opt in theme_options if theme_value_map[opt] in st.session_state.selected_theme_tags],
             key="theme_multiselect"
         )
-        st.session_state.selected_theme_tags = [theme_labels[opt] for opt in selected_theme_options]
+        st.session_state.selected_theme_tags = [theme_value_map[opt] for opt in selected_theme_options]
     
     # Other tags filter
     with col5:
         other_tags = get_other_tags(songs)
-        # Calculate counts excluding other tags filter
         current_filtered = filter_songs(
             songs,
             authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
@@ -165,16 +217,25 @@ def show():
             verse=st.session_state.selected_verse,
             lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
         )
-        other_options = [f"{tag} ({count_tag_songs(current_filtered, tag)})" for tag in other_tags]
-        other_labels = {opt: tag for opt, tag in zip(other_options, other_tags)}
+        
+        other_options = []
+        other_value_map = {}
+        for tag in other_tags:
+            count = count_tag_songs(current_filtered, tag)
+            if count > 0 or tag in st.session_state.selected_other_tags:
+                if tag not in st.session_state.other_display_cache:
+                    st.session_state.other_display_cache[tag] = f"{tag} ({count})"
+                display = st.session_state.other_display_cache[tag]
+                other_options.append(display)
+                other_value_map[display] = tag
         
         selected_other_options = st.multiselect(
             "Additional Tags",
             options=other_options,
-            default=[opt for opt in other_options if other_labels[opt] in st.session_state.selected_other_tags],
+            default=[opt for opt in other_options if other_value_map[opt] in st.session_state.selected_other_tags],
             key="other_multiselect"
         )
-        st.session_state.selected_other_tags = [other_labels[opt] for opt in selected_other_options]
+        st.session_state.selected_other_tags = [other_value_map[opt] for opt in selected_other_options]
     
     # Lyrics search
     with col6:
@@ -190,7 +251,6 @@ def show():
     
     with source_col1:
         books = get_all_books(songs)
-        # Calculate counts excluding book filter
         current_filtered = filter_songs(
             songs,
             authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
@@ -202,25 +262,31 @@ def show():
             verse=st.session_state.selected_verse,
             lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
         )
-        book_options = [""] + books
-        book_display = ["All Books"] + [f"{book} ({count_book_songs(current_filtered, book)})" for book in books]
-        book_mapping = {display: book for display, book in zip(book_display, book_options)}
         
-        # Find the index safely
-        selected_index = 0
+        book_options = ["All Books"]
+        book_value_map = {"All Books": ""}
+        for book in books:
+            count = count_book_songs(current_filtered, book)
+            if count > 0 or book == st.session_state.selected_book:
+                if book not in st.session_state.book_display_cache:
+                    st.session_state.book_display_cache[book] = f"{book} ({count})"
+                display = st.session_state.book_display_cache[book]
+                book_options.append(display)
+                book_value_map[display] = book
+        
         if st.session_state.selected_book:
-            for i, display in enumerate(book_display):
-                if book_mapping[display] == st.session_state.selected_book:
-                    selected_index = i
-                    break
+            default_display = st.session_state.book_display_cache.get(st.session_state.selected_book, "")
+            default_index = book_options.index(default_display) if default_display in book_options else 0
+        else:
+            default_index = 0
         
         selected_book_display = st.selectbox(
             "Book",
-            options=book_display,
-            index=selected_index,
+            options=book_options,
+            index=default_index,
             key="book_select"
         )
-        st.session_state.selected_book = book_mapping[selected_book_display]
+        st.session_state.selected_book = book_value_map[selected_book_display]
         
         if not st.session_state.selected_book:
             st.session_state.selected_chapter = None
@@ -229,7 +295,6 @@ def show():
     with source_col2:
         if st.session_state.selected_book:
             chapters = get_chapters_for_book(songs, st.session_state.selected_book)
-            # Calculate counts excluding chapter filter
             current_filtered = filter_songs(
                 songs,
                 authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
@@ -241,28 +306,33 @@ def show():
                 verse=st.session_state.selected_verse,
                 lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
             )
-            chapter_options = [""] + chapters
-            chapter_display = ["All Chapters"] + [
-                f"{chapter} ({count_chapter_songs(current_filtered, st.session_state.selected_book, chapter)})" 
-                for chapter in chapters
-            ]
-            chapter_mapping = {display: chapter for display, chapter in zip(chapter_display, chapter_options)}
             
-            # Find the index safely
-            selected_index = 0
+            chapter_options = ["All Chapters"]
+            chapter_value_map = {"All Chapters": ""}
+            for chapter in chapters:
+                count = count_chapter_songs(current_filtered, st.session_state.selected_book, chapter)
+                if count > 0 or chapter == st.session_state.selected_chapter:
+                    cache_key = f"{st.session_state.selected_book}_{chapter}"
+                    if cache_key not in st.session_state.chapter_display_cache:
+                        st.session_state.chapter_display_cache[cache_key] = f"{chapter} ({count})"
+                    display = st.session_state.chapter_display_cache[cache_key]
+                    chapter_options.append(display)
+                    chapter_value_map[display] = chapter
+            
             if st.session_state.selected_chapter:
-                for i, display in enumerate(chapter_display):
-                    if chapter_mapping[display] == st.session_state.selected_chapter:
-                        selected_index = i
-                        break
+                cache_key = f"{st.session_state.selected_book}_{st.session_state.selected_chapter}"
+                default_display = st.session_state.chapter_display_cache.get(cache_key, "")
+                default_index = chapter_options.index(default_display) if default_display in chapter_options else 0
+            else:
+                default_index = 0
             
             selected_chapter_display = st.selectbox(
                 "Chapter",
-                options=chapter_display,
-                index=selected_index,
+                options=chapter_options,
+                index=default_index,
                 key="chapter_select"
             )
-            st.session_state.selected_chapter = chapter_mapping[selected_chapter_display]
+            st.session_state.selected_chapter = chapter_value_map[selected_chapter_display]
             
             if not st.session_state.selected_chapter:
                 st.session_state.selected_verse = None
@@ -272,7 +342,6 @@ def show():
     with source_col3:
         if st.session_state.selected_book and st.session_state.selected_chapter:
             verses = get_verses_for_book_chapter(songs, st.session_state.selected_book, st.session_state.selected_chapter)
-            # Calculate counts excluding verse filter
             current_filtered = filter_songs(
                 songs,
                 authors=st.session_state.selected_authors if st.session_state.selected_authors else None,
@@ -284,28 +353,33 @@ def show():
                 chapter=st.session_state.selected_chapter,
                 lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
             )
-            verse_options = [""] + verses
-            verse_display = ["All Verses"] + [
-                f"{verse} ({count_verse_songs(current_filtered, st.session_state.selected_book, st.session_state.selected_chapter, verse)})"
-                for verse in verses
-            ]
-            verse_mapping = {display: verse for display, verse in zip(verse_display, verse_options)}
             
-            # Find the index safely
-            selected_index = 0
+            verse_options = ["All Verses"]
+            verse_value_map = {"All Verses": ""}
+            for verse in verses:
+                count = count_verse_songs(current_filtered, st.session_state.selected_book, st.session_state.selected_chapter, verse)
+                if count > 0 or verse == st.session_state.selected_verse:
+                    cache_key = f"{st.session_state.selected_book}_{st.session_state.selected_chapter}_{verse}"
+                    if cache_key not in st.session_state.verse_display_cache:
+                        st.session_state.verse_display_cache[cache_key] = f"{verse} ({count})"
+                    display = st.session_state.verse_display_cache[cache_key]
+                    verse_options.append(display)
+                    verse_value_map[display] = verse
+            
             if st.session_state.selected_verse:
-                for i, display in enumerate(verse_display):
-                    if verse_mapping[display] == st.session_state.selected_verse:
-                        selected_index = i
-                        break
+                cache_key = f"{st.session_state.selected_book}_{st.session_state.selected_chapter}_{st.session_state.selected_verse}"
+                default_display = st.session_state.verse_display_cache.get(cache_key, "")
+                default_index = verse_options.index(default_display) if default_display in verse_options else 0
+            else:
+                default_index = 0
             
             selected_verse_display = st.selectbox(
                 "Verse",
-                options=verse_display,
-                index=selected_index,
+                options=verse_options,
+                index=default_index,
                 key="verse_select"
             )
-            st.session_state.selected_verse = verse_mapping[selected_verse_display]
+            st.session_state.selected_verse = verse_value_map[selected_verse_display]
         else:
             st.selectbox("Verse", options=[], disabled=True, key="verse_select_disabled")
     
@@ -322,8 +396,6 @@ def show():
         verse=st.session_state.selected_verse,
         lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
     )
-    
-    
     
     col1, col2 = st.columns(2)
     
@@ -378,7 +450,6 @@ def show():
     with col2:
         st.subheader("Song Details")
         if st.session_state.selected_song_index is not None and st.session_state.selected_song_index < len(filtered_songs):
-            
             
             selected_song = filtered_songs[st.session_state.selected_song_index]
             
