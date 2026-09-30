@@ -10,7 +10,7 @@ def show():
         st.info("No songs selected. Please go to 'Browse Songs' to select songs for your sheet.")
         return
     
-    st.subheader("Selected Songs")
+    st.subheader("Selected Songs ({})".format(len(st.session_state.selected_songs)))
     
     # Create list of song display strings with unique keys
     songs_display = []
@@ -68,40 +68,46 @@ def show():
     with col1:
         if st.button("📄 Export as HTML"):
             html_content = export_html(st.session_state.selected_songs, sheet_name)
+            st.success("HTML export ready!")
+            _show_font_warning()
             st.download_button(
                 label="Download HTML",
                 data=html_content,
                 file_name=f"{sheet_name.replace(' ', '_')}.html",
                 mime="text/html"
             )
-            st.success("HTML export ready!")
-            _show_font_warning()
-    
+
+            
     with col2:
         if st.button("📝 Export as DOCX"):
             docx_bytes = export_docx(st.session_state.selected_songs, sheet_name)
+            _show_font_warning()
+            st.success("DOCX export ready!")
             st.download_button(
                 label="Download DOCX",
                 data=docx_bytes,
                 file_name=f"{sheet_name.replace(' ', '_')}.docx",
                 mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
             )
-            st.success("DOCX export ready!")
-            _show_font_warning()
+            
 
 def _show_font_warning():
     """Display font installation instructions"""
     st.warning("""
     **Important: Font Installation**
     
-    To ensure proper formatting of your exported song sheet, please install the following fonts on your computer:
+    To ensure proper formatting of your song sheet, you will need to install the following fonts:
     
     - **Taamey David CLM** - For Hebrew text
     - **Liberation Serif** - For English text
-    - **Liberation Serif Bold** - For bold text
-    - **Liberation Serif Italics** - For italic text
+    - **Liberation Serif Italics** - For English italic text
+    - **Inter SemiBold** - For English headings
     
-    Download these fonts from:
-    - [Liberation Fonts](https://github.com/liberationfonts/liberation-fonts)
-    - [Taamey David CLM](https://github.com/opensiddur/opensiddur-server/wiki/Taamey-David-CLM)
+    You can download these fonts from the [github repository](https://github.com/hashirim/song-sheet-generator/tree/main/fonts) or from these sources:
+    - [Liberation Fonts](https://www.dafont.com/liberation-serif.font)
+    - [Taamey David CLM](https://opensiddur.org/wp-content/uploads/fonts/TaameyDavidCLM/TaameyDavidCLM.zip)
+    - [Inter SemiBold](https://rsms.me/inter/)
+
+    Once you download the fonts, search for how to install fonts on your specific operating system. It is typically pretty simple, though it varies for different operating systems.
+    
     """)
