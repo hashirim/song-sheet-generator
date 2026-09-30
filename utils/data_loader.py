@@ -43,7 +43,7 @@ def get_service_tags(songs: List[Dict[str, Any]]) -> List[str]:
     service_tags = {
         'maariv', 'shacharit', 'mincha', 'hallel', 'shabbat', 'havdalah',
         'rosh chodesh', 'rosh hashanah', 'yom kippur', 'sukkot', 'shmini atzeret',
-        'simchat torah', 'chanukah', 'purim', 'pesach', 'omer', 'lag b\'omer',
+        'simchat torah', 'chanukah', 'tu bishvat', 'purim', 'pesach', 'omer', 'lag b\'omer',
         'shavuot', 'tu b\'av', 'tisha b\'av', 'slichot'
     }
     
@@ -78,7 +78,7 @@ def get_theme_tags(songs: List[Dict[str, Any]]) -> List[str]:
     
     ordered = [
         'creation', 'redemption', 'revelation', 'love', 'healing', 'nature',
-        'trust', 'gratitude', 'celebration', 'mourning', 'yearning', 'justice', 'community',
+        'trust', 'gratitude', 'praise', 'celebration', 'mourning', 'yearning', 'justice', 'community',
         'peace', 'protection', 'journey'
     ]
     
@@ -89,13 +89,13 @@ def get_other_tags(songs: List[Dict[str, Any]]) -> List[str]:
     service_tags = {
         'maariv', 'shacharit', 'mincha', 'hallel', 'shabbat', 'havdalah',
         'rosh chodesh', 'rosh hashanah', 'yom kippur', 'sukkot', 'shmini atzeret',
-        'simchat torah', 'chanukah', 'purim', 'pesach', 'omer', 'lag b\'omer',
+        'simchat torah', 'chanukah', 'tu bishvat', 'purim', 'pesach', 'omer', 'lag b\'omer',
         'shavuot', 'tu b\'av', 'tisha b\'av', 'slichot'
     }
     
     theme_tags = {
         'creation', 'redemption', 'revelation', 'love', 'healing', 'nature',
-        'trust', 'gratitude', 'celebration', 'mourning', 'justice', 'community',
+        'trust', 'gratitude', 'praise', 'celebration', 'mourning', 'justice', 'community',
         'peace', 'protection', 'journey'
     }
     
