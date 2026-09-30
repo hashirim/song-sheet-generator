@@ -50,7 +50,7 @@ def show():
     ### How did you decide what songs to include?
     
     We chose to include songs that met all the following criteria:
-    * Are related to jewish themes
+    * Are related to Jewish themes
     * Can be sung by a group of people with various backgrounds
     * Are typically not the tunes sung in traditional synagogue services
     
@@ -61,13 +61,13 @@ def show():
     If there is a song that you think would be great to have here, you can add it in the following way:
     
     1. fill out an [issue on github](https://github.com/hashirim/song-sheet-generator/issues) with the song title, lyrics, and a link to the song.
-    2. modify the json file and create a pull request in github (for those who are more tech savy). We have made a separate streamlit app for updating the song database. It is called `streamlit_song_editor.py`. You can download the github repository and run this app locally to modify the database. 
+    2. modify the json file and create a pull request in github (for those who are more tech savvy). We have made a separate streamlit app for updating the song database. It is called `streamlit_song_editor.py`. You can download the github repository and run this app locally to modify the database. 
     
     ### How did you decide on the language for God?
     
     We have strived to provide consistent and accurate Hebrew, transliteration, and translation  throughout the database, but we invariably have made a mistake. If you notice anything that can be improved, please submit an [issue](https://github.com/hashirim/song-sheet-generator/issues) on the github page. 
 
-    To avoid accidentally desecrating God's name in printed song sheets, we have replaced God's hebrew name with the yud-yud stand-in, which has been used for hundreds of years as a conservative alternative to make sure God's name is respected.
+    To avoid accidentally desecrating God's name in printed song sheets, we have replaced God's Hebrew name with the yud-yud stand-in, which has been used for hundreds of years as a conservative alternative to make sure God's name is respected.
 
     In the transliteration of God's name, we have chosen to primarily use Adonai, sometimes even when the artist chose a different term, since this is the most common Hebrew word associated with God for many Jews. We find using Adonai in our songs helps uplift the spirituality and holiness of singing in community.
     
@@ -97,21 +97,21 @@ def show():
     * Message us to let us know how it has supported you.
     * Star the project on [github](https://github.com/hashirim/song-sheet-generator).
     
-    ### What is the formating you use for the songs?
+    ### What is the formatting you use for the songs?
     
     When formatting the songs, we had the following goals:
     
-      * make the songs lyrics accessible to those who are not quick hebrew readers
-      * make the meaning of the lyrics accessible to those not fluent in hebrew
+      * make the songs lyrics accessible to those who are not quick Hebrew readers
+      * make the meaning of the lyrics accessible to those not fluent in Hebrew
       * assist the reader in understanding the flow of the song
 
-    To help achive these goals, we applied the following formatting:
+    To help achieve these goals, we applied the following formatting:
     
     #### Make lyrics accessible
-    We provide transliteration for all of the hebrew in the songs. The transliteration follows modern hebrew pronounciation. Here are some of the stylistic choises we have made:
+    We provide transliteration for all of the Hebrew in the songs. The transliteration follows modern Hebrew pronunciation. Here are some of the stylistic choices we have made:
     
-    * We transliterate the same sounds as the same letters (e.g., chet and chaf both as 'ch', koof and kaf as 'k'). This helps simplify the pronounciation.
-    * We use the following english vowels for these hebrew vowels:
+    * We transliterate the same sounds as the same letters (e.g., chet and chaf both as 'ch', koof and kaf as 'k'). This helps simplify the pronunciation.
+    * We use the following English vowels for these Hebrew vowels:
       * 'a' for kamatz (T), patach(-), and chataf(-:).
       * 'e' for segol (triple dots in triangle) and chataf segol (five dots)
       * 'i' for chirik (lower dot)
@@ -121,10 +121,10 @@ def show():
       * apostrophe for shva (:) when enunciated and nothing when not enunciated
     
     #### Make meaning accessible
-    We provide translation for all the hebrew, using a modified blockquote format to allow reading of the meaning while reducing the risk that it gets confused with the lyrics .
+    We provide translation for all the Hebrew, using a modified block quote format to allow reading of the meaning while reducing the risk that it gets confused with the lyrics .
     
     #### Improve song flow
-    Many songs repeat words or verses multiple times. We help signify this by putting words said the same time in parenthesis followed by the number of times they are repeated. We do this only in the transliteration portion of the hebrew lyrics since we expect this is the version that people less familiar with the songs will utilize.
+    Many songs repeat words or verses multiple times. We help signify this by putting words said the same time in parenthesis followed by the number of times they are repeated. We do this only in the transliteration portion of the Hebrew lyrics since we expect this is the version that people less familiar with the songs will utilize.
     
     We utilize italics to signify call and response in songs, with parenthesis to break up call and response groupings to avoid confusion. 
       
