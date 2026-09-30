@@ -39,7 +39,7 @@ def show():
     if "selected_song_index" not in st.session_state:
         st.session_state.selected_song_index = None
     
-    # Cache for display options - these are created once and never change
+    # Cache for display options - these are created once and updated with new counts
     if "author_display_cache" not in st.session_state:
         st.session_state.author_display_cache = {}
     if "language_display_cache" not in st.session_state:
@@ -77,24 +77,29 @@ def show():
             lyrics_search=st.session_state.lyrics_search if st.session_state.lyrics_search else None
         )
         
-        # Build display options, using cache if available
+        # Update cache with new counts and build display options
         author_options = []
         author_value_map = {}
         for author in authors:
             count = count_author_songs(current_filtered, author)
             # Only show if count > 0 or if already selected
             if count > 0 or author in st.session_state.selected_authors:
-                # Use cached display if available, otherwise create it
-                if author not in st.session_state.author_display_cache:
-                    st.session_state.author_display_cache[author] = f"{author} ({count})"
-                display = st.session_state.author_display_cache[author]
+                # Always update cache with current count
+                display = f"{author} ({count})"
+                st.session_state.author_display_cache[author] = display
                 author_options.append(display)
                 author_value_map[display] = author
+        
+        # Build default selections using updated cache
+        default_options = []
+        for author in st.session_state.selected_authors:
+            if author in st.session_state.author_display_cache:
+                default_options.append(st.session_state.author_display_cache[author])
         
         selected_author_options = st.multiselect(
             "Artist/Author",
             options=author_options,
-            default=[opt for opt in author_options if author_value_map[opt] in st.session_state.selected_authors],
+            default=default_options,
             key="author_multiselect"
         )
         st.session_state.selected_authors = [author_value_map[opt] for opt in selected_author_options]
@@ -119,16 +124,20 @@ def show():
         for language in languages:
             count = count_language_songs(current_filtered, language)
             if count > 0 or language in st.session_state.selected_languages:
-                if language not in st.session_state.language_display_cache:
-                    st.session_state.language_display_cache[language] = f"{language} ({count})"
-                display = st.session_state.language_display_cache[language]
+                display = f"{language} ({count})"
+                st.session_state.language_display_cache[language] = display
                 language_options.append(display)
                 language_value_map[display] = language
+        
+        default_options = []
+        for language in st.session_state.selected_languages:
+            if language in st.session_state.language_display_cache:
+                default_options.append(st.session_state.language_display_cache[language])
         
         selected_language_options = st.multiselect(
             "Language",
             options=language_options,
-            default=[opt for opt in language_options if language_value_map[opt] in st.session_state.selected_languages],
+            default=default_options,
             key="language_multiselect"
         )
         st.session_state.selected_languages = [language_value_map[opt] for opt in selected_language_options]
@@ -153,16 +162,20 @@ def show():
         for tag in service_tags:
             count = count_tag_songs(current_filtered, tag)
             if count > 0 or tag in st.session_state.selected_service_tags:
-                if tag not in st.session_state.service_display_cache:
-                    st.session_state.service_display_cache[tag] = f"{tag} ({count})"
-                display = st.session_state.service_display_cache[tag]
+                display = f"{tag} ({count})"
+                st.session_state.service_display_cache[tag] = display
                 service_options.append(display)
                 service_value_map[display] = tag
+        
+        default_options = []
+        for tag in st.session_state.selected_service_tags:
+            if tag in st.session_state.service_display_cache:
+                default_options.append(st.session_state.service_display_cache[tag])
         
         selected_service_options = st.multiselect(
             "Service & Holiday",
             options=service_options,
-            default=[opt for opt in service_options if service_value_map[opt] in st.session_state.selected_service_tags],
+            default=default_options,
             key="service_multiselect"
         )
         st.session_state.selected_service_tags = [service_value_map[opt] for opt in selected_service_options]
@@ -189,16 +202,20 @@ def show():
         for tag in theme_tags:
             count = count_tag_songs(current_filtered, tag)
             if count > 0 or tag in st.session_state.selected_theme_tags:
-                if tag not in st.session_state.theme_display_cache:
-                    st.session_state.theme_display_cache[tag] = f"{tag} ({count})"
-                display = st.session_state.theme_display_cache[tag]
+                display = f"{tag} ({count})"
+                st.session_state.theme_display_cache[tag] = display
                 theme_options.append(display)
                 theme_value_map[display] = tag
+        
+        default_options = []
+        for tag in st.session_state.selected_theme_tags:
+            if tag in st.session_state.theme_display_cache:
+                default_options.append(st.session_state.theme_display_cache[tag])
         
         selected_theme_options = st.multiselect(
             "Theme Tags",
             options=theme_options,
-            default=[opt for opt in theme_options if theme_value_map[opt] in st.session_state.selected_theme_tags],
+            default=default_options,
             key="theme_multiselect"
         )
         st.session_state.selected_theme_tags = [theme_value_map[opt] for opt in selected_theme_options]
@@ -223,16 +240,20 @@ def show():
         for tag in other_tags:
             count = count_tag_songs(current_filtered, tag)
             if count > 0 or tag in st.session_state.selected_other_tags:
-                if tag not in st.session_state.other_display_cache:
-                    st.session_state.other_display_cache[tag] = f"{tag} ({count})"
-                display = st.session_state.other_display_cache[tag]
+                display = f"{tag} ({count})"
+                st.session_state.other_display_cache[tag] = display
                 other_options.append(display)
                 other_value_map[display] = tag
+        
+        default_options = []
+        for tag in st.session_state.selected_other_tags:
+            if tag in st.session_state.other_display_cache:
+                default_options.append(st.session_state.other_display_cache[tag])
         
         selected_other_options = st.multiselect(
             "Additional Tags",
             options=other_options,
-            default=[opt for opt in other_options if other_value_map[opt] in st.session_state.selected_other_tags],
+            default=default_options,
             key="other_multiselect"
         )
         st.session_state.selected_other_tags = [other_value_map[opt] for opt in selected_other_options]
@@ -268,14 +289,13 @@ def show():
         for book in books:
             count = count_book_songs(current_filtered, book)
             if count > 0 or book == st.session_state.selected_book:
-                if book not in st.session_state.book_display_cache:
-                    st.session_state.book_display_cache[book] = f"{book} ({count})"
-                display = st.session_state.book_display_cache[book]
+                display = f"{book} ({count})"
+                st.session_state.book_display_cache[book] = display
                 book_options.append(display)
                 book_value_map[display] = book
         
-        if st.session_state.selected_book:
-            default_display = st.session_state.book_display_cache.get(st.session_state.selected_book, "")
+        if st.session_state.selected_book and st.session_state.selected_book in st.session_state.book_display_cache:
+            default_display = st.session_state.book_display_cache[st.session_state.selected_book]
             default_index = book_options.index(default_display) if default_display in book_options else 0
         else:
             default_index = 0
@@ -313,9 +333,8 @@ def show():
                 count = count_chapter_songs(current_filtered, st.session_state.selected_book, chapter)
                 if count > 0 or chapter == st.session_state.selected_chapter:
                     cache_key = f"{st.session_state.selected_book}_{chapter}"
-                    if cache_key not in st.session_state.chapter_display_cache:
-                        st.session_state.chapter_display_cache[cache_key] = f"{chapter} ({count})"
-                    display = st.session_state.chapter_display_cache[cache_key]
+                    display = f"{chapter} ({count})"
+                    st.session_state.chapter_display_cache[cache_key] = display
                     chapter_options.append(display)
                     chapter_value_map[display] = chapter
             
@@ -360,9 +379,8 @@ def show():
                 count = count_verse_songs(current_filtered, st.session_state.selected_book, st.session_state.selected_chapter, verse)
                 if count > 0 or verse == st.session_state.selected_verse:
                     cache_key = f"{st.session_state.selected_book}_{st.session_state.selected_chapter}_{verse}"
-                    if cache_key not in st.session_state.verse_display_cache:
-                        st.session_state.verse_display_cache[cache_key] = f"{verse} ({count})"
-                    display = st.session_state.verse_display_cache[cache_key]
+                    display = f"{verse} ({count})"
+                    st.session_state.verse_display_cache[cache_key] = display
                     verse_options.append(display)
                     verse_value_map[display] = verse
             
@@ -474,5 +492,11 @@ def show():
                 st.markdown("#### Sources")
                 for source in sources:
                     st.write(source)
+            # tags
+            tags = selected_song.get("tags", [])
+            if tags:
+                st.markdown("#### Tags")
+                for tag in tags:
+                    st.write(tag)
         else:
             st.markdown("Select 'view details' to see song lyrics.")
