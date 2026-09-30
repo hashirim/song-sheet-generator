@@ -382,7 +382,7 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
 
     
     # Add hyperlink for Song Sheet Generator
-    r_id = doc.part.relate_to('https://github.com/hashirim/song-sheet-generator', 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink', is_external=True)
+    r_id = doc.part.relate_to('https://song-sheet-generator.streamlit.app/', 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink', is_external=True)
     hyperlink = OxmlElement("w:hyperlink")
     hyperlink.set(qn("r:id"), r_id)
     run = OxmlElement("w:r")
@@ -394,12 +394,10 @@ def export_docx(songs: List[Dict[str, Any]], sheet_name: str) -> bytes:
     run.append(rPr)
     
     text = OxmlElement("w:t")
-    text.text = "Song Sheet Generator"
+    text.text = "song-sheet-generator.streamlit.app"
     run.append(text)
     hyperlink.append(run)
     footer_para._element.append(hyperlink)
-    run = footer_para.add_run(". Found a typo? Submit it to github.com/hashirim/song-sheet-generator")
-    run.font.size = Pt(9)
     
     # Save to bytes
     from io import BytesIO
