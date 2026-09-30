@@ -96,5 +96,38 @@ def show():
     * Find a song you would like in the database and create an [issue](https://github.com/hashirim/song-sheet-generator/issues) for that song.
     * Message us to let us know how it has supported you.
     * Star the project on [github](https://github.com/hashirim/song-sheet-generator).
+    
+    ### What is the formating you use for the songs?
+    
+    When formatting the songs, we had the following goals:
+    
+      * make the songs lyrics accessible to those who are not quick hebrew readers
+      * make the meaning of the lyrics accessible to those not fluent in hebrew
+      * assist the reader in understanding the flow of the song
+
+    To help achive these goals, we applied the following formatting:
+    
+    #### Make lyrics accessible
+    We provide transliteration for all of the hebrew in the songs. The transliteration follows modern hebrew pronounciation. Here are some of the stylistic choises we have made:
+    
+    * We transliterate the same sounds as the same letters (e.g., chet and chaf both as 'ch', koof and kaf as 'k'). This helps simplify the pronounciation.
+    * We use the following english vowels for these hebrew vowels:
+      * 'a' for kamatz (T), patach(-), and chataf(-:).
+      * 'e' for segol (triple dots in triangle) and chataf segol (five dots)
+      * 'i' for chirik (lower dot)
+      * 'o' for cholam (upper dot)
+      * 'u' for kubutz (triple dots diagonal) and shuruk (middle dot in a vav)
+      * 'ei' for tsere (two horizontal dots)
+      * apostrophe for shva (:) when enunciated and nothing when not enunciated
+    
+    #### Make meaning accessible
+    We provide translation for all the hebrew, using a modified blockquote format to allow reading of the meaning while reducing the risk that it gets confused with the lyrics .
+    
+    #### Improve song flow
+    Many songs repeat words or verses multiple times. We help signify this by putting words said the same time in parenthesis followed by the number of times they are repeated. We do this only in the transliteration portion of the hebrew lyrics since we expect this is the version that people less familiar with the songs will utilize.
+    
+    We utilize italics to signify call and response in songs, with parenthesis to break up call and response groupings to avoid confusion. 
+      
+    We also provide links to video or audio in all the outputs to allow people to become familiar with songs beforehand.
     """)
 
