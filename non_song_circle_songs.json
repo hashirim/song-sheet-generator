@@ -28,5 +28,39 @@
       "notes": "",
       "language": "hebrew"
     },
+    {
+      "title": "Kumi",
+      "authors": [
+        "Joey Weisenberg"
+      ],
+      "sources": [
+        {
+          "book": "piyyut",
+          "chapter": "Solomon Alkabetz",
+          "verse": "l’cha dodi"
+        },
+        {
+          "book": "Lamentations",
+          "chapter": "2",
+          "verse": "19"
+        },
+        {
+          "book": "Song of Songs",
+          "chapter": "2",
+          "verse": "10"
+        }
+      ],
+      "urls": {
+        "youtube": "https://www.youtube.com/watch?v=n7J_yWeeGt4"
+      },
+      "tags": [
+        "tisha b'av",
+        "yom kippur"
+      ],
+      "lyrics": "<p class=\"hebrew\">קוּמִי צְאִי מִתּוךְ הַהֲפֵכָה<br/>\nרַב לָךְ שֶׁבֶת בְּעֵמֶק הַבָּכָא<br/>\nוְהוּא יַחֲמוֹל עָלַיִךְ חֶמְלָה</p>\n<p class=\"hebrew\">קוּמִי רֹנִּי בַלַּיְלָה<br/>\nלְרֹאשׁ אַשְׁמֻרוֹת<br/>\nשִׁפְכִי כַמַּיִם לִבֵּךְ<br/>\nנֹכַח פְּנֵי יְיָ</p>\n<p class=\"hebrew\">קוּמִי לְכִי רַעְיָתִי<br/>\nיָפָתִי וּלְכִי־לָךְ<br/>\nכִּי־הִנֵּה הַסְּתָיו עָבָר<br/>\nהַנִּצָּנִים נִרְאוּ בָאָרֶץ<br/>\nעֵת הַזָּמִיר הִגִּיעַ<br/>\nוְקוֹל הַתּוֹר<br/>\nנִשְׁמַע בְּאַרְצֵנוּ</p>\n<p class=\"transliteration\">kumi tz'i mitoch hahafeichah<br/>\nrav lach shevet b'eimek habachah<br/>\nv’hu yachamol alayich chemlah</p>\n<p class=\"transliteration\">kumi roni valaylah<br/>\nl’rosh ashmurot<br/>\nshifchi chamayim libeich<br/>\nnochach p'nei adonai</p>\n<p class=\"transliteration\">kumi l'chi rayati<br/>\nyafati ul’chi lach<br/>\nki hinei hastav avar<br/>\nhanitzanim niru va'aretz<br/>\neit hazamir higia<br/>\nv'kol hator<br/>\nnishma b'artzeinu</p>",
+      "notes": "",
+      "language": "hebrew"
+    },
+
   ]
 }
