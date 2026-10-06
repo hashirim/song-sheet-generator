@@ -110,7 +110,9 @@ def show():
     #### Make lyrics accessible
     We provide transliteration for all of the Hebrew in the songs. The transliteration follows modern Hebrew pronunciation. Here are some of the stylistic choices we have made:
     
+    * All hebrew, even hebrew from modern writing, contains vowels
     * We transliterate the same sounds as the same letters (e.g., chet and chaf both as 'ch', koof and kaf as 'k'). This helps simplify the pronunciation.
+    * All transliteration is lower case and devoid of punctuation since it does not impact pronounciation.
     * We use the following English vowels for these Hebrew vowels:
       * 'a' for kamatz (T), patach(-), and chataf(-:).
       * 'e' for segol (triple dots in triangle) and chataf segol (five dots)
@@ -119,12 +121,21 @@ def show():
       * 'u' for kubutz (triple dots diagonal) and shuruk (middle dot in a vav)
       * 'ei' for tsere (two horizontal dots)
       * apostrophe for shva (:) when enunciated and nothing when not enunciated
-    
+    * We add apostrophes between vowels which should be separate syllables, when a reader familiar with English might interpret as a single syllable or get confused as to when the new syllable starts. For example, we will add an apostrophe between the 'a' and 'a' in va'arom'menha (וַאֲרֹמְמֶנְהָ). We however would avoid an apostrphe between the 'u' and 'a' in hay'shuah (הַיְשׁוּעָה). Here are the combinations that we add apostrophes to along with the english words which might make not having an apostrophe confusing:
+      * "o'a" (poach)
+      * "a'a" (baa, the sheep sound)
+      * "a'e" (aeroplane)
+      * "e'a" (beach)
+      * "o'u" (round)
+      * "a'o" (baobab)
+      * any vowel adjacent to "ei" 
     #### Make meaning accessible
     We provide translation for all the Hebrew, using a modified block quote format to allow reading of the meaning while reducing the risk that it gets confused with the lyrics .
     
     #### Improve song flow
     Many songs repeat words or verses multiple times. We help signify this by putting words said the same time in parenthesis followed by the number of times they are repeated. We do this only in the transliteration portion of the Hebrew lyrics since we expect this is the version that people less familiar with the songs will utilize.
+    
+    When a song varies in a single word or a few words when the verse is sung many times, we wrap the word or phrase in parenthesis and separate it by slashes. For example, "(God)/(love)/(heart)" indicates that on the three repeations, we say God, then love, and then heart.
     
     We utilize italics to signify call and response in songs, with parenthesis to break up call and response groupings to avoid confusion. 
       
