@@ -14,7 +14,7 @@
         {
           "book": "liturgy",
           "chapter": "shacharit",
-          "verse": ""
+          "verse": "modeh ani"
         }
       ],
       "urls": {
@@ -22,7 +22,6 @@
         "bandcamp": "https://shivikeller.bandcamp.com/track/mode-ani"
       },
       "tags": [
-        "shacharit",
         "gratitude",
         "redemption",
         "love"
@@ -36,12 +35,17 @@
       "authors": [
         "Zach Mayer"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
+        }
+      ],
       "urls": {
-        "bandcamp": "https://zachmayermusic.bandcamp.com/album/zeh-hayom"
+        "bandcamp": "https://zachmayermusic.bandcamp.com/track/i-am-grateful"
       },
       "tags": [
-        "shacharit",
         "gratitude"
       ],
       "lyrics": "<p>CHORUS:<br/>\nI am grateful, grateful<br/>\nYeah I am grateful, grateful<br/>\nI am grateful, grateful<br/>\nYeah I am grateful, grateful</p>\n<p>I am grateful for the trees and the birds and the wind<br/>\nI am grateful for the precious day about to begin.<br/>\nI am grateful for my health and for the source of my song<br/>\nI am grateful, I feel like I belong</p>\n<p>CHORUS</p>\n<p>I am grateful for the stillness of the sweet morning sun<br/>\nI am grateful for my loved ones and for my tradition<br/>\nI am grateful for the sacred breath that keeps me alive<br/>\nI am grateful… let me tell you why! \n</p>\n<p class=\"hebrew\">מוֹדֶה אֲנִי לְפָנֶיךָ, רוּחַ חַי וְקַיָּם<br/>\nשֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּחֶמְלָה רַבָּה אֱמוּנָתֶךָ</p>\n<p class=\"transliteration\">modeh ani l'fanecha, ruach chai v'kayam<br/>\nshehechezarta bi nishmati, b'chemla raba emunatecha</p>\n<blockquote>I give thanks to You living and everlasting ruler for You have restored my soul with mercy.</blockquote>\n<p>So if you're feeling lonely and no joy can be found,<br/>\nI've got one thing that might help you start to turn it around<br/>\nPlease accept my generous offer, this is no platitude,<br/>\nGo on and sing yourself some verses of your own gratitude! \n</p>\n<p>CHORUS</p>",
@@ -58,13 +62,17 @@
           "book": "Berakhot",
           "chapter": "60b",
           "verse": ""
+        },
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
         }
       ],
       "urls": {
         "youtube": "https://www.youtube.com/watch?v=SxcRFJv0D9U"
       },
       "tags": [
-        "shacharit",
         "round"
       ],
       "lyrics": "<p class=\"hebrew\">אֱלהַי נְשָׁמָה שֶׁנָּתַתָּ בִּי טְהוֹרָה הִיא</p>\n<p class=\"transliteration\">elohai n'shama sh'natata bi t'hora hi</p>\n<blockquote>My God, the soul you gave in me is pure.</blockquote>",
@@ -87,7 +95,6 @@
         "youtube": "https://www.youtube.com/watch?v=FCyVnDC3Xx4"
       },
       "tags": [
-        "shacharit",
         "round"
       ],
       "lyrics": "<p class=\"hebrew\">אִלּוּ פִינוּ מָלֵא שִׁירָה כַּיָּם</p>\n<p class=\"transliteration\">(ilu-lu-lu)(4x)<br/>\nilu finu maleh-leh shira kayam<br/>\noh ilu oh finu maleh-leh shira kayam</p>\n<blockquote>If our mouths were as full of song as the sea…</blockquote>",
@@ -115,7 +122,6 @@
         "youtu": "https://youtu.be/Lmhv_ovaetw"
       },
       "tags": [
-        "shacharit",
         "praise"
       ],
       "lyrics": "<p class=\"hebrew\">נִשְׁמַת כָּל חַי, תְּבָרֵךְ אֶת שִׁמְךָ יְיָ אֱלֹהֵינוּ<br/>\nכָּל עַצְמוֹתַי תֹּאמַרְנָה יְיָ מִי כָמוֹךָ</p>\n<p class=\"transliteration\">(nishmat kol chai, t'vareich et shimcha<br/>\nadonai eloheinu)(2x)<br/>\n(kol atzmotai tomarna adonai mi chamocha)(2x)</p>\n<blockquote>The breath of all life praises Your name.<br/>\nAll the bones in my body exclaim 'Who is like you?'</blockquote>",
@@ -137,19 +143,22 @@
           "book": "Psalm",
           "chapter": "42",
           "verse": "3"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
         }
       ],
       "urls": {
         "youtube": "https://www.youtube.com/watch?v=3M88GWbui9g"
       },
       "tags": [
-        "shacharit",
         "nature",
-        "yearning",
         "yom kippur",
         "sukkot"
       ],
-      "lyrics": "<p class=\"hebrew\">כְּאַיָּל תַּעֲרֹג עַל־אֲפִיקֵי־מָיִם<br/>\nכֵּן נַפְשִׁי תַעֲרֹג אֵלֶיךָ אֱלֹהִים<br/>\nצָמְאָה נַפְשִׁי לֵאלֹהִים לְאֵל חָי</p>\n<p class=\"transliteration\">(k'ayal ta'arog al afikei mayim<br/>\nkein nafshi ta'arog eilecha elohim)(2x)<br/>\n(tzamah nafshi leilohim (l'eil chai)(2x)<br/>\ntzamah nafshi)(2x) tzamah nafshi</p>\n<p>[niggun]</p>\n<blockquote>Like a deer longs for streams of water<br/>\nso my soul longs for you, divine one<br/>\nmy soul is thirsty for the holy one, the living God</blockquote>",
+      "lyrics": "<p class=\"hebrew\">כְּאַיָּל תַּעֲרֹג עַל־אֲפִיקֵי־מָיִם<br/>\nכֵּן נַפְשִׁי תַעֲרֹג אֵלֶיךָ אֱלֹהִים<br/>\nצָמְאָה נַפְשִׁי לֵאלֹהִים לְאֵל חָי</p>\n<p class=\"transliteration\">(k'ayal ta'arog al afikei mayim<br/>\nkein nafshi ta'arog eilecha elohim)(2x)<br/>\ntzamah nafshi leilohim (l'eil chai)(2x)<br/>\ntzamah nafshi oh <br/>\ntzamah nafshi leilohim (l'eil chai)(2x)<br/>\n(tzamah nafshi)(2x)</p>\n<p>[niggun]</p>\n<blockquote>Like a deer longs for streams of water<br/>\nso my soul longs for you, divine one<br/>\nmy soul is thirsty for the holy one, the living God</blockquote>",
       "notes": "Intro to sukkot song circle: In addition to guests, we also are in the sukkah to be closer to the presence of god. ",
       "language": "hebrew"
     },
@@ -188,13 +197,17 @@
           "book": "Psalm",
           "chapter": "148",
           "verse": "6"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
         }
       ],
       "urls": {
         "youtu": "https://youtu.be/yElV439cnZw"
       },
       "tags": [
-        "shacharit",
         "praise"
       ],
       "lyrics": "<p class=\"hebrew\">הַלְלוּ־יָהּ</p>\n<p class=\"hebrew\">הַלְלוּ אֶת־יְיָ מִן־הַשָּׁמַיִם הַלְלוּהוּ בַּמְּרוֹמִים<br/>\nהַלְלוּהוּ כׇל־מַלְאָכָיו הַלְלוּהוּ כׇּל־צְבָאָו<br/>\nהַלְלוּהוּ שֶׁמֶשׁ וְיָרֵחַ הַלְלוּהוּ כׇּל־כּוֹכְבֵי אוֹר<br/>\nהַלְלוּהוּ שְׁמֵי הַשָּׁמָיִם וְהַמַּיִם אֲשֶׁר  מֵעַל הַשָּׁמָיִם<br/>\nיְהַלְלוּ אֶת־שֵׁם יְיָ כִּי הוּא צִוָּה וְנִבְרָאוּ<br/>\nוַיַּעֲמִידֵם לָעַד לְעוֹלָם חׇק־נָתַן וְלֹא יַעֲבוֹר</p>\n<p class=\"transliteration\">(hal'luyah)(4x)<br/>\nhal'lu et adonai min hashamayim, hal'luhu bam'romim<br/>\nhal'luhu kol mal'achav, hal'luhu kol tz'va'av<br/>\nhal'luhu shemesh v'yare'ach, hal'luhu kol kochvei or<br/>\nhal'luhu sh'mei hashamayim v'hamayim asher mei'al hashamayim<br/>\n(y'hal'lu et sheim adonai, ki hu tzivah v'nivra'u<br/>\nvaya'amideim la'ad l'olam, chok natan v'lo ya'avor)(2x)</p>\n<blockquote>Hallelujah. Praise God from the heavens; give praise on high. Give praise, all you angels, give praise, all divine hosts. Give praise, sun and moon, give praise, all bright stars. Give praise, highest heavens, and you waters that are above the heavens. Let them praise the name of God who commanded that they be created, and who made them endure forever, establishing an order that shall never change.</blockquote>",
@@ -211,17 +224,21 @@
           "book": "Psalm",
           "chapter": "150",
           "verse": ""
+        },
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
         }
       ],
       "urls": {
         "bandcamp": "https://hebrewpriestess.bandcamp.com/track/praise-elah-shoshana-jedwab-p-126"
       },
       "tags": [
-        "shacharit",
         "feminine god",
         "praise"
       ],
-      "lyrics": "<p>(hallelu (eilah)(2x))(4x)</p>\n<p>hallelu eilah b'kodsha – halleluyah<br/>\nhalleluha birki'a uzah – halleluyah<br/>\nhalleluha bigvuroteha – halleluyah<br/>\nhalleluha k'rov gud'la – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>halleluha b'teika shofar – halleluyah<br/>\nhalleluha b'neivel v'chinor – halleluyah<br/>\nhalleluha b'tof umachol – halleluyah<br/>\nhalleluha b'minim v'ugav – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>halleluha b'tziltz'lei shama – halleluyah<br/>\nhalleluha b'tziltz'lei t'ru'ah – halleluyah<br/>\nkol han'shamah t'hallel yah – halleluyah<br/>\nkol han'shamah t'hallel yah – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>Praise Eilah in Her shrine – halleluyah<br/>\nPraise Her strength from sea to sky – halleluyah<br/>\nPraise Her for Her mighty works – halleluyah<br/>\nPraise the One so generous! – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>Praise Her with the horn and choir – halleluyah<br/>\nPraise Her with the harp and lyre – halleluyah<br/>\nPraise Her with the drum and flute – halleluyah<br/>\nPraise Her with guitar and lute – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>Praise Her playing cymbals sounding – halleluyah<br/>\nPraise Her playing cymbals crashing – halleluyah<br/>\nMay all who breathe keep praising Yah – halleluyah<br/>\nMay all who breathe keep praising Yah – halleluyah<br/>\n(halleluyah)(4x)</p>",
+      "lyrics": "<p>(hallelu (eilah)(2x))(4x)</p>\n<p>hallelu eilah b'kodsha – halleluyah<br/>\nhalleluha birkia uzah – halleluyah<br/>\nhalleluha bigvuroteha – halleluyah<br/>\nhalleluha k'rov gud'la – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>halleluha b'teika shofar – halleluyah<br/>\nhalleluha b'neivel v'chinor – halleluyah<br/>\nhalleluha b'tof umachol – halleluyah<br/>\nhalleluha b'minim v'ugav – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>halleluha b'tziltz'lei shama – halleluyah<br/>\nhalleluha b'tziltz'lei t'ru'ah – halleluyah<br/>\nkol han'shamah t'hallel yah – halleluyah<br/>\nkol han'shamah t'hallel yah – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>Praise Eilah in Her shrine – halleluyah<br/>\nPraise Her strength from sea to sky – halleluyah<br/>\nPraise Her for Her mighty works – halleluyah<br/>\nPraise the One so generous! – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>Praise Her with the horn and choir – halleluyah<br/>\nPraise Her with the harp and lyre – halleluyah<br/>\nPraise Her with the drum and flute – halleluyah<br/>\nPraise Her with guitar and lute – halleluyah<br/>\n(halleluyah)(4x)</p>\n<p>Praise Her playing cymbals sounding – halleluyah<br/>\nPraise Her playing cymbals crashing – halleluyah<br/>\nMay all who breathe keep praising Yah – halleluyah<br/>\nMay all who breathe keep praising Yah – halleluyah<br/>\n(halleluyah)(4x)</p>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -231,12 +248,17 @@
         "Coleen Dieker",
         "Josh Warshawsky"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
+        }
+      ],
       "urls": {
         "youtu": "https://youtu.be/2tnJJOYYTp8"
       },
       "tags": [
-        "shacharit",
         "creation",
         "feminine god"
       ],
@@ -262,7 +284,8 @@
       "tags": [
         "praise",
         "healing",
-        "love"
+        "love",
+        "zipper"
       ],
       "lyrics": "<p class=\"hebrew\">בִּרְכַּת הַנֶּפֶשׁ, בִּרְכַּת הַגּוּף<br/>\nרְפוּאַת הַנֶּפֶשׁ, רְפוּאַת הַגּוּף<br/>\nתְּשׁוּבַת הַנֶּפֶשׁ, תְּשׁוּבַת הַגּוּף<br/>\nאַהֲבַת הַנֶּפֶשׁ, אַהֲבַת הַגּוּף</p>\n<p class=\"transliteration\">((birkat)/(r'fuat)/(t'shuvat)/(ahavat)(2x) hanefesh,<br/>\n(birkat)/(r'fuat)/(t'shuvat)/(ahavat) haguf)(2x)</p>\n<blockquote>(Blessing/healing/returning/love) of the soul and body</blockquote>\n<p>May we bless and be blessed<br/>\nMay we heal and be healed<br/>\nMay we forgive and be forgiven<br/>\nMay we love and be loved</p>",
       "notes": "",
@@ -278,14 +301,25 @@
           "book": "Psalm",
           "chapter": "84",
           "verse": "5"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
+        },
+        {
+          "book": "liturgy",
+          "chapter": "mincha",
+          "verse": ""
         }
       ],
       "urls": {
         "youtube": "https://www.youtube.com/watch?v=J6224Ng_KPQ"
       },
       "tags": [
-        "shacharit",
-        "accelerando"
+        "accelerando",
+        "praise",
+        "justice"
       ],
       "lyrics": "<p class=\"hebrew\">אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה</p>\n<p class=\"transliteration\">(ashrei yoshvei)(2x) veitecha<br/>\nashrei yoshvei veitecha od y'hal'lucha selah</p>\n<blockquote>Happy are those who dwell in Your house;<br/>\nthey forever praise You.</blockquote>\n<p>I sing for you<br/>\nI sing for what is holy and is true<br/>\nI sing for all creation<br/>\nFor life and liberation<br/>\nEveryday anew</p>",
       "notes": "",
@@ -296,12 +330,17 @@
       "authors": [
         "Zweiback"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "maariv",
+          "verse": ""
+        }
+      ],
       "urls": {
         "youtu": "https://youtu.be/77UlxmhK1iY?t=120"
       },
       "tags": [
-        "maariv",
         "peace",
         "protection"
       ],
@@ -314,13 +353,18 @@
       "authors": [
         "Noam Katz"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "maariv",
+          "verse": ""
+        }
+      ],
       "urls": {
         "youtube": "https://www.youtube.com/watch?v=UkhQfqkIo_8",
         "bandcamp": "https://melitamusic.bandcamp.com/track/roll-into-dark"
       },
       "tags": [
-        "maariv",
         "round"
       ],
       "lyrics": "<p>(Roll into dark, roll into light<br/>\nNight becomes day, day turns to night)(2x)</p>\n<p class=\"hebrew\">בּוֹרֵא יוֹם וָלָיְלָה גּוֹלֵל אוֹר מִפְּנֵי חשֶׁךְ וְחשֶׁךְ מִפְּנֵי אוֹר</p>\n<p class=\"transliteration\">borei yom valailah<br/>\n(golel or mip'nei choshech)(2x) v'choshech mip'nei or</p>\n<blockquote>God creates day and night, rolling the light away from the darkness and the darkness away from the light.</blockquote>",
@@ -332,14 +376,22 @@
       "authors": [
         "Elana Brody"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "maariv",
+          "verse": "shema"
+        }
+      ],
       "urls": {
-        "youtu": "https://youtu.be/3t3lqHGD1EU?si=q4peGzWN5yDSQD0m",
+        "youtu": "https://youtu.be/3t3lqHGD1EU",
         "bandcamp": "https://elanabrody.bandcamp.com/track/bshem-hashem"
       },
       "tags": [
-        "maariv",
-        "protection"
+        "protection",
+        "peace",
+        "healing",
+        "feminine god"
       ],
       "lyrics": "<p class=\"hebrew\">בְּשֵׁם יְיָ אֱלֹהֵי יִשְׂרָאֵל<br/>\nמִימִינִי מִיכָאֵל, וּמִשְּׂמֹאלִי גַּבְרִיאֵל<br/>\nוּמִלְּפָנַי אוּרִיאֵל, וּמֵאֲחוֹרַי רְפָאֵל<br/>\nוְעַל רֹאשִׁי שְׁכִינַת אֵל</p>\n<p class=\"transliteration\">b'sheim adonai elohei yisra'eil<br/>\nmimini micha'eil umismoli gavri'eil<br/>\numilfanai uri'eil umei'achorai r'fa'eil<br/>\n(v'al roshi)(2x) sh'chinat el</p>\n<blockquote>In the name of the Lord, the God of Israel, may Michael be at my right hand; Gabriel at my left; before me, Uriel; behind me, Raphael; and above my head the divine presence of God.</blockquote>\n<p>((I am)/(You are)/(We are) surrounded by angels of peace<br/>\n(I am)/(You are)/(We are) protected<br/>\n(I am)/(You are)/(We are) safe at ease)(3x)</p>\n<p>With loving-kindness, to the right<br/>\nAnd to the left, a great shield of might<br/>\nand before my eyes, a guiding light<br/>\nand the flow of healing, from behind</p>\n<p>And up above the holy one<br/>\nHolds me in her presence<br/>\nAnd down below the earth turns slow<br/>\nRocking me like a cradle</p>",
       "notes": "",
@@ -350,13 +402,19 @@
       "authors": [
         "Josh Nelson"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "shma",
+          "verse": ""
+        }
+      ],
       "urls": {
         "youtube": "https://www.youtube.com/watch?v=PrELhowb1Tk"
       },
       "tags": [
-        "maariv",
-        "justice"
+        "justice",
+        "community"
       ],
       "lyrics": "<p>If your (God)/(love)/(heart) is my (God)/(love)/(heart), and my (God)/(love)/(heart) is everything,<br/>\naren't we all, aren't we all, part of one (God)/(love)/(heart)?<br/>\nSo, let your (God)/(love)/(heart) be my (God)/(love)/(heart) and our (God)/(love)/(heart) be everything.<br/>\nOh, we'll all know we're all part of one (God)/(love)/(heart).</p>\n<p>So, open up your heart, to all the lost and lonely.<br/>\nLet no one be alone tonight, before our One and Only.</p>",
       "notes": "",
@@ -380,7 +438,6 @@
         "bandcamp": "https://melitamusic.bandcamp.com/track/peace-like-a-river-2"
       },
       "tags": [
-        "maariv",
         "peace",
         "love",
         "nature"
@@ -405,17 +462,22 @@
           "book": "piyyut",
           "chapter": "Daniel ben Yehuda Dayan",
           "verse": "yigdal"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "maariv",
+          "verse": ""
         }
       ],
       "urls": {
         "dropbox": "https://www.dropbox.com/scl/fi/oyw80levek83ah5b15iif/Tigdal.m4a?rlkey=4woa17v92mgmu4kib4af5q7lx&st=l5ovvupb&dl=0"
       },
       "tags": [
-        "maariv",
-        "feminine god"
+        "feminine god",
+        "praise"
       ],
       "lyrics": "<p class=\"hebrew\">תִּגְדַּל שְׁכִינַת עוֹלָם וּנְשַׁבְּחָהּ,<br/>\nבַּכֹּל וְאֵין מָקוֹם פָּנוּי מִשְּׁכִינָתָהּ.</p>\n<p class=\"transliteration\">tigdal sh'chinat olam, un'shab'chah<br/>\nbakol v'ein makom, panu mishchinatah</p>\n<blockquote>May the cosmic presence, Shekhinah, be esteemed, we shall give Her praise. Contained in all, there is no place apart from Her.</blockquote>\n<p class=\"hebrew\">אַחַת וְכָל יָחִיד כָּלוּל בְּיִחוּדָהּ,<br/>\nנֶעְלָמָה וְאֵין קָצֶה לְאַחְדוּתָהּ.</p>\n<p class=\"transliteration\">achat v'chol yachid, kalul b'yichudah<br/>\nne'lamah v'ein, katzeh l'achdutah</p>\n<blockquote>Each and everyone of us is part of the unique.<br/>\nInvisible, Her unity is boundless.</blockquote>\n<p class=\"hebrew\">לֹא גּוּף וְלֹא פָּנִים לְדַמּוֹתָהּ,<br/>\nוְעֵרֵֶך מֵעַל כֹּל לִקְדֻשָּׁתָהּ.</p>\n<p class=\"transliteration\">lo guf v'lo panim, l'damotah<br/>\nv'eirech mei'al, kol likdushatah</p>\n<blockquote>No body, nor face, to which She is alike.<br/>\nHer holiness has value that’s supreme.</blockquote>\n<p class=\"hebrew\">קְדוּמָה לְכָל אֲשֶׁר בִּיצִירָתָהּ,<br/>\nרֵאשִׁית וְאֵין תְּחִלָּה לְרֵאשִׁיתָהּ.</p>\n<p class=\"transliteration\">k'dumah l'chol asher, bitziratah<br/>\nreishit v'ein t'chilah, l'reishitah</p>\n<blockquote>Preceding all within Her own creation,<br/>\nthe very first, without beginning.</blockquote>\n<p class=\"hebrew\">עוֹלָם וַאֲשֶׁר בּוֹ בָּבַת עֵינָהּ,<br/>\nאוֹרָהּ מֵאִיר גְּדֻלָּתָהּ וּמַלְכוּתָהּ.</p>\n<p class=\"transliteration\">olam va'asher bo, bavat einah<br/>\norah mei'ir g'dulatah, u'malchutah</p>\n<blockquote>The contents of the world in the pupil of Her eye,<br/>\nHer light shining on that greatness and majesty.</blockquote>\n<p class=\"hebrew\">שְׁפִיעַת נְבוּאָתָהּ הֶעֱנִיקָה,<br/>\nלְכָל אֲשֶׁר הֵם סְגֻלָּתָהּ וְתִפְאַרְתָּהּ.</p>\n<p class=\"transliteration\">sh'fi'at n'vu'atah, he'enikah<br/>\nl'chol asher heim, s'gulatah v'tif'artah</p>\n<blockquote>She provided prophecy to flow<br/>\nto those who are Her splendor and Her glory.</blockquote>\n<p class=\"hebrew\">רוֹעֶה אֲשֶׁר סִבְלוֹת אֶחָיו רָאָה,<br/>\nהִבִּיט בְּאַסְפַּקְלְַריָה מְאִירָה.</p>\n<p class=\"transliteration\">ro'eh asher sivlot, echav ra'ah<br/>\nhibit b'aspaklar'yah, m'irah</p>\n<blockquote>The shepherd, who knew his people’s pain<br/>\nsaw the light through a radiant prism.</blockquote>\n<p class=\"hebrew\">תּוֹרַת אֱמֶת נָתְנָה לְיִשְׂרָאֵל עַמָּהּ,<br/>\nנוֹבַעַת הִיא לְכָל אֲשֶׁר בְּעוֹלָמָהּ.</p>\n<p class=\"transliteration\">torat emet natnah, l'yisra'eil amah<br/>\nnova'at hi l'chol, asher b'olamah</p>\n<blockquote>She gave Her people Israel a Torah of truth,<br/>\nit streams to all, throughout the world.</blockquote>\n<p class=\"hebrew\">לֹא נַחְלִיפָהּ וְלֹא נָמִיר דַּרְכָּהּ,<br/>\nוּנְבַקֵּשׁ פָּנֶיהָ וְקִרְבָתָהּ.</p>\n<p class=\"transliteration\">lo nachlifah v'lo namir, darkah<br/>\nun'vakeis paneha, v'kirvatah</p>\n<blockquote>We will not find another, nor replace Her path,<br/>\nbut only seek Her countenance and closeness</blockquote>\n<p class=\"hebrew\">צוֹפָה וּמְבִינָה כָּל סֵתֶר וּסְתִירָה,<br/>\nוּמְלַוָּה מִקֶּדֶם בְּאַהֲבָתָהּ.</p>\n<p class=\"transliteration\">tzofah umvinah, kol seiter ustirah<br/>\num'lavah mikedem, b'ahavatah</p>\n<blockquote>Discerning the hidden and the paradoxical,<br/>\nHer love has attended us forever</blockquote>\n<p class=\"hebrew\">לְכָל אִשָּׁה וָאִישׁ גּוֹמֶלֶת בְּחַסְדָּהּ,<br/>\nוּבְטוּבָהּ צִוְּתָה לָנוּ ”וּבָחַרְתָּ.“</p>\n<p class=\"transliteration\">l'chol ishah va'ish gomelet, b'chasdah<br/>\nuvtuvah tzivtah lanu, uvacharta</p>\n<blockquote>Touching each woman and man with kindness,<br/>\nHer good will commands us to “choose life.”</blockquote>\n<p class=\"hebrew\">עוֹד לֹא אָבְדָה תִּקְוָה לַגְּאֻלָּה,<br/>\nלִפְדוּת כָּל הַמְּחַכִּים לִישׁוּעָתָהּ.</p>\n<p class=\"transliteration\">od lo avdah tikvah, lag'ulah<br/>\nlifdut kol hamchakim, lishu'atah</p>\n<blockquote>The hope has not been lost for redemption,<br/>\nto rescue all who long for Her salvation.</blockquote>\n<p class=\"hebrew\">נִשְׁמַת כָּל חַי בְּחֶסֶד בִּרְכָתָהּ,<br/>\nוּנְבָרֵךְ עֲדֵי עַד שְׁמָהּ וּתְהִלָּתָהּ.</p>\n<p class=\"transliteration\">nishmat kol chai, b’chesed birchatah<br/>\nun'vareich adei ad, sh'mah ut'hilatah</p>\n<blockquote>She blessed all souls alive with compassion.<br/>\nWe will bless Her name, devoted forever.</blockquote>",
-      "notes": "",
+      "notes": "This song involved singing the Tigdal text to the Yigdal tune by Joey Weisenberg.\n\nTigdal text located on opensiddur project: https://opensiddur.org/prayers/solilunar/everyday/daytime/baqashot/tigdal-by-oded-mazor/",
       "language": ""
     },
     {
@@ -441,7 +503,7 @@
       "tags": [
         "food"
       ],
-      "lyrics": "<p class=\"hebrew\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p class=\"transliteration\">v'achalta, v'savata, u'veirachta</p>\n<blockquote>Eat, be satisfied, and bless</blockquote>\n<p>We ate when we were hungry,<br/>\nand now we're satisfied.<br/>\nWe thank the source of blessing<br/>\nfor all that God provides.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>Hunger is a yearning<br/>\nin body and in soul.<br/>\nEarth, air, fire, water,<br/>\nand spirit make us whole.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>Giving and receiving,<br/>\nwe open up our hands.<br/>\nFrom seedtime through the harvest,<br/>\nwe're partners with the land.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>We all share a vision<br/>\nof wholeness and release,<br/>\nwhere every child is nourished<br/>\nand we all live in peace.</p>\n<p class=\"hebrew-refrain-western\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>",
+      "lyrics": "<p class=\"hebrew\">וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p class=\"transliteration\">v'achalta, v'savata, u'veirachta</p>\n<blockquote>Eat, be satisfied, and bless</blockquote>\n<p>We ate when we were hungry,<br/>\nand now we're satisfied.<br/>\nWe thank the source of blessing<br/>\nfor all that God provides.</p>\n<p>וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>Hunger is a yearning<br/>\nin body and in soul.<br/>\nEarth, air, fire, water,<br/>\nand spirit make us whole.</p>\n<p>וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>Giving and receiving,<br/>\nwe open up our hands.<br/>\nFrom seedtime through the harvest,<br/>\nwe're partners with the land.</p>\n<p>וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>\n<p>We all share a vision<br/>\nof wholeness and release,<br/>\nwhere every child is nourished<br/>\nand we all live in peace.</p>\n<p>וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ</p>",
       "notes": "This uses lyrics updated by Adamah Fellows 2014, and further updated by Mark Goldman and Molly Fisch-Friedman to un-gender the translation of god. ",
       "language": "english and hebrew"
     },
@@ -486,9 +548,11 @@
       },
       "tags": [
         "shabbat",
-        "love"
+        "love",
+        "yearning",
+        "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">הָדוּר נָאֶה זִיו הָעוֹלָם, נַפְשִׁי חוֹלַת אַהֲבָתֶֽךָ</p>\n<p class=\"transliteration\">hadur na'eh, ziv ha'olam, nafshi cholat ahavatach</p>\n<blockquote>Perfect, Pleasing, Radiance of the Universe, my soul is sick for your love.</blockquote>\n<p>((I am yearning)(2x) (yearning)(3x) for your love)(2x)<br/>\n(We are yearning)(2x) (yearning)(3x) for your love</p>",
+      "lyrics": "<p class=\"hebrew\">הָדוּר נָאֶה זִיו הָעוֹלָם, נַפְשִׁי חוֹלַת אַהֲבָתֶֽךָ</p>\n<p class=\"transliteration\">(hadur na'eh ziv ha'olam (<i>nafshi</i>) (<i>cholat</i>) ahavatech)(3x)<br/>\n(<i>nafshi</i>) (<i>cholat</i>) ahavatech</p>\n<blockquote>Perfect, Pleasing, Radiance of the Universe, my soul is sick for your love.</blockquote>\n<p>((I am yearning)(2x) (<i>yearning</i>)(2x) yearning for your love)(2x)<br/>\n(We are yearning)(2x) (<i>yearning</i>)(2x) yearning for your love<br/>\n(<i>yearning</i>)(2x) yearning for your love</p>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -509,9 +573,10 @@
       },
       "tags": [
         "shabbat",
-        "nature"
+        "nature",
+        "praise"
       ],
-      "lyrics": "<p class=\"hebrew\">יִשְׂמְחוּ הַשָּׁמַיִם, וְתָגֵל הָאָרֶץ; יִרְעַם הַיָּם, וּמְלֹאוֹ</p>\n<p class=\"transliteration\">(yism'chu hashamayim (3x), vetagel ha'aretz)(2x),<br/>\n(yir'am hayam (3x) umlo'o)(2x)</p>\n<blockquote>Let the heavens be glad, and let the earth rejoice;<br/>\nlet the sea and all within it thunder.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">יִשְׂמְחוּ הַשָּׁמַיִם וְתָגֵל הָאָרֶץ; יִרְעַם הַיָּם וּמְלֹאוֹ</p>\n<p class=\"transliteration\">((yism'chu hashamayim)(3x) v'tagel ha'aretz)(2x),<br/>\n((yiram hayam)(3x) umlo'o)(2x)</p>\n<blockquote>Let the heavens be glad, and let the earth rejoice;<br/>\nlet the sea and all within it thunder.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -531,7 +596,9 @@
         "youtube": "https://www.youtube.com/watch?v=OEBWCtssjVI"
       },
       "tags": [
-        "shabbat"
+        "shabbat",
+        "nature",
+        "praise"
       ],
       "lyrics": "<p class=\"hebrew\">יַעֲלֹז שָׂדַי וְכׇל־אֲשֶׁר־בּוֹ אָז יְרַנְּנוּ כׇּל־עֲצֵי־יָעַר</p>\n<p class=\"transliteration\">(ya'aloz sadai v'chol asher bo <br/>\nya'aloz sadai (ay)(5x))(2x)<br/>\n(az y'ran'nu kol atzei ya'ar)(4x)</p>\n<blockquote>Let the field and everything in them exalt; then all the trees of the forest shout for joy.</blockquote>",
       "notes": "",
@@ -578,7 +645,7 @@
         }
       ],
       "urls": {
-        "youtu": "https://youtu.be/VbpgBYchniA?si=WI8reyOhXmtHge_l"
+        "youtu": "https://youtu.be/VbpgBYchniA"
       },
       "tags": [
         "shabbat"
@@ -608,11 +675,12 @@
         "youtu": "https://youtu.be/vBKi418gw4U"
       },
       "tags": [
-        "shabbat"
+        "shabbat",
+        "praise"
       ],
       "lyrics": "<p class=\"hebrew\">טוֹב לְהֹדוֹת לַיי , וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן<br/>\nלְהַגִּיד בַּבֹּֽקֶר חַסְדֶּֽךָ, וֶאֱמוּנָתְךָ בַּלֵּילוֹת</p>\n<p class=\"transliteration\">(tov l'hodot l'adonai ul'zameir l'shimcha elyon)(2x)<br/>\n(l'hagid baboker chasdecha v'emunatcha baleilot)(2x)</p>\n<blockquote>It is good to praise God, to proclaim your steadfast love at daybreak, and your faithfulness each night.</blockquote>",
       "notes": "",
-      "language": ""
+      "language": "hebrew"
     },
     {
       "title": "Oseh shalom",
@@ -632,8 +700,8 @@
       "tags": [
         "shabbat"
       ],
-      "lyrics": "<p class=\"hebrew\">עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ<br/>\nוְעַל כָּל יִשְׂרָאֵל, וְעַל כָּל־יוֹשְׁבֵי תֵבֵל, וְאִמְרוּ: אָמֵן</p>\n<p class=\"transliteration\">oseh shalom bim'romav, hu ya'aseh shalom aleinu<br/>\nv'al kol yisra'eil v'al kol yoshvei teiveil v'imru amen</p>\n<blockquote>May the one who creates peace on high bring peace to us and to all Israel and to all who dwell on earth.<br/>\nAnd we say: Amen.</blockquote>",
-      "notes": "",
+      "lyrics": "<p class=\"hebrew\">עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ<br/>\nוְעַל כָּל יִשְׂרָאֵל, וְעַל כָּל־יוֹשְׁבֵי תֵבֵל, וְאִמְרוּ: אָמֵן</p>\n<p class=\"transliteration\">(oseh shalom bimromav, hu ya'aseh shalom aleinu<br/>\nv'al kol yisra'eil v'al kol yoshvei teiveil v'imru-imru amen)(2x)<br/>\n[niggun]</p>\n<blockquote>May the one who creates peace on high bring peace to us and to all Israel and to all who dwell on earth.<br/>\nAnd we say: Amen.</blockquote>",
+      "notes": "Added '-imru', which is not in the original recording.",
       "language": "hebrew"
     },
     {
@@ -648,7 +716,7 @@
       "tags": [
         "shabbat"
       ],
-      "lyrics": "<p class=\"hebrew\">מַה־יָפֶה הַיוֹם שַׁבַּת שָׁלוֹם</p>\n<p class=\"transliteration\">(mah yafeh hayom, shabbat shalom)(2x)<br/>\n(shabbat, shabbat shalom)(3x), shabbat shalom.</p>\n<blockquote>How beautiful this day is, Shabbat Shalom.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">מַה־יָפֶה הַיוֹם שַׁבַּת שָׁלוֹם</p>\n<p class=\"transliteration\">(mah yafeh hayom shabbat shalom)(2x)<br/>\n(shabbat shabbat shalom)(3x) shabbat shalom</p>\n<blockquote>How beautiful this day is, Shabbat Shalom.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -721,7 +789,7 @@
       "tags": [
         "havdalah"
       ],
-      "lyrics": "<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הַגָּֽפֶן</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam <br/>\n(borei p'ri hagafen)(2x)</p>\n<blockquote>We praise You, Adonai our God, Sovereign of all, Creator of the fruit of the vine.</blockquote>\n<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, בּוֹרֵא מִינֵי בְשָׂמִים</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam<br/>\n(borei minei v'samim)(2x)</p>\n<blockquote>We praise You, Adonai our God, Sovereign of all, Creator of varied spices.</blockquote>\n<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, בּוֹרֵא מְאוֹרֵי הָאֵשׁ</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam <br/>\n(borei m'orei ha'esh)(2x)</p>\n<blockquote>We praise You, Adonai our God, Sovereign of all, Creator of the lights of fire.</blockquote>\n<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם,<br/>\nהַמַּבְדִיל בֵּין קֹֽדֶשׁ לְחוֹל, בֵּין אוֹר לְחֹֽשֶׁךְ,<br/>\nבֵּין יִשְׂרָאֵל לָעַמִּים,<br/>\nבֵּין יוֹם הַשְּׁבִיעִי לְשֵֽׁשֶׁת יְמֵי הַמַּעֲשֶׂה.<br/>\nבָּרוּךְ אַתָּה יְיָ, הַמַּבְדִיל בֵּין קֹֽדֶשׁ לְחוֹל.</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam<br/>\nhamavdil bein kodesh l'chol bein or l'choshech<br/>\nbein yisra'eil la'amim<br/>\nbein yom hashvi'i l'sheishet y'mei hama'aseh<br/>\nbaruch atah adonai hamavdil bein kodesh l'chol</p>\n<blockquote><em>We praise You, Adonai our God, Sovereign of all, who distinguishes between holy and ordinary, between light and dark, between Israel and the nations, between the seventh day and the six days of work. We praise You, Adonai who distinguishes holy and ordinary.</em></blockquote>",
+      "lyrics": "<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, בּוֹרֵא פְּרִי הַגָּֽפֶן</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam <br/>\n(borei p'ri hagafen)(2x)</p>\n<blockquote>We praise You, Adonai our God, Sovereign of all, Creator of the fruit of the vine.</blockquote>\n<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, בּוֹרֵא מִינֵי בְשָׂמִים</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam<br/>\n(borei minei v'samim)(2x)</p>\n<blockquote>We praise You, Adonai our God, Sovereign of all, Creator of varied spices.</blockquote>\n<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם, בּוֹרֵא מְאוֹרֵי הָאֵשׁ</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam <br/>\n(borei m'orei ha'esh)(2x)</p>\n<blockquote>We praise You, Adonai our God, Sovereign of all, Creator of the lights of fire.</blockquote>\n<p class=\"hebrew\">בָּרוּךְ אַתָּה יְיָ, אֱלֹהֵֽינוּ מֶֽלֶךְ הָעוֹלָם,<br/>\nהַמַּבְדִיל בֵּין קֹֽדֶשׁ לְחוֹל, בֵּין אוֹר לְחֹֽשֶׁךְ,<br/>\nבֵּין יִשְׂרָאֵל לָעַמִּים,<br/>\nבֵּין יוֹם הַשְּׁבִיעִי לְשֵֽׁשֶׁת יְמֵי הַמַּעֲשֶׂה.<br/>\nבָּרוּךְ אַתָּה יְיָ, הַמַּבְדִיל בֵּין קֹֽדֶשׁ לְחוֹל.</p>\n<p class=\"transliteration\">baruch atah adonai eloheinu melech ha'olam<br/>\nhamavdil bein kodesh l'chol bein or l'choshech<br/>\nbein yisra'eil la'amim<br/>\nbein yom hashvi'i l'sheishet y'mei hama'aseh<br/>\nbaruch atah adonai hamavdil bein kodesh l'chol</p>\n<blockquote>We praise You, Adonai our God, Sovereign of all, who distinguishes between holy and ordinary, between light and dark, between Israel and the nations, between the seventh day and the six days of work. We praise You, Adonai who distinguishes holy and ordinary.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -833,7 +901,7 @@
       "tags": [
         "havdalah"
       ],
-      "lyrics": "<p class=\"hebrew\">מִרְיָם הַנְּביִאָה<br/>\nעֹז וְזִמְרָה בְּיָדָהּ<br/>\nמִרְיָם תִּרְקֹד אִתָּֽנוּ<br/>\nלְהַגְדִּיל זִמְרַת עוֹלָם<br/>\nמִרְיָם תִּרְקֹד אִתָּֽנוּ<br/>\nלְתַקֵּן אֶת הָעוֹלָם<br/>\nבִּמְהֵרָה בְיָמֵֽינוּ הִיא תְּבִיאֵֽינוּ<br/>\nאֶל מֵי הַיְשׁוּעָה</p>\n<p class=\"transliteration\">miriam han'viah<br/>\noz v'zimrah b'yadah<br/>\nmiriam tirkod itanu<br/>\nl'hagdil zimrat olam<br/>\nmiriam tirkod itanu<br/>\nl'takein et ha'olam<br/>\nbimheirah v'yameinu hi t'vieinu<br/>\n(el mei hay'shua)(2x)</p>\n<blockquote>Miriam the prophet, the power of song is in her hand. Miriam will dance among us and the music will be heard far and wide. Miriam will dance among us to mend our world of suffering. May she lead us, in our time, without delay, to the waters of help and healing.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">מִרְיָם הַנְּביִאָה<br/>\nעֹז וְזִמְרָה בְּיָדָהּ<br/>\nמִרְיָם תִּרְקֹד אִתָּֽנוּ<br/>\nלְהַגְדִּיל זִמְרַת עוֹלָם<br/>\nמִרְיָם תִּרְקֹד אִתָּֽנוּ<br/>\nלְתַקֵּן אֶת הָעוֹלָם<br/>\nבִּמְהֵרָה בְיָמֵֽינוּ הִיא תְּבִיאֵֽינוּ<br/>\nאֶל מֵי הַיְשׁוּעָה</p>\n<p class=\"transliteration\">miriam han'viah<br/>\noz v'zimrah b'yadah<br/>\nmiriam tirkod itanu<br/>\nl'hagdil zimrat olam<br/>\nmiriam tirkod itanu<br/>\nl'takein et ha'olam<br/>\nbimheirah v'yameinu hi t'vi'einu<br/>\n(el mei hay'shuah)(2x)</p>\n<blockquote>Miriam the prophet, the power of song is in her hand. Miriam will dance among us and the music will be heard far and wide. Miriam will dance among us to mend our world of suffering. May she lead us, in our time, without delay, to the waters of help and healing.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -856,7 +924,7 @@
         "havdalah",
         "drumming"
       ],
-      "lyrics": "<p class=\"hebrew\">תִּקַּח מִרְיָם הַנְּבִיאָה אֶת־הַתֹּף בְּיָדֶיהָ<br/>\nוַתֵּצֶאןָ כׇל־הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹת</p>\n<p class=\"transliteration\">(tikach eleha miryam hanevi'a et hatof b'yadeha)(2x)<br/>\n(vateitze-vateitzena kol hanashim achareha<br/>\nvateitze-vateitzena)(2x)<br/>\n(betupim uvimcholot vateitze-vateitzena)(2x)</p>\n<blockquote>The prophet Miriam takes the drum to her hands, and all the women came out after her, in drums and in dance</blockquote>",
+      "lyrics": "<p class=\"hebrew\">תִּקַּח מִרְיָם הַנְּבִיאָה אֶת־הַתֹּף בְּיָדֶיהָ<br/>\nוַתֵּצֶאןָ כׇל־הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹת</p>\n<p class=\"transliteration\">(tikach eleha miryam hanevi'a et hatof b'yadeha)(2x)<br/>\n(vateitze-vateitzena chol hanashim achareha<br/>\nvateitze-vateitzena)(2x)<br/>\n(betupim uvimcholot vateitze-vateitzena)(2x)</p>\n<blockquote>The prophet Miriam takes the drum to her hands, and all the women came out after her, in drums and in dance</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -878,7 +946,7 @@
       "tags": [
         "havdalah"
       ],
-      "lyrics": "<p class=\"hebrew\">מִרְיָם הַנְּביִאָה<br/>\nעֹז וְזִמְרָה בְּיָדָהּ<br/>\nמִרְיָם תִּרְקֹד אִתָּנוּ<br/>\nלְהַגְדִּיל זִמְרַת עוֹלָם<br/>\nמִרְיָם תִּרְקֹד אִתָּנוּ<br/>\nלְתַקֵּן אֶת הָעוֹלָם<br/>\nבִּמְהֵרָה בְיָמֵינוּ הִיא תְּבִיאֵינוּ<br/>\nאֶל מֵי הַיְשׁוּעָה</p>\n<p class=\"transliteration\">(miriam han'viah<br/>\n(oz)(2x) v'zimrah b'yadah)(2x)<br/>\n(bimheirah v'yameinu hi t'vieinu<br/>\n(el)(2x) mei hay'shu'a)(2x)<br/>\nmiriam tirkod itanu<br/>\nl'hagdil zimrat olam<br/>\nmiriam tirkod itanu<br/>\nl'takein et ha'olam<br/>\n(bimheirah v'yameinu hi t'vieinu<br/>\n(el)(2x) mei hay'shu'a)(2x)</p>\n<blockquote>Miriam the prophet, the power of song is in her hand. Miriam will dance among us and the music will be heard far and wide. Miriam will dance among us to mend our world of suffering. May she lead us, in our time, without delay, to the waters of help and healing.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">מִרְיָם הַנְּביִאָה<br/>\nעֹז וְזִמְרָה בְּיָדָהּ<br/>\nמִרְיָם תִּרְקֹד אִתָּנוּ<br/>\nלְהַגְדִּיל זִמְרַת עוֹלָם<br/>\nמִרְיָם תִּרְקֹד אִתָּנוּ<br/>\nלְתַקֵּן אֶת הָעוֹלָם<br/>\nבִּמְהֵרָה בְיָמֵינוּ הִיא תְּבִיאֵינוּ<br/>\nאֶל מֵי הַיְשׁוּעָה</p>\n<p class=\"transliteration\">(miriam han'viah<br/>\n(oz)(2x) v'zimrah b'yadah)(2x)<br/>\n(bimheirah v'yameinu hi t'vieinu<br/>\n(el)(2x) mei hay'shua)(2x)<br/>\nmiriam tirkod itanu<br/>\nl'hagdil zimrat olam<br/>\nmiriam tirkod itanu<br/>\nl'takein et ha'olam<br/>\n(bimheirah v'yameinu hi t'vi'einu<br/>\n(el)(2x) mei hay'shua)(2x)</p>\n<blockquote>Miriam the prophet, the power of song is in her hand. Miriam will dance among us and the music will be heard far and wide. Miriam will dance among us to mend our world of suffering. May she lead us, in our time, without delay, to the waters of help and healing.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -980,7 +1048,7 @@
         "hallel"
       ],
       "lyrics": "<p class=\"hebrew\">מִן הַמֵּצַר קָרָאתִי יָּהּ, עָנָּנִי בַמֶרְחַב יָהּ<br/>\nיי לִי לֹא אִירָא מַה יַּעֲשֶׂה לִי אָדָם</p>\n<p class=\"transliteration\">(min hameitzar karati yah anani vamerchav yah)(4x)<br/>\n(adonai li lo ira mah (ya'aseh)(2x) li adam<br/>\nadonai li lo ira oh mah ya'aseh li adam)(2x)</p>\n<blockquote>From the narrow I called to the Lord,<br/>\nGod answered me in the great freedom of space.</blockquote>",
-      "notes": "",
+      "notes": "This is sung on the rosh chodesh hallel and pesach hallel.",
       "language": "hebrew"
     },
     {
@@ -1025,7 +1093,7 @@
         {
           "book": "Psalm",
           "chapter": "118",
-          "verse": "4"
+          "verse": "14"
         }
       ],
       "urls": {
@@ -1036,7 +1104,7 @@
         "feminine god"
       ],
       "lyrics": "<p class=\"hebrew\">עָזִּי וְזִמְרָת תָּהּ וַתְּהִי־לִי לִישׁוּעָה<br/>\n זֹאת אֵלָתִי וְאַנְוֵהָ אֱלֹהֹת אִמִּי וַאֲרֹמְמֶנְהָ</p>\n<p class=\"transliteration\">(elohot)(4x)<br/>\n((ozi)(2x) v'zimrat tah<br/>\n(vat'hi li)(2x) lishu'ah)(2x)<br/>\n(elohot)(2x) imi va'arom'menha<br/>\nelohot imi<br/>\nohhhh (zot eilati (v'anveiha)(2x))(4x)<br/>\n(elohot)(4x)<br/>\n((ozi)(2x) v'zimrat tah<br/>\n(vat'hi li)(2x) lishuah)(2x)<br/>\nohhhh (zot eilati (v'anveiha)(2x))(8x)<br/>\n(elohot)(8x)</p>\n<blockquote>My strength and the song of Tah are my rescue. This is my Goddess and I embellish Her the Goddesses of my mother and I exalt Her.</blockquote>",
-      "notes": "",
+      "notes": "For both rosh chodesh and full hallel.",
       "language": "hebrew"
     },
     {
@@ -1083,7 +1151,8 @@
         "youtube": "https://www.youtube.com/watch?v=UcOA3dkDq-U"
       },
       "tags": [
-        "Hallel"
+        "hallel",
+        "round"
       ],
       "lyrics": "<p class=\"hebrew\">זֶה־הַיּוֹם עָשָׂה יְיָ נָגִילָה וְנִשְׂמְחָה בוֹ</p>\n<p class=\"transliteration\">zeh hayom asah adonai nagilah v'nismechah vo</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it.</blockquote>",
       "notes": "",
@@ -1163,10 +1232,11 @@
       },
       "tags": [
         "hallel",
-        "creation"
+        "creation",
+        "pesach"
       ],
       "lyrics": "<p class=\"hebrew\">כִּי מֵעוֹלָם וְעַד עוֹלָם אַתָּה אֵל</p>\n<p class=\"transliteration\">((ki mei'olam)(2x) v'ad olam<br/>\nki mei'olam v'ad olam)(2x)<br/>\n(ki mei'olam)(2x) v'ad olam atah el<br/>\n(ki mei'olam v'ad olam)(2x) atah el</p>\n<blockquote>Before time and forever You are The Source of Life.</blockquote>",
-      "notes": "",
+      "notes": "This is recited in both rosh chodesh and pesach hallel",
       "language": "hebrew"
     },
     {
@@ -1195,7 +1265,8 @@
     {
       "title": "Od y'nuvun",
       "authors": [
-        "Molly Bajgot"
+        "Molly Bajgot",
+        "Noah Wasserman Weinberg"
       ],
       "sources": [
         {
@@ -1208,7 +1279,8 @@
         "soundcloud": "https://soundcloud.com/mollybajgot/od-ynuvun-ripening-in-its-time"
       },
       "tags": [
-        "shabbat"
+        "shabbat",
+        "justice"
       ],
       "lyrics": "<p class=\"hebrew\">עוֹד יְנוּבוּן בְּשֵׂיבָה דְּשֵׁנִים וְרַעֲנַנִּים יִהְיוּ</p>\n<p>(od y'nuvun b'seivah)(2x)<br/>\n(d'sheinim v'ra'ananim yehiyu)(2x)<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)<br/>\n(yehiyu)(6x)<br/>\n[niggun]<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)</p>\n<blockquote>In old age the righteous still produce fruit;<br/>\nthey are full of sap and aliveness.</blockquote>\n<p>Like the fruit of the vine, ripening in its time<br/>\nlike the fruit of the vine, bringing sweetness of the divine</p>",
       "notes": "",
@@ -1231,7 +1303,8 @@
       },
       "tags": [
         "slichot",
-        "rosh hashanah"
+        "rosh hashanah",
+        "round"
       ],
       "lyrics": "<p>(Turning, turning, and returning<br/>\nTurn me back to (you)/(me))(2x)</p>\n<p class=\"hebrew\">הֲשִׁיבֵנוּ יְיָ  אֵלֶיךָ וְנָשׁוּבָה</p>\n<p class=\"transliteration\">hashiveinu adonai eilecha<br/>\nhashiveinu adonai v'nashuva</p>\n<blockquote>Take us back, God, to yourself, and let us come back.</blockquote>",
       "notes": "",
@@ -1268,7 +1341,8 @@
         "youtube": "https://www.youtube.com/watch?v=NSeiHVN3f2o"
       },
       "tags": [
-        "slichot"
+        "slichot",
+        "praise"
       ],
       "lyrics": "<p class=\"hebrew\">אֲהַלְלָה יְיָ בְּחַיָּי אֲזַמְּרָה לֵאלֹהַי בְּעוֹדִי׃<br/>\nאַל תִּבְטְחוּ בִנְדִיבִים בְּבֶן־אָדָם שֶׁאֵֽין לוֹ תְשׁוּעָה<br/>\nתֵּצֵא רוּחוֹ יָשֻׁב לְאַדְמָתוֹ בַּיּוֹם הַהוּא אָבְדוּ עֶשְׁתֹּנֹתָיו׃<br/>\nאַשְׁרֵי שֶׁאֵל יַעֲקֹב בְּעֶזְרוֹ שִׂבְרוֹ עַל יְיָ אֱלֹהָיו׃</p>\n<p class=\"transliteration\">(a'hallela adonai b'chayai azam'ra l'elohai b'odi)(2x)<br/>\n(al tivtichu vin'divim<br/>\nb'ven adam she'ein lo t'shu'ah<br/>\nteitzei rucho yashuv l'admato<br/>\nbayom hahu av'du eshtonotav)(2x)<br/>\n(ashrei she'eil ya'akov b'ezro, sivro al adonai elohav)(2x)</p>\n<blockquote>I will praise God all my life, make music to my God while I still exist. Don't put your trust in oligarchs, in humans who cannot save. Their breath departs, they return to the dust, and then their plans come to nothing. Happy is the one who has the God of Jacob for their help, whose hope is in Adonai their God.</blockquote>",
       "notes": "",
@@ -1389,7 +1463,7 @@
         "round"
       ],
       "lyrics": "<p class=\"hebrew\">אַחַת שָׁאַלְתִּי מֵאֵת־יְיָ, אוֹתָהּ אֲבַקֵּשׁ<br/>\nשִׁבְתִּי בְּבֵית־יְיָ כָּל־יְמֵי חַיַּי לַחֲזוֹת בְּנֹעַם־יְיָ<br/>\nוּלְבַקֵּר בְּהֵיכָלוֹ</p>\n<p class=\"transliteration\">(achat sha'alti mei'eit adonai<br/>\nachat sha'alti otah avakeish)(2x)<br/>\n((shivti)(2x) b'veit adonai<br/>\n(shivti)(2x) kol y'mei chayai)(2x)<br/>\n((One thing)(2x) I ask you adonai<br/>\nTo be with (you)/(me) all of my life)(2x)</p>\n<blockquote>One thing I ask of God<br/>\nonly this do I seek<br/>\nto live in the house of the Lord<br/>\nall the days of my life<br/>\nto gaze upon the beauty of God<br/>\nto return again and again to the Holy palace</blockquote>",
-      "notes": "",
+      "notes": "We have removed the lyrics \"Lachazot b'noam Adonai Ulvakeir b'heichalo. To gaze upon the beauty of Adonai\" in order for the lyrics to better fit as a round.",
       "language": "english and hebrew"
     },
     {
@@ -1408,9 +1482,10 @@
         "youtu": "https://youtu.be/c8FLiIkJ9n4"
       },
       "tags": [
-        "slichot"
+        "slichot",
+        "havayah"
       ],
-      "lyrics": "<p class=\"hebrew\">שְׁמַע־יְיָ קוֹלִי אֶקְרָא וְחׇנֵּנִי וַעֲנֵנִיי</p>\n<p class=\"transliteration\">(v'choneini oh va'aneini)(2x)<br/>\n(koli ekra)(4x)<br/>\n(shema (havayah)(2x) (shema)(2x))(2x)</p>\n<blockquote>Hear God when I cry aloud;<br/>\nhave mercy on me, answer me.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">שְׁמַע־יְיָ קוֹלִי אֶקְרָא וְחׇנֵּנִי וַעֲנֵנִיי</p>\n<p class=\"transliteration\">(v'choneini oh va'aneini)(2x)<br/>\n(koli ekra)(4x)<br/>\n(sh'ma (havayah)(2x) (sh'ma)(2x))(2x)</p>\n<blockquote>Hear God when I cry aloud;<br/>\nhave mercy on me, answer me.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1472,7 +1547,12 @@
         {
           "book": "Psalm",
           "chapter": "130",
-          "verse": "1-2"
+          "verse": "1"
+        },
+        {
+          "book": "Psalm",
+          "chapter": "130",
+          "verse": "2"
         }
       ],
       "urls": {
@@ -1481,7 +1561,8 @@
       "tags": [
         "slichot",
         "yom kippur",
-        "rosh hashanah"
+        "rosh hashanah",
+        "havayah"
       ],
       "lyrics": "<p class=\"hebrew\">מִמַּעֲמַקִּים קְרָאתִיךָ יְיָ<br/>\nיְיָ שִׁמְעָה בְקוֹלִי תִּהְיֶינָה אׇזְנֶיךָ קַשֻּׁבוֹת לְקוֹל תַּחֲנוּנָי</p>\n<p class=\"transliteration\">(mima'amakim k'raticha havayah mima'amakim k'raticha)(2x)<br/>\n(adonai shim'ah b'koli tihyenah oznecha kashuvot l'kol tachanunai)(2x)</p>\n<blockquote>Out of the depths I call You, God. Hear my cry; let your ears be attentive to my plea for mercy.</blockquote>",
       "notes": "",
@@ -1512,7 +1593,7 @@
         "slichot",
         "accelerando"
       ],
-      "lyrics": "<p class=\"hebrew\">וְהַחׇכְמָה מֵאַיִן תִּמָּצֵא וְאֵי זֶה מְקוֹם בִּינָה<br/>\nהֵן יִרְאַת יְיָ הִיא חׇכְמָה וְסוּר מֵרָע בִּינָה</p>\n<p class=\"transliteration\">((v'hachochmah mei'ayin timatzei, v'ei zeh makom bina)(2x)<br/>\nv'ei zeh makom bina)(2x)<br/>\n(hein yir'at adonai hi chochmah, (v'sur)(2x) meira bina)(2x)</p>\n<p class=\"transliteration\">[niggun]</p>\n<blockquote>Wisdom, where can it be found?<br/>\nWhere is the place of true knowledge?<br/>\nThe fear of God, that is wisdom.<br/>\nDeparting from sin, that is true knowledge.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">וְהַחׇכְמָה מֵאַיִן תִּמָּצֵא וְאֵי זֶה מְקוֹם בִּינָה<br/>\nהֵן יִרְאַת יְיָ הִיא חׇכְמָה וְסוּר מֵרָע בִּינָה</p>\n<p class=\"transliteration\">((v'hachochmah mei'ayin timatzei, v'ei zeh makom bina)(2x)<br/>\nv'ei zeh makom bina)(2x)<br/>\n(hein yirat adonai hi chochmah, (v'sur)(2x) meira bina)(2x)</p>\n<p class=\"transliteration\">[niggun]</p>\n<blockquote>Wisdom, where can it be found?<br/>\nWhere is the place of true knowledge?<br/>\nThe fear of God, that is wisdom.<br/>\nDeparting from sin, that is true knowledge.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1591,12 +1672,20 @@
       "authors": [
         "Marni Loffman"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "machzor",
+          "verse": "ashamnu"
+        }
+      ],
       "urls": {
         "youtu": "https://youtu.be/ijswwjrHnfk"
       },
       "tags": [
-        "slichot"
+        "slichot",
+        "yom kippur",
+        "rosh hashanah"
       ],
       "lyrics": "<p>Awaken my soul (4x)</p>\n<p>We cause harm<br/>\nWe get hurt<br/>\nWe are broken<br/>\nAnd so we learn</p>\n<p>We hurt our loved ones<br/>\nWhen we don't know<br/>\nWe wound the earth<br/>\nAnd so we grow</p>\n<p>We say mean words<br/>\nAnd take wrong turns<br/>\nWe can't reverse<br/>\nSo we sing this verse</p>\n<p>We own up<br/>\n'Cause we are strong<br/>\nAnd flexible<br/>\nThis road is long</p>\n<p>Awaken my soul (4x)</p>\n<p>And every time<br/>\nWe fall again<br/>\nWe remind ourselves<br/>\nThat we can mend</p>\n<p>With open hearts<br/>\nWe turn to you<br/>\nOh universe<br/>\nHelp me see this change through</p>\n<p>Awaken my soul (8x)</p>\n<p>(We put all of our<br/>\nStubbornness aside<br/>\nExpose our fragility<br/>\nAnd let you guide)(2x)</p>\n<p>Awaken my soul (4x)</p>",
       "notes": "",
@@ -1655,7 +1744,7 @@
     {
       "title": "Adon has'lichot",
       "authors": [
-        "Mishkan"
+        "Mishkan Chicago"
       ],
       "sources": [
         {
@@ -1715,7 +1804,8 @@
         "youtu": "https://youtu.be/YId8HlFlmvk"
       },
       "tags": [
-        "yom kippur"
+        "yom kippur",
+        "redemption"
       ],
       "lyrics": "<p class=\"transliteration\">CHORUS:</p><p class=\"hebrew\">אֵל נוֹרָא עֲלִילָה<br/>\nהַמְצִיא לָנוּ מְחִילָה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">((el nora alilah)(2x)<br/>\nhamtzi lanu m'chilah, bish'at han'ilah)(2x)</p>\n<blockquote>Awe-inspiring creator, forgive us in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">מְתֵי מִסְפָּר קְרוּאִים, לְךָ עַיִן נוֹשְׂאִים<br/>\nוּמְסַלְּדִים בְּחִילָה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">m'tei mispar k'ruim, l'cha ayin nos'im<br/>\num'saldim b'chilah, bish'at han'ilah</p>\n<blockquote>We who are called “few in number”<br/>\nraise our eyes toward You,<br/>\nand tremblingly beseech You, in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">שׁוֹפְכִים לְךָ נַפְשָׁם, מְחֵה פִּשְׁעָם וְכַחְשַׁם<br/>\nוְהַמְצִיאֵם מְחִילָה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">shof'chim l'cha nafsham, m'cheih pisham v'chachsham<br/>\nv'hamtzi'eim m'chilah, bish'at han'ilah</p>\n<blockquote>As we pour out our souls,<br/>\nwipe away our sins and denials,<br/>\ncraft forgiveness for us, in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">הֱיֵה לָהֶם לְסִתְרָה, וְהַצִילֵם מִמְּאֵרָה<br/>\nוְחָתְמֵם לְהוֹד וּלְגִילָה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">heyeih lahem l'sitrah, v'hatzileim mim'eirah<br/>\nv'chotmeim l'hod ul'gilah, bish'at han'ilah</p>\n<blockquote>Be our protector. Shield us from terror;<br/>\nseal our fate for joy and glory in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">חוֹן אוֹתָם וְרַחֵם, וְכָל לוֹחֵץ וְלוֹחֵם<br/>\nעֲשֵׂה בָּהֶם פְּלִילָה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">chon otam v'racheim, v'chol locheitz v'locheim<br/>\naseih bahem p'lilah, bish'at han'ilah</p>\n<blockquote>Be compassionate and loving toward us;<br/>\nbring judgment on all<br/>\nwho would oppress us, in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">זְכֹר צִדְקַת אֲבִיהֶם, וְחַדֵּשׁ אֶת יְמֵיהֶם<br/>\nכְּקֶדֶם וּתְחִלָּה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">z'chor tzid'kat avihem, v'chadeish et y'meihem<br/>\nk'kedem ut'chillah, bish'at han'ilah</p>\n<blockquote>Remember our ancestors' righteousness<br/>\nand renew our days,<br/>\nas of old and as at the beginning, in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">קְרָא נָּא שְׁנַת רָצוֹן, וְהָשֵׁב שְׁאָר הַצֹּאן<br/>\nלְאָהֳלִיבָה וְאָהֳלָה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">k'ra na sh'nat ratzon, v'hasheiv sh'ar hatzon<br/>\nl'oholivah v'oholah, bish'at han'ilah</p>\n<blockquote>May this year be one which is pleasing to You.<br/>\nRestore Your remaining flock<br/>\nto their former glory in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">תִּזְכּוּ לְשָׁנִים רַבּוֹת, הַבָּנִים וְהָאָבוֹת<br/>\nבְּדִיצָה וּבְצָהֳלָה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">tizku l'shanim rabot, habanim v'ha'avot<br/>\nb'ditzah uv'tzoholah, bish'at han'ilah</p>\n<blockquote>May we, Your children, celebrate with joy and gladness,<br/>\nlength of days merited in this closing hour.</blockquote>\n<p>CHORUS</p>\n<p class=\"hebrew\">מִיכָאֵל שַׂר יִשְׂרָאֵל, אֵלִיָּהוּ וְגַבְרִיאֵל<br/>\nבַּשְּׂרוּ נָא הַגְּאֻלָּה, בִּשְׁעַת הַנְּעִילָה</p>\n<p class=\"transliteration\">micha'eil sar yisra'eil, eliyahu v'gavri'eil<br/>\nbasru na hag'ulah, bish'at han'ilah</p>\n<blockquote>May Michael, protector of Israel, Elijah, and Gabriel<br/>\nbring tidings of redemption in this closing hour.</blockquote>\n<p>(CHORUS)(2x)</p>\n",
       "notes": "",
@@ -1810,7 +1900,7 @@
       "sources": [
         {
           "book": "liturgy",
-          "chapter": "",
+          "chapter": "machzor",
           "verse": ""
         }
       ],
@@ -1828,7 +1918,8 @@
     {
       "title": "We return",
       "authors": [
-        "Elana Arian"
+        "Elana Arian",
+        "Noah Aronson"
       ],
       "sources": [
         {
@@ -1842,10 +1933,10 @@
       },
       "tags": [
         "rosh hashanah",
-        "yom kippur",
-        "slichot"
+        "slichot",
+        "call and response"
       ],
-      "lyrics": "<p>((We return)(5x) return again)(2x)<br/>\nand again to (love/truth)(3x) <br/>\nwe return again to love/truth</p>\n<p class=\"hebrew\">הֲשִׁיבֵנוּ יְיָ  אֵלֶיךָ וְנָשׁוּבָה חַדֵּשׁ יָמֵינוּ כְּקֶדֶם</p>\n<p class=\"transliteration\">hashiveinu adonai eilecha v'nashuvah<br/>\nchadeish yameinu k'kedem</p>\n<blockquote>Take us back, God, to Yourself, And let us come back; Renew our days as of old!  </blockquote>",
+      "lyrics": "<p>(((<i>We return</i>)(2x) We return, return again)(2x)<br/>\nand again to ((love)/(truth))(3x) <br/>\nwe return again to (love)/(truth))(2x)</p>\n<p class=\"hebrew\">הֲשִׁיבֵנוּ יְיָ  אֵלֶיךָ וְנָשׁוּבָה חַדֵּשׁ יָמֵינוּ כְּקֶדֶם</p>\n<p class=\"transliteration\">hashiveinu adonai eilecha v'nashuvah<br/>\nchadeish yameinu k'kedem<br/>\n[niggun]</p>\n<blockquote>Take us back, God, to Yourself, And let us come back; Renew our days as of old!  </blockquote>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -1924,11 +2015,10 @@
       },
       "tags": [
         "feminine god",
-        "shacharit",
         "call and response",
         "accelerando"
       ],
-      "lyrics": "<p class=\"hebrew\">מִן הָעוֹלָם וְעַד הָעוֹלָם, אַתְּ אֵלָה<br/>\nרוּחַ כָּל בָּשָׂר תְּפָאֵר וּתְרוֹמֵם זִכְרֵךְ<br/>\nפּוֹדָה וּמַצִּילָה. וְעוֹנָה וּמְרַחֶמֶת<br/>\nאֵין לָנוּ מַלְכָּה אֶלָּא אַתְּ</p>\n<p class=\"transliteration\">((min ha'olam v'ad ha'olam, at eilah)(2x)</p>\n<p class=\"transliteration\">(eilah)(12x))(2x)<br/>\n(ruach kol basar t'fa'eir ut'romeim zichreich)(8x)<br/>\n((podah)(4x) (podah umatzilah)(2x)<br/>\n(podah umatzilah v'onah)(2x) (um'rachemet)(4x))(2x)<br/>\n((ein lanu malkah)(3x) ela at)(4x)</p>\n<blockquote>From eternity to eternity, you are Goddess. The spirit of all flesh will glorify and exalt your memory. Liberates and rescues, redeems and saves. Aside from you we have no Queen but you.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">מִן הָעוֹלָם וְעַד הָעוֹלָם, אַתְּ אֵלָה<br/>\nרוּחַ כָּל בָּשָׂר תְּפָאֵר וּתְרוֹמֵם זִכְרֵךְ<br/>\nפּוֹדָה וּמַצִּילָה. וְעוֹנָה וּמְרַחֶמֶת<br/>\nאֵין לָנוּ מַלְכָּה אֶלָּא אַתְּ</p>\n<p class=\"transliteration\">((min ha'olam v'ad ha'olam, at eilah)(2x)</p>\n<p class=\"transliteration\">(eilah)(12x))(2x)<br/>\n(ruach kol basar t'fa'eir ut'romeim zichreich)(8x)<br/>\n((<i>podah</i>)(2x) <i>podah umatzilah</i><br/>\n<i>podah umatzilah v'onah</i> (um'rachemet)(4x))(2x)<br/>\n((ein lanu malkah)(3x) ela at)(4x)</p>\n<blockquote>From eternity to eternity, you are Goddess. The spirit of all flesh will glorify and exalt your memory. Liberates and rescues, redeems and saves. Aside from you we have no Queen but you.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1951,7 +2041,7 @@
         "yom kippur",
         "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">וַהֲשֵׁבֹתָ אֶל לְבָבֶךָ<br/>\nכִּי יְיָ הוּא הָאֱלֹהִים<br/>\nוְנֶאֱמַר: וְהָיָה יְיָ<br/>\nלְמֶלֶךְ עַל כָּל הָאָרֶץ<br/>\nבַּיּוֹם הַהוּא<br/>\nיִהְיֶה יְיָ אֶחָד<br/>\nוּשְׁמוֹ אֶחָד</p>\n<p class=\"transliteration\">(v'hasheivota el l'vavecha<br/>\nki adonai hu ha'elohim)(4x)<br/>\nv'ne'emar vehayah adonai <br/>\nl'melech al kol ha'aretz <br/>\n(baiyom hahu)(2x)<br/>\nyihyeh adonai echad <br/>\n(ushemo)(3x) echad</p>\n<blockquote>Take it to heart that Adonai is surely God. And God shall rule over all the earth. On that day God will be one, God's name will be one.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">וַהֲשֵׁבֹתָ אֶל לְבָבֶךָ<br/>\nכִּי יְיָ הוּא הָאֱלֹהִים<br/>\nוְנֶאֱמַר: וְהָיָה יְיָ<br/>\nלְמֶלֶךְ עַל כָּל הָאָרֶץ<br/>\nבַּיּוֹם הַהוּא<br/>\nיִהְיֶה יְיָ אֶחָד<br/>\nוּשְׁמוֹ אֶחָד</p>\n<p class=\"transliteration\">((<i>v'hasheivota</i>) (<i>el l'vavecha)</i><br/>\n(<i>ki adonai</i>) (<i>hu ha'elohim</i>))(4x)<br/>\nv'ne'emar v'hayah adonai <br/>\nl'melech al kol ha'aretz <br/>\n(bayom hahu)(2x)<br/>\nyih'yeh adonai echad <br/>\n(ush'mo)(3x) echad</p>\n<blockquote>Take it to heart that Adonai is surely God. And God shall rule over all the earth. On that day God will be one, God's name will be one.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -2040,7 +2130,8 @@
         "youtu": "https://youtu.be/VKvlbopLD2w"
       },
       "tags": [
-        "simchat torah"
+        "simchat torah",
+        "hope"
       ],
       "lyrics": "<p class=\"hebrew\">בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ, וַיַּבְדֵּל, יְהִי אוֹר</p>\n<p class=\"transliteration\">((bein ha'or u'vein ha'choshech)(2x)<br/>\n(vayavdel)(6x))(3x)<br/>\n(y'hi or)(9x)</p>\n<blockquote>God separated the light from the darkness. There was light.</blockquote>",
       "notes": "",
@@ -2085,7 +2176,6 @@
         "youtu": "https://youtu.be/xJOZ9StM3wQ"
       },
       "tags": [
-        "shmini atzeret",
         "nature"
       ],
       "lyrics": "<p class=\"hebrew\">כַּ֭מַּיִם הַפָּנִ֣ים לַפָּנִ֑ים כֵּ֤ן לֵֽב־הָ֝אָדָ֗ם לָאָדָֽם</p>\n<p class=\"transliteration\">((kamayim)(3x) hapanim lapanim)(2x) <br/>\n((kein lev ha'adam)(3x) la'adam)(2x)</p>\n<blockquote>Just as the face of water reflects a face <br/>\nso does the human heart reflect the person.</blockquote>",
@@ -2097,7 +2187,13 @@
       "authors": [
         "Sarina Partridge"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "book": "Isaiah",
+          "chapter": "12",
+          "verse": "3"
+        }
+      ],
       "urls": {
         "youtu": "https://youtu.be/REDV8grxthY"
       },
@@ -2112,7 +2208,8 @@
     {
       "title": "Mimainei",
       "authors": [
-        "Yael Schonzeit"
+        "Yael Schonzeit",
+        "Avra Shapiro"
       ],
       "sources": [
         {
@@ -2126,10 +2223,12 @@
       },
       "tags": [
         "shmini atzeret",
-        "pesach",
-        "justice"
+        "redemption",
+        "justice",
+        "round",
+        "nature"
       ],
-      "lyrics": "<p class=\"hebrew\">מִמַּעַיְנֵי הַיְשׁוּעָה</p>\n<p class=\"hebrew\">שְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן</p>\n<p>mimainei hayeshua<br/>\nshavtem mayim b'sason</p>\n<p>We will draw water in celebration<br/>\nFrom the wellsprings of liberation</p>\n<p class=\"hebrew\">מַיִם חַיִּים</p>\n<p class=\"transliteration\">mayim chayim</p>\n<blockquote>living waters</blockquote>",
+      "lyrics": "Part 1:\n<p class=\"hebrew\">מִמַּעַיְנֵי הַיְשׁוּעָה<br/>\n<p class=\"hebrew\">שְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן</p>\n<p>mimainei hay'shuah<br/>\nshavtem mayim b'sason</p>\nPart 2:\n<p>We will draw water in celebration<br/>\nFrom the wellsprings of liberation</p>\nPart 3:\n<p class=\"hebrew\">מַיִם חַיִּים</p>\n<p class=\"transliteration\">mayim chayim</p>\n<blockquote>living waters</blockquote>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -2191,11 +2290,12 @@
         }
       ],
       "urls": {
-        "youtu": "https://youtu.be/OlmDhWMLMEo?si=ULdQJGBecs4KGE4w"
+        "youtu": "https://youtu.be/OlmDhWMLMEo"
       },
       "tags": [
         "chanukah",
-        "justice"
+        "justice",
+        "community"
       ],
       "lyrics": "<p>You wake us up from our sleep<br/>\nTo fight for (our humanity)/(our community)/(solidarity)<br/>\n'Til everyone is free<br/>\nGuided by our biggest light<br/>\nLove is part of how we fight<br/>\nM'chayei meitim (מְחַיֵּה מֵּתִים)<br/>\n(And I pray pray pray for our strength strength strength And I pray pray pray for our strength)(2x)</p>",
       "notes": "",
@@ -2222,7 +2322,7 @@
         "justice",
         "celebration"
       ],
-      "lyrics": "<p>(Not by might and not by power (“power”),<br/>\nBut by spirit alone (“ruach!”),<br/>\nShall we all live in peace)(2x)</p>\n<p>The children sing,<br/>\nThe children dream,<br/>\nAnd their tears may fall,<br/>\nBut we'll hear them call,<br/>\nAnd (another song will rise)(3x)</p>\n<p>(Not by might and not by power (“power”),<br/>\nBut by spirit alone (“ruach!”),<br/>\nShall we all live in peace)(2x)</p>\n<p>Not by might, not by power, shalom!</p>",
+      "lyrics": "<p>(Not by might and not by power (“power”),<br/>\nBut by spirit alone (“ruach!”),<br/>\nShall we all live in peace)(2x)</p>\n<p>The children sing,<br/>\nThe children dream,<br/>\nAnd their tears may fall,<br/>\nBut we'll hear them call,<br/>\nAnd (another song will rise)(3x)</p>\n<p>ENDING:<br/>\n(Not by might and not by power (“power”),<br/>\nBut by spirit alone (“ruach!”),<br/>\nShall we all live in peace)(2x)</p>\n<p>Not by might, not by power, shalom!</p>",
       "notes": "",
       "language": "english"
     },
@@ -2246,7 +2346,7 @@
         "tu bishvat",
         "nature"
       ],
-      "lyrics": "<p class=\"hebrew\">אִילָן אִילָן, בַּמָּה אֲבָרֶכְךָ?<br/>\nאִם אוֹמַר לְךָ שֶׁיְּהוּ פֵּירוֹתֶיךָ מְתוּקִין<br/>\nהֲרֵי פֵּירוֹתֶיךָ מְתוּקִין, שֶׁיְּהֵא צִילְּךָ נָאֶה<br/>\nהֲרֵי צִילְּךָ נָאֶה, שֶׁתְּהֵא אַמַּת הַמַּיִם עוֹבֶרֶת תַּחְתֶּיךָ<br/>\nאַף אַתָּה, בַּמָּה אֲבָרֶכְךָ?<br/>\n אִם בְּתוֹרָה הֲרֵי תּוֹרָה,</p>\n<p class=\"hebrew\">אִם בְּעוֹשֶׁר הֲרֵי עוֹשֶׁר,</p>\n<p class=\"hebrew\">אִם בְּבָנִים הֲרֵי בָּנִים</p>\n<p class=\"transliteration\">(ilan ilan bama avarechecha)(4x)<br/>\nim omar lecha she'yehu peirotecha metukin<br/>\nharei (peirotecha)(2x) metukin<br/>\nshe'yeheh (tzilcha)(2x) na'eh<br/>\nharei tzilcha na'eh<br/>\nsheteheh (amat)(2x) hamayim overet tachtecha<br/>\n(ilan ilan bama avarechecha)(4x)<br/>\naf atah, bama avarechecha<br/>\nim b'torah harei torah<br/>\nim b'osher harei osher<br/>\nim b'vanim harei banim</p>\n<blockquote>Tree, tree, with what shall I bless you? If I say to you that your fruits should be sweet, your fruits are already sweet; if I say that your shade should be pleasant, your shade is already pleasant; if I say that a stream of water should flow beneath you, a stream of water already flows beneath you<br/>\n[Rabbi Nachman.]With what shall I bless you? If I bless you with Torah, you already have Torah; if I bless you with wealth, you already have wealth; if I bless you with children, you already have children.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">אִילָן אִילָן, בַּמָּה אֲבָרֶכְךָ?<br/>\nאִם אוֹמַר לְךָ שֶׁיְּהוּ פֵּירוֹתֶיךָ מְתוּקִין<br/>\nהֲרֵי פֵּירוֹתֶיךָ מְתוּקִין, שֶׁיְּהֵא צִילְּךָ נָאֶה<br/>\nהֲרֵי צִילְּךָ נָאֶה, שֶׁתְּהֵא אַמַּת הַמַּיִם עוֹבֶרֶת תַּחְתֶּיךָ<br/>\nאַף אַתָּה, בַּמָּה אֲבָרֶכְךָ?<br/>\n אִם בְּתוֹרָה הֲרֵי תּוֹרָה,</p>\n<p class=\"hebrew\">אִם בְּעוֹשֶׁר הֲרֵי עוֹשֶׁר,</p>\n<p class=\"hebrew\">אִם בְּבָנִים הֲרֵי בָּנִים</p>\n<p class=\"transliteration\">(ilan ilan bama avarechecha)(4x)<br/>\nim omar lecha she'yehu peirotecha metukin<br/>\nharei (peirotecha)(2x) metukin<br/>\nshe'yeheh (tzilcha)(2x) na'eh<br/>\nharei tzilcha na'eh<br/>\nsheteheh (amat)(2x) hamayim overet tachtecha<br/>\n(ilan ilan bama avarechecha)(4x)<br/>\naf atah, bama avarechecha<br/>\nim b'torah harei torah<br/>\nim b'osher harei osher<br/>\nim b'vanim harei banim</p>\n<blockquote>Tree, tree, with what shall I bless you? If I say to you that your fruits should be sweet, your fruits are already sweet; if I say that your shade should be pleasant, your shade is already pleasant; if I say that a stream of water should flow beneath you, a stream of water already flows beneath you<br/>\n[Rabbi Nachman,] with what shall I bless you? If I bless you with Torah, you already have Torah; if I bless you with wealth, you already have wealth; if I bless you with children, you already have children.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -2276,7 +2376,8 @@
         "youtube": "https://www.youtube.com/watch?v=Cga7vfqnK40"
       },
       "tags": [
-        "tu bishvat"
+        "tu bishvat",
+        "shabbat"
       ],
       "lyrics": "<p class=\"hebrew\">צַדִּיק כַּתָּמָר יִפְרָח כְּאֶרֶז בַּלְּבָנוֹן יִשְׂגֶּה<br/>\nנַעַר  הָיִיתִי גַּם־זָקַנְתִּי וְלֹא־רָאִיתִי צַדִּיק נֶעֱזָב<br/>\nאָנֹכִי לַיְיָ אָנֹכִי אָשִׁירָה<br/>\nאֲזַמֵּר לַיְיָ אֱלֹהֵי יִשְׂרָאֵל</p>\n<p class=\"transliteration\">(tzadik katamar yifrach k'erez bal'vanon yisgeh<br/>\ntzadik (katamar yifrach)(2x))(2x)<br/>\n(na'ar hayiti gam zakanti v'lo ra'iti tzadik ne'ezav)(2x)<br/>\n(tzadik katamar yifrach k'erez bal'vanon yisgeh<br/>\ntzadik (katamar yifrach)(2x))(2x)<br/>\n[niggun]</p>\n<p class=\"transliteration\">\n(anochi la'adonai anochi ashirah<br/>\nazameir la'adonai elohei yisra'eil)(4x)<br/>\n(tzadik (katamar)(3x) yifrach)(4x)</p>\n<blockquote>The righteous bloom like a date-palm;<br/>\nthey thrive like a cedar in Lebanon;<br/>\nI have been young and am now old,<br/>\nbut I have never seen someone righteous abandoned.<br/>\nI will sing, will sing to God,<br/>\nWill hymn the eternal, the God of Israel.</blockquote>",
       "notes": "",
@@ -2335,10 +2436,11 @@
       "tags": [
         "tu bishvat",
         "justice",
-        "nature"
+        "nature",
+        "round"
       ],
       "lyrics": "<p>(We stand on the earth so we better<br/>\nStand for her together)(2x)</p>\n<p>CHORUS:<br/>\n(Stand up for our mother<br/>\nStand up for each other)(2x)</p>\n<p>(We were put in this paradise<br/>\nIt's our job to guard her life)(2x)</p>\n<p>CHORUS</p>\n<p class=\"transliteration\">BRIDGE:</p>\n<p class=\"hebrew\">לְעׇבְדָהּ וּלְשׇׁמְרָהּ</p>\n<p class=\"transliteration\">(l'ovdah ulshamrah)(2x)</p>\n<blockquote>To serve and to guard</blockquote>\n<p>CHORUS</p>\n<p>(CHORUS(2x))/BRIDGE</p>",
-      "notes": "",
+      "notes": "From the lyrics we removed to the 'oh' section to make it easier for song circle.",
       "language": "english and hebrew"
     },
     {
@@ -2366,14 +2468,15 @@
       "sources": [],
       "urls": {
         "looptube": "https://looptube.io/?videoId=dznNF0eHqyw&start=32.3&end=58.48&rate=1",
-        "youtube": "https://youtube.com/watch?v=dznNF0eHqyw"
+        "youtube": "https://youtube.com/watch?v=dznNF0eHqyw",
+        "bandcamp": "https://amirbuchbinder.bandcamp.com/track/the-leaf"
       },
       "tags": [
         "tu bishvat",
         "nature"
       ],
-      "lyrics": "<p class=\"hebrew\">כַּמָּה יַעֲלֶה עָלֶה<br/>\nאִם הֶעָלִים יֵעָלְמוּ<br/>\nכַּמָּה יַעֲלֶה עָלֶה</p>\n<p class=\"hebrew\">כַּמָּה יַעֲלֶה עָלֶה<br/>\nאִם מֵהָעוֹלָם בַּעֲלֵי חַיִּים יֵעָלְמוּ<br/>\nכַּמָּה יַעֲלֶה הֶעָלֶה</p>\n<p class=\"transliteration\">kamah ya'aleh aleh<br/>\nim he'alim ye'almu<br/>\nkamah ya'aleh aleh<br/>\nkamah ya'aleh aleh<br/>\nim meha'olam ba'alei chayim ye'almu<br/>\nkamah ya'aleh he'aleh</p>\n<blockquote>How much will a leaf cost <br/>\nIf the leaves disappear <br/>\nHow much will a leaf cost <br/>\nHow much will a leaf cost <br/>\nIf living beings disappear from the world <br/>\nHow much will the leaf cost</blockquote>",
-      "notes": "",
+      "lyrics": "<p class=\"hebrew\">כַּמָּה יַעֲלֶה עָלֶה<br/>\nאִם הֶעָלִים יֵעָלְמוּ<br/>\nכַּמָּה יַעֲלֶה עָלֶה\nכַּמָּה יַעֲלֶה עָלֶה<br/>\nאִם מֵהָעוֹלָם בַּעֲלֵי חַיִּים יֵעָלְמוּ<br/>\nכַּמָּה יַעֲלֶה הֶעָלֶה</p>\n<p class=\"transliteration\">kamah ya'aleh aleh<br/>\nim he'alim yei'almu<br/>\nkamah ya'aleh aleh<br/>\nkamah ya'aleh aleh<br/>\nim meha'olam ba'alei chayim ye'almu<br/>\nkamah ya'aleh he'aleh</p>\n<blockquote>How much will a leaf cost <br/>\nIf the leaves disappear <br/>\nHow much will a leaf cost <br/>\nHow much will a leaf cost <br/>\nIf living beings disappear from the world <br/>\nHow much will the leaf cost</blockquote>",
+      "notes": "This only includes lyrics from the chorus, since this seemed to fit our song circle better. The full song lyrics are on bandcamp.",
       "language": "hebrew"
     },
     {
@@ -2388,7 +2491,7 @@
       "tags": [
         "chanukah"
       ],
-      "lyrics": "<p>Hanuka, Hanuka<br/>\nOcho diyas di felisita;<br/>\nLai, lai… \n</p>\n<p>Ocho diyas di kantar;<br/>\nOcho diyas di bailyar;<br/>\nOcho diyas di guzar;</p>\n<p style=\"margin-bottom: 0cm; line-height: 100%; page-break-before: auto\">\nHanuka, Hanuka<br/>\nEight days of happiness.<br/>\nEight days of singing.<br/>\nEight days of dancing.<br/>\nEight days of enjoying.</p>",
+      "lyrics": "<p>Hanuka, Hanuka<br/>\nOcho diyas di felisita;<br/>\nLai, lai… \n</p>\n<p>Ocho diyas di kantar;<br/>\nOcho diyas di bailyar;<br/>\nOcho diyas di guzar;</p>\n<p>\nHanuka, Hanuka<br/>\nEight days of happiness.<br/>\nEight days of singing.<br/>\nEight days of dancing.<br/>\nEight days of enjoying.</p>",
       "notes": "",
       "language": "ladino"
     },
@@ -2411,13 +2514,13 @@
       ],
       "urls": {
         "soundcloud": "https://soundcloud.com/user664422824/galeet-dardashti-vashti",
-        "youtube": "https://www.youtube.com/watch?v=PvO9U2JQwhY"
+        "youtu": "https://youtu.be/PvO9U2JQwhY?t=61"
       },
       "tags": [
         "purim"
       ],
       "lyrics": "<p class=\"hebrew\">וַשְׁתִּי וַשְׁתִּי הַמַּלְכָּה תַּתְחִיל מֶרֶד בְּשׁוּשַׁן הַבִּירָה<br/>\nאִם אִשָּׁה פָּגְעָה בִּכְבוֹד הַמֶּלֶךְ לְעֵינֵיכֶם, יָבִיא הַדָּבָר לַהַרֹס מַלְכוּתֶךָ לָעוֹלָם כּוּלוֹ<br/>\nוַתְּמָאֵן הַמַּלְכָּה וַשְׁתִּי לָבוֹא בִּדְבַר הַמֶּלֶךְ, וַיִּכְצֹף הַמֶּלֶךְ<br/>\nמְאֹד וַחֲמָתוֹ בָּעֲרָה בוֹ</p>\n<p class=\"transliteration\">(vashti vashti hamalkah tat'chil mered b'shushan habirah)(2x)<br/>\nim ishah pag'ah bich'vod hamelech l'eineichem<br/>\nyavi hadavar laharos malchutecha la'olam kulo<br/>\n(vashti vashti hamalkah tat'chil mered b'shushan habirah)(2x)<br/>\nvat'ma'en hamalkah vashti lavo bidvar hamelech<br/>\nvayich'tzof hamelech m'od vachamato ba'arah vo</p>\n<blockquote>Vashti, Vashti, the Queen will start rebellion in Shushan, the capital<br/>\nIf the wife disrespected the king in front of all the people; it could cause the downfall of your kingdom forever.<br/>\nQueen Vashti refused to appear before the king;<br/>\nThe king was very wrathful, and his anger burned within him.</blockquote>",
-      "notes": "",
+      "notes": "We removed the intro lines to make it more suitable for song circles.",
       "language": "hebrew"
     },
     {
@@ -2438,7 +2541,7 @@
       "tags": [
         "purim"
       ],
-      "lyrics": "<p class=\"hebrew\">אִישׁ יְהוּדִי הָיָה בְּשׁוּשַׁן הַבִּירָה וּשְׁמוֹ מׇרְדֳּכַי<br/>\nבֶּן יָאִיר בֶּן־שִׁמְעִי בֶּן־קִישׁ אִישׁ יְמִינִי</p>\n<p class=\"transliteration\">((ish y'hudi hayah b'shushan habirah)(3x)<br/>\nushmo mordochai)(2x)<br/>\nben ya'ir ben shimi ben kish ish yemini<br/>\nben ya'ir ben shimi ushmo mordochai</p>\n<blockquote>In the fortress Shushan lived a Jew by the name of Mordechai, son of Jair son of Shimei son of Kish, a Benjaminite.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">אִישׁ יְהוּדִי הָיָה בְּשׁוּשַׁן הַבִּירָה וּשְׁמוֹ מׇרְדֳּכַי<br/>\nבֶּן יָאִיר בֶּן־שִׁמְעִי בֶּן־קִישׁ אִישׁ יְמִינִי</p>\n<p class=\"transliteration\">((ish y'hudi hayah b'shushan habirah)(3x)<br/>\nushmo mordachai)(2x)<br/>\nben ya'ir ben shimi ben kish ish yemini<br/>\nben ya'ir ben shimi ushmo mordachai</p>\n<blockquote>In the fortress Shushan lived a Jew by the name of Mordechai, son of Jair son of Shimei son of Kish, a Benjaminite.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -2455,7 +2558,7 @@
         }
       ],
       "urls": {
-        "youtu": "https://youtu.be/QrM_tZuhUCo"
+        "youtu": "https://youtu.be/KvA4XrVi6DM"
       },
       "tags": [
         "purim",
@@ -2483,9 +2586,10 @@
       "tags": [
         "purim",
         "celebration",
-        "accelerando"
+        "accelerando",
+        "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">עֻצוּ עֵצָה, וְתֻפָר<br/>\nדַּבְּרוּ דָבָר וְלֹא יָקוּם<br/>\nכִּי עִמָּנוּ אֵל</p>\n<p class=\"transliteration\">(utzu eitzah v'tufar<br/>\ndabru davar v'lo yakum)(2x)<br/>\ndabru davar v'lo yakum<br/>\n(ki imanu el)(4x)<br/>\n[niggun]</p>\n<blockquote>They have devised schemes, but they have been foiled; they have made declarations against us, but they have not been fulfilled, because God is with us!</blockquote>",
+      "lyrics": "<p class=\"hebrew\">עֻצוּ עֵצָה, וְתֻפָר<br/>\nדַּבְּרוּ דָבָר וְלֹא יָקוּם<br/>\nכִּי עִמָּנוּ אֵל</p>\n<p class=\"transliteration\">(utzu eitzah v'tufar<br/>\ndabru davar v'lo yakum)(2x)<br/>\ndabru davar v'lo yakum<br/>\n(<i>ki imanu el</i>)(2x)<br/>\n[niggun]</p>\n<blockquote>They have devised schemes, but they have been foiled; they have made declarations against us, but they have not been fulfilled, because God is with us!</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -2508,7 +2612,7 @@
         "purim",
         "redemption"
       ],
-      "lyrics": "<p class=\"hebrew\">מַה נָּאווּ עֲלֵי הֶהָרִים רַגְלֵי<br/>\nמְבַשֵּׂר שָׁלוֹם בְּבִנְיַן עִירֵךְ<br/>\nקוֹל צוֹפַיִךְ יִשְׂאוּ קוֹל רִנָּה<br/>\nהִתְנַעֲרִי מִתּוֹךְ מְגִנָּה<br/>\nעַיִן בְּעַיִן תִּרְאִי שְׁכִינָה<br/>\nוְשָׁבוּ בָנַיִךְ לִגְבוּלֵךְ</p>\n<p class=\"transliteration\">(mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich)(2x)<br/>\nkol tzofayich yis'u kol rinah<br/>\nhitna'ari mitoch m'ginah<br/>\nayin b'ayin tir'i shechinah<br/>\nv'shavu vanayich ligvuleich</p>\n<blockquote>How pleasant atop the mountains are the footsteps<br/>\nof the messenger bearing tidings of peace in your city<br/>\nThe voices of your watchmen will rise up in joy<br/>\nshake off your sorrow<br/>\nYour eyes shall behold the Shekhinah<br/>\nand your sons shall return to your borders</blockquote>\n<p class=\"hebrew\">לִשְׁבוּיִים דְּרוֹר בְּשִׁיר וּמִזְמוֹר<br/>\nאֶל בֵּית הַר הַמּוֹר יְהִי שְׁבִילֵךְ<br/>\nסֹלוּ סֹלוּ אֶת הַמְּסִלָּה<br/>\nפִּצְחוּ רְנָנָה וּתְהִלָּה<br/>\nיָבֺא מְבַשֵּׂר בִּלְשׁוֹנוֹ מִלָּה<br/>\nקוּמִי עוּרִי כִּי בָא אוֹרֵךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\nlishvuyim d'ror b'shir umizmor<br/>\nel beit har hamor y'hi sh'vileich<br/>\nsolu solu et ham'silah<br/>\npitzchu r'nanah ut'hilah<br/>\nyavo m'vaseir bilshono milah<br/>\nkumi uri ki va'oreich</p>\n<blockquote>Freedom to the captives in song and melody<br/>\nto the Temple may your path lead<br/>\nPave pave the pathway<br/>\nbreak forth in delight and glory<br/>\nA messenger will come with a word on his tongue<br/>\nArise and shine for your light has come</blockquote>\n<p class=\"hebrew\">צְאִי מִבָּבֶל קִרְיַת עוֹבְדֵי בֵל<br/>\nכִּנּוֹר וָנֵבֶל אָז יְהִי שִׁירֵךְ<br/>\nשׂוֹשׂ יָשִׂישׂוּ כָּל אֲבֵלֵי צִיּוֹן<br/>\nלָבֺא לַחֲסוֹת בְּצֵל הָעֶלְיוֹן<br/>\nבָּנֺה אֶבְנֶה לָךְ נְוֵה אַפִּרְיוֹן<br/>\nאָכִין כִּסֵּא לְדָוִד מַלְכֵּךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\ntz'i mibavel kiryat ovdei veil<br/>\nkinor vaneivel az y'hi shireich<br/>\nsos yasisu kol aveilei tziyon<br/>\nlavo lachasot b'tzeil ha'elyon<br/>\nbanoh evneh lach n'veih apir'yon<br/>\nachin kisei l'david malkeich</p>\n<blockquote>Leave Babylon where they worship Bel<br/>\nthe harp and lyre will accompany your song<br/>\nGreatly rejoice all mourners in Ẓion<br/>\ncome take refuge in the shadow of the Most High<br/>\nI shall build for you a magnificent palace<br/>\nI shall set a throne for your king, David</blockquote>\n<p class=\"hebrew\">שְׂאִי עֵינַיִךְ וּרְאִי בָנַיִךְ<br/>\nבָּאוּ אֵלַיִךְ לָאוֹר בְּאוֹרֵךְ<br/>\nתַּחַת חֹשֶׁךְ אָשִׂים לָךְ אוֹרָה<br/>\nאָז מִצִּיּוֹן תֵּצֵא הַתּוֹרָה<br/>\nהִנֵּה גָדוֹל הוּא אָיֺם וְנוֹרָא<br/>\nבְּיוֹם שִׂימִי כֶתֶר לְרֺאשֵׁךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\ns'i einayich ur'i banayich<br/>\nba'u eilayich la'or b'oreich<br/>\ntachat choshech asim lach orah<br/>\naz mitziyon teitzei hatorah<br/>\nhinei gadol hu ayom v'norah<br/>\nb'yom simi cheter l'rosheich</p>\n<blockquote>Lift your eyes and see your children<br/>\nthey have come to you, to the light in your light<br/>\nIn place of darkness I will give you light<br/>\nthen from Tsiyon Torah shall come forth<br/>\nFor it will be great and aweful<br/>\non the day you shall place a crown upon your head</blockquote>\n<p class=\"hebrew\">עַד מָתַי כַּלָּה יָפָה וּמְעֻלָּה<br/>\nלְזָּר בְּעוּלָה כְּדַל וָהֵלֶךְ<br/>\nעוּרִי עוּרִי עֲדַת יִשְׂרָאֵל<br/>\nאָחִישׁ אֶשְׁלַח יִנּוֹן וְגוֹאֵל<br/>\nוְגַם אָקִים לָךְ חוֹמַת אֲרִיאֵל<br/>\nזָכֹר אֶזְכֹּר חֶסֶד נְעוּרֵךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\nad matai kalah yafah um'ulah<br/>\nl'zar b'ulah k'dal vaheilech<br/>\nuri uri adat yisra'eil<br/>\nachish eshlach yinon v'go'eil<br/>\nv'gam akim lach chomat ari'eil<br/>\nzachor ezkor chesed n'ureich</p>\n<blockquote>Till when beautiful and wonderful bride<br/>\nwill you espouse a stranger like a vagabond<br/>\nAwake awake people of Israel<br/>\nI will hasten and send Yinon and a redeemer<br/>\nAnd I will raise for you the walls of Ariel<br/>\nI will remember the devotion of your youth</blockquote>\n<p>[niggun]</p>",
+      "lyrics": "<p class=\"hebrew\">מַה נָּאווּ עֲלֵי הֶהָרִים רַגְלֵי<br/>\nמְבַשֵּׂר שָׁלוֹם בְּבִנְיַן עִירֵךְ<br/>\nקוֹל צוֹפַיִךְ יִשְׂאוּ קוֹל רִנָּה<br/>\nהִתְנַעֲרִי מִתּוֹךְ מְגִנָּה<br/>\nעַיִן בְּעַיִן תִּרְאִי שְׁכִינָה<br/>\nוְשָׁבוּ בָנַיִךְ לִגְבוּלֵךְ</p>\n<p class=\"transliteration\">(mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich)(2x)<br/>\nkol tzofayich yis'u kol rinah<br/>\nhitna'ari mitoch m'ginah<br/>\nayin b'ayin tir'i shechinah<br/>\nv'shavu vanayich ligvuleich</p>\n<blockquote>How pleasant atop the mountains are the footsteps<br/>\nof the messenger bearing tidings of peace in your city<br/>\nThe voices of your watchmen will rise up in joy<br/>\nshake off your sorrow<br/>\nYour eyes shall behold the Shekhinah<br/>\nand your sons shall return to your borders</blockquote>\n<p class=\"hebrew\">לִשְׁבוּיִים דְּרוֹר בְּשִׁיר וּמִזְמוֹר<br/>\nאֶל בֵּית הַר הַמּוֹר יְהִי שְׁבִילֵךְ<br/>\nסֹלוּ סֹלוּ אֶת הַמְּסִלָּה<br/>\nפִּצְחוּ רְנָנָה וּתְהִלָּה<br/>\nיָבֺא מְבַשֵּׂר בִּלְשׁוֹנוֹ מִלָּה<br/>\nקוּמִי עוּרִי כִּי בָא אוֹרֵךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\nlishvuyim d'ror b'shir umizmor<br/>\nel beit har hamor y'hi sh'vileich<br/>\nsolu solu et ham'silah<br/>\npitzchu r'nanah ut'hilah<br/>\nyavo m'vaseir bilshono milah<br/>\nkumi uri ki va'oreich</p>\n<blockquote>Freedom to the captives in song and melody<br/>\nto the Temple may your path lead<br/>\nPave pave the pathway<br/>\nbreak forth in delight and glory<br/>\nA messenger will come with a word on his tongue<br/>\nArise and shine for your light has come</blockquote>\n<p class=\"hebrew\">צְאִי מִבָּבֶל קִרְיַת עוֹבְדֵי בֵל<br/>\nכִּנּוֹר וָנֵבֶל אָז יְהִי שִׁירֵךְ<br/>\nשׂוֹשׂ יָשִׂישׂוּ כָּל אֲבֵלֵי צִיּוֹן<br/>\nלָבֺא לַחֲסוֹת בְּצֵל הָעֶלְיוֹן<br/>\nבָּנֺה אֶבְנֶה לָךְ נְוֵה אַפִּרְיוֹן<br/>\nאָכִין כִּסֵּא לְדָוִד מַלְכֵּךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\ntz'i mibavel kiryat ovdei veil<br/>\nkinor vaneivel az y'hi shireich<br/>\nsos yasisu kol aveilei tziyon<br/>\nlavo lachasot b'tzeil ha'elyon<br/>\nbanoh evneh lach n'veih apir'yon<br/>\nachin kisei l'david malkeich</p>\n<blockquote>Leave Babylon where they worship Bel<br/>\nthe harp and lyre will accompany your song<br/>\nGreatly rejoice all mourners in Ẓion<br/>\ncome take refuge in the shadow of the Most High<br/>\nI shall build for you a magnificent palace<br/>\nI shall set a throne for your king, David</blockquote>\n<p class=\"hebrew\">שְׂאִי עֵינַיִךְ וּרְאִי בָנַיִךְ<br/>\nבָּאוּ אֵלַיִךְ לָאוֹר בְּאוֹרֵךְ<br/>\nתַּחַת חֹשֶׁךְ אָשִׂים לָךְ אוֹרָה<br/>\nאָז מִצִּיּוֹן תֵּצֵא הַתּוֹרָה<br/>\nהִנֵּה גָדוֹל הוּא אָיֺם וְנוֹרָא<br/>\nבְּיוֹם שִׂימִי כֶתֶר לְרֺאשֵׁךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\ns'i einayich ur'i banayich<br/>\nba'u eilayich la'or b'oreich<br/>\ntachat choshech asim lach orah<br/>\naz mitziyon teitzei hatorah<br/>\nhinei gadol hu ayom v'norah<br/>\nb'yom simi cheter l'rosheich</p>\n<blockquote>Lift your eyes and see your children<br/>\nthey have come to you, to the light in your light<br/>\nIn place of darkness I will give you light<br/>\nthen from Ẓion Torah shall come forth<br/>\nFor it will be great and aweful<br/>\non the day you shall place a crown upon your head</blockquote>\n<p class=\"hebrew\">עַד מָתַי כַּלָּה יָפָה וּמְעֻלָּה<br/>\nלְזָּר בְּעוּלָה כְּדַל וָהֵלֶךְ<br/>\nעוּרִי עוּרִי עֲדַת יִשְׂרָאֵל<br/>\nאָחִישׁ אֶשְׁלַח יִנּוֹן וְגוֹאֵל<br/>\nוְגַם אָקִים לָךְ חוֹמַת אֲרִיאֵל<br/>\nזָכֹר אֶזְכֹּר חֶסֶד נְעוּרֵךְ</p>\n<p class=\"transliteration\">mah navu alei heharim raglei<br/>\nm'vaseir shalom b'vinyan ireich<br/>\nad matai kalah yafah um'ulah<br/>\nl'zar b'ulah k'dal vaheilech<br/>\nuri uri adat yisra'eil<br/>\nachish eshlach yinon v'go'eil<br/>\nv'gam akim lach chomat ari'eil<br/>\nzachor ezkor chesed n'ureich</p>\n<blockquote>Till when beautiful and wonderful bride<br/>\nwill you espouse a stranger like a vagabond<br/>\nAwake awake people of Israel<br/>\nI will hasten and send Yinon and a redeemer<br/>\nAnd I will raise for you the walls of Ariel<br/>\nI will remember the devotion of your youth</blockquote>\n<p>[niggun]</p>",
       "notes": "",
       "language": "hebrew"
     },
@@ -2549,13 +2653,19 @@
           "book": "liturgy",
           "chapter": "purim",
           "verse": "magillah reading"
+        },
+        {
+          "book": "piyyut",
+          "chapter": "unknown",
+          "verse": ""
         }
       ],
       "urls": {
         "youtu": "https://youtu.be/r9fgzysjrTQ"
       },
       "tags": [
-        "purim"
+        "purim",
+        "protection"
       ],
       "lyrics": "<p class=\"hebrew\">כָּל קֹוֶיךָ לֹא יֵבֹשׁוּ. וְלֹא יִכָּלְמוּ לָנֶצַח</p>\n<p class=\"transliteration\">kol kovecha lo yeivoshu v'lo yikalmu lanetzach</p>\n<blockquote>All your hopes will not be dashed and will not be defeated.</blockquote>",
       "notes": "",
@@ -2601,9 +2711,9 @@
       "tags": [
         "purim"
       ],
-      "lyrics": "<p>Madame Gashpar saliyo al charshi;<br/>\nKun il dinaro di Purim<br/>\nUn poyiko me merki;<br/>\nIl poyiko Biri-biri-bi.<br/>\nSi savej la mi sinyora<br/>\nI pur kuanto lo merki?</p>\n<blockquote>Madame Gashpar went to the market;<br/>\nWith the Purim money<br/>\nI bought myself a little chick<br/>\nIt chirps Biri-biri-bi.<br/>\nGuess, my lady,<br/>\nHow much did I pay for it?<br/>\nMadame Gashpar saliyo al charshi;<br/>\nMadame Gashpar went to the market;</blockquote>\n<p>Kun il dinaro di Purim<br/>\nUna gayinika me merki;<br/>\nLa gayenika Gi-gi-gi:<br/>\nIl poyiko Biri-biri-bi.<br/>\nSi savej la mi sinyora \t<br/>\nI pur kuanto lo merki?</p>\n<blockquote>With the Purim money<br/>\nI bought myself a little hen;<br/>\nIt clucks Gi-gi-gi;<br/>\nThe chick chirps Biri-biri-bi.<br/>\nThe little rooster: Giri-giri-gi.<br/>\nThe little cow: Mu-mu-mu.<br/>\nThe little bird: Tvi-tvi-tvi.</blockquote>\n<p>Madame Gashpar saliyo al charshi;<br/>\nKun il dinaro di Purim \t<br/>\nUn gayiko me merki;<br/>\nIl gayiko Giri-giri-gi; \t<br/>\nLa gayinika Gi-gi-gi; \t<br/>\nIl poyiko Biri-biri-bi. \t<br/>\nSi savej la mi sinyora \t<br/>\nI pur kuanto lo merki? \t<br/>\n</p>\n<p>La vakita Mu-mu-mu;<br/>\nIl gayiko Giri-giri-gi; \t<br/>\nLa gayinika Gi-gi-gi; \t<br/>\nIl poyiko Biri-biri-bi. \t<br/>\nSi savej… \t</p>\n<p> </p>\n<p>La vakita Mu-mu-mu;<br/>\nIl gayiko Giri-giri-gi; \t<br/>\nLa gayinika Gi-gi-gi; \t<br/>\nIl poyiko Biri-biri-bi. \t<br/>\nUn pashariko Tvi-tvi-tvi; \t<br/>\nSi savej… \t</p>",
+      "lyrics": "<p>Madame Gashpar saliyo al charshi;<br/>\nKun il dinaro di Purim<br/>\nUn poyiko me merki;<br/>\nIl poyiko Biri-biri-bi.<br/>\nSi savej la mi sinyora<br/>\nI pur kuanto lo merki?</p>\n<blockquote>Madame Gashpar went to the market;<br/>\nWith the Purim money<br/>\nI bought myself a little chick<br/>\nIt chirps Biri-biri-bi.<br/>\nGuess, my lady,<br/>\nHow much did I pay for it?<br/>\nMadame Gashpar saliyo al charshi;<br/>\nMadame Gashpar went to the market;</blockquote>\n<p>Kun il dinaro di Purim<br/>\nUna gayinika me merki;<br/>\nLa gayenika Gi-gi-gi:<br/>\nIl poyiko Biri-biri-bi.<br/>\nSi savej la mi sinyora \t<br/>\nI pur kuanto lo merki?</p>\n<blockquote>With the Purim money<br/>\nI bought myself a little hen;<br/>\nIt clucks Gi-gi-gi;<br/>\nThe chick chirps Biri-biri-bi.<br/>\nThe little rooster: Giri-giri-gi.<br/>\nThe little cow: Mu-mu-mu.<br/>\nThe little bird: Tvi-tvi-tvi.</blockquote>\n<p>Madame Gashpar saliyo al charshi;<br/>\nKun il dinaro di Purim \t<br/>\nUn gayiko me merki;<br/>\nIl gayiko Giri-giri-gi; \t<br/>\nLa gayinika Gi-gi-gi; \t<br/>\nIl poyiko Biri-biri-bi. \t<br/>\nSi savej la mi sinyora \t<br/>\nI pur kuanto lo merki? \t<br/>\n</p>\n<p>La vakita Mu-mu-mu;<br/>\nIl gayiko Giri-giri-gi; \t<br/>\nLa gayinika Gi-gi-gi; \t<br/>\nIl poyiko Biri-biri-bi. \t<br/>\nSi savej… \t</p>\n<p>La vakita Mu-mu-mu;<br/>\nIl gayiko Giri-giri-gi; \t<br/>\nLa gayinika Gi-gi-gi; \t<br/>\nIl poyiko Biri-biri-bi. \t<br/>\nUn pashariko Tvi-tvi-tvi; \t<br/>\nSi savej… \t</p>",
       "notes": "",
-      "language": "ladino and english"
+      "language": "ladino"
     },
     {
       "title": "We rise",
@@ -2669,10 +2779,11 @@
         "bandcamp": "https://arielrootwolpe.bandcamp.com/track/vatikach-miriam"
       },
       "tags": [
-        "pesach"
+        "pesach",
+        "round"
       ],
-      "lyrics": "<p class=\"hebrew\">וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת־הַתֹּף בְּיָדָהּ<br/>\nוַתֵּצֶאןָ כׇל־הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹת<br/>\nוּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם</p>\n<p class=\"transliteration\">(vatikach miriam han'vi'ah achot aharon et hatof b'yadah)(2x)<br/>\n(vateitzena chol hanashim achareha b'tupim uvimcholot<br/>\nvateitzena chol hanashim achareha)(2x)<br/>\n(uv'nei yisra'eil halchu vayabashah (b'toch hayam)(2x))(2x)</p>\n<blockquote>Israelites marched on dry ground in the midst of the sea. Then Miriam the prophet, Aaron's sister, picked up a hand-drum, and all the women went out after her in dance with hand-drums.  </blockquote>",
-      "notes": "",
+      "lyrics": "<p class=\"hebrew\">וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת־הַתֹּף בְּיָדָהּ<br/>\nוַתֵּצֶאןָ כׇל־הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹת<br/>\nוּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם</p>\n<p class=\"transliteration\">Part 1:<br/>\n(vatikach miriam han'vi'ah achot aharon et hatof b'yadah)(2x)<br/>\nPart 2:<br/>\n(vateitzena chol hanashim achareha b'tupim uvimcholot<br/>\nvateitzena chol hanashim achareha)(2x)<br/>\nPart 3:<br/>\n(uv'nei yisra'eil halchu vayabashah (b'toch hayam)(2x))(2x)</p>\n<blockquote>Israelites marched on dry ground in the midst of the sea. Then Miriam the prophet, Aaron's sister, picked up a hand-drum, and all the women went out after her in dance with hand-drums.  </blockquote>",
+      "notes": "Removed intro line to make more suitable for song circle.",
       "language": "hebrew"
     },
     {
@@ -2695,7 +2806,7 @@
     {
       "title": "When you believe",
       "authors": [
-        "Prince of Egypt"
+        "Stephen Schwartz"
       ],
       "sources": [
         {
@@ -2720,8 +2831,8 @@
       "tags": [
         "pesach"
       ],
-      "lyrics": "<p>Many nights we've prayed<br/>\nWith no proof anyone could hear<br/>\nIn our hearts a hopeful song<br/>\nWe barely understood<br/>\nNow, we are not afraid<br/>\nAlthough we know there's much to fear<br/>\nWe were moving mountains long before we knew we could</p>\n<p>CHORUS:<br/>\nThere can be miracles, when you believe!<br/>\nThough hope is frail, it's hard to kill<br/>\nWho knows what miracles, you can achieve<br/>\nWhen you believe, somehow you will<br/>\nYou will when you believe!</p>\n<p>In this time of fear<br/>\nWhen prayer so often proves in vain<br/>\nHope seems like the summer birds<br/>\nToo swiftly, flown away<br/>\nYet now I'm standing here<br/>\nMy heart's so full, I can't explain<br/>\nSeeking faith and speaking words<br/>\nI never thought I'd say</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">אָשִׁירָה לַיְיָ כִּי־גָאֹה גָּאָה<br/>\nמִי־כָמֹכָה בָּאֵלִם יְיָ מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ<br/>\nנָחִיתָ בְחַסְדְּךָ עַם־זוּ גָּאָלְתָּ</p>\n<p class=\"transliteration\">((ashirah ladonai ki ga'oh ga'ah)(2x)<br/>\n(mi chamochah ba'eilim adonai<br/>\nmi kamochah nedar bakodesh<br/>\n(nachita v'chasd'cha am zu ga'alta)(2x)<br/>\n(ashirah)(3x))(2x)</p>\n<blockquote>I will sing to God, who has triumphed gloriously.<br/>\nWho is like you, oh eternal one, among the celestials?<br/>\nWho is like you, majestic in holiness?<br/>\nIn your love you lead the people you redeemed.</blockquote>\n<p>CHORUS</p>",
-      "notes": "",
+      "lyrics": "<p>Many nights we've prayed<br/>\nWith no proof anyone could hear<br/>\nIn our hearts a hopeful song<br/>\nWe barely understood<br/>\nNow we are not afraid<br/>\nAlthough we know there's much to fear<br/>\nWe were moving mountains long before we knew we could</p>\n<p>CHORUS:<br/>\nThere can be miracles, when you believe!<br/>\nThough hope is frail, it's hard to kill<br/>\nWho knows what miracles, you can achieve<br/>\nWhen you believe, somehow you will<br/>\nYou will when you believe!</p>\n<p>In this time of fear<br/>\nWhen prayer so often proves in vain<br/>\nHope seems like the summer birds<br/>\nToo swiftly, flown away<br/>\nYet now I'm standing here<br/>\nMy heart's so full, I can't explain<br/>\nSeeking faith and speaking words<br/>\nI never thought I'd say</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">אָשִׁירָה לַיְיָ כִּי־גָאֹה גָּאָה<br/>\nמִי־כָמֹכָה בָּאֵלִם יְיָ מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ<br/>\nנָחִיתָ בְחַסְדְּךָ עַם־זוּ גָּאָלְתָּ</p>\n<p class=\"transliteration\">((ashirah ladonai ki ga'oh ga'ah)(2x)<br/>\n(mi chamochah ba'eilim adonai<br/>\nmi kamochah nedar bakodesh<br/>\n(nachita v'chasd'cha am zu ga'alta)(2x)<br/>\n(ashirah)(3x))(2x)</p>\n<blockquote>I will sing to God, who has triumphed gloriously.<br/>\nWho is like you, oh eternal one, among the celestials?<br/>\nWho is like you, majestic in holiness?<br/>\nIn your love you lead the people you redeemed.</blockquote>\n<p>CHORUS</p>",
+      "notes": "This is the movie version of the song, not the single version.",
       "language": "english and hebrew"
     },
     {
@@ -2741,7 +2852,8 @@
       },
       "tags": [
         "pesach",
-        "accelerando"
+        "accelerando",
+        "redemption"
       ],
       "lyrics": "<p class=\"hebrew\">עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם עַתָּה - בְּנֵי חוֹרִין</p>\n<p class=\"transliteration\">avadim (hayinu)(2x) l'faroh (b'mitzrayim)(2x)<br/>\navadim hayinu (atah)(2x) b'nei chorin<br/>\navadim hayinu (atah)(2x) (b'nei chorin)(2x)</p>\n<blockquote>We were slaves to Pharaoh in Egypt – now we are free.</blockquote>",
       "notes": "",
@@ -2764,7 +2876,9 @@
       },
       "tags": [
         "pesach",
-        "gratitude"
+        "gratitude",
+        "revelation",
+        "redemption"
       ],
       "lyrics": "<p class=\"hebrew\">אִלּוּ הוֹצִיאָנוּ מִמִּצְרָיִם, וְלֹא עָשָׂה בָּהֶם שְׁפָטִים,דַּיֵּנוּ<br/>\nאִלּוּ עָשָׂה בָּהֶם שְׁפָטִים, וְלֹא עָשָׂה בֵּאלֹהֵיהֶם, דַּיֵּנוּ</p>\n<p class=\"transliteration\">ilu hotzi'anu mimitzrayim<br/>\nv'lo asah bahem sh'fatim dayeinu<br/>\nilu asah bahem sh'fatim<br/>\nv'lo asah b'eiloheihem (dayeinu)(9x)</p>\n<blockquote>If God had brought us out from Egypt, but not carried out judgments against them, it would have sufficed.<br/>\nIf God had carried out judgments against them, but not against their idols, it would have sufficed.</blockquote>\n<p class=\"hebrew\">אִלּוּ נָתַן לָנוּ אֶת הַשַּׁבָּת, וְלֹא קֵרְבָנוּ לִפְנֵי הַר סִינַי,דַּיֵּנוּ<br/>\nאִלּוּ קֵרְבָנוּ לִפְנֵי הַר סִינַי, וְלֹא נָתַן לָנוּ אֶת הַתּוֹרָה, דַּיֵּנוּ</p>\n<p class=\"transliteration\">ilu natan lanu et hashabbat<br/>\nv'lo keirvanu lifnei har sinai dayeinu<br/>\nilu keirvanu lifnei har sinai<br/>\nv'lo natan lanu et hatorah (dayeinu)(9x)</p>\n<blockquote>If God had given us the Shabbat, but not brought us before Mount Sinai, it would have sufficed.<br/>\nIf God had brought us before Mount Sinai, but not given us the Torah, it would have sufficed.</blockquote>\n<p class=\"hebrew\">אִלּוּ נָתַן לָנוּ אֶת הַתּוֹרָה, וְלֹא הִכְנִיסָנוּ לְאֶרֶץ יִשְׂרָאֵל,דַּיֵּנוּ<br/>\nאִלּוּ הִכְנִיסָנוּ לְאֶרֶץ יִשְׂרָאֵל, וְלֹא בָּנָה לָנוּ אֶת בֵּית<br/>\nהַמִּקְדָּש, דַּיֵּנוּ\n</p>\n<p class=\"transliteration\">ilu natan lanu et hatorah<br/>\nv'lo hichnisanu l'eretz yisra'eil dayeinu<br/>\nilu hichnisanu l'eretz yisra'eil<br/>\nv'lo banah lanu et beit hamikdash (dayeinu)(17x)!</p>\n<blockquote>If God had given us the Torah, but not brought us into the land of Israel, it would have sufficed.<br/>\nIf God had brought us into the Land of Israel, but not built for us the Holy Temple, it would have sufficed.</blockquote>",
       "notes": "",
@@ -2796,7 +2910,9 @@
     {
       "title": "Malei shira",
       "authors": [
-        "Kol Hai"
+        "Kol Hai",
+        "Shir Feit",
+        "Renee Finkelstein"
       ],
       "sources": [
         {
@@ -2808,6 +2924,11 @@
           "book": "liturgy",
           "chapter": "haggadah",
           "verse": "hallel"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": "nishmat kol chai"
         }
       ],
       "urls": {
@@ -2896,14 +3017,16 @@
         "feminine god",
         "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">אוֹרָה הִיא</p>\n<p>(orah hi)(3x)</p>\n<p>CHORUS:</p>\n<p class=\"hebrew\">תִבְנֶה בֵיתָה בְּקָרוֹב<br/>\nבִּמְהֵרַה בְּיָמֵינוּ בְּקָרוֹב אֶלַה בְּנִי בֵיתֵךְ בְּקָרוֹב</p>\n<p>tivneh veitah b'karov<br/>\n(bimheirah)(2x) b'yameinu b'karov<br/>\nelah b’ni, elah b’ni b’ni veiteich b'karov</p>\n<p class=\"hebrew\">בִּינָה הִיא, גִילָה הִיא, דִמְעָה הִיא</p>\n<p>binah hi gilah hi dim'ah hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">הַדָר הִיא, וֶרֶד הִיא, זֶרֶם הִיא</p>\n<p>hadar hi vered hi zerem hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">חִידוּשׁ הִיא, טִבּוּר הִיא, יִחוּד הִיא</p>\n<p>chidush hi tibur hi yichud hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">כֶּסֶא הִיא, לֵידָה הִיא, מַעָיָן הִיא</p>\n<p>kese hi leidah hi ma'ayan hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">נְחַמָה הִיא, סְלִיחָה הִיא, עוֹצְמָה הִיא</p>\n<p>n'chamah hi s'lichah hi otzmah hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">פִּדְיוֹן הִיא, צֶדֶק הִיא, קוֹדֶשׁ הִיא</p>\n<p>pidyon hi tzedek hi kodesh hi</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">רַעַיָה הִיא, שׁוֹנָה הִיא, תָּמַה הִיא</p>\n<p>ra'ayah hi shonah hi tamah hi</p>\n<blockquote>She is light, she is light. May she build her house soon, soon, speedily and in our days. God, build your house soon, close to us in time and space.<br/>\nShe is wisdom, she is joy, she is tears.<br/>\nShe is splendor, she is a rose, she is a flowing stream.<br/>\nShe is renewal, she is the center, she is oneness.<br/>\nShe is the full moon, she is birth, she is the fountain-source.<br/>\nShe is comfort, she is forgiveness, she is strength.<br/>\nShe is redemption, she is righteousness, she is holiness.<br/>\nShe is a beloved companion, she is always changing, she is complete and perfect.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">אוֹרָה הִיא</p>\n<p>(<i>orah hi</i>)(3x)</p>\n<p>CHORUS:</p>\n<p class=\"hebrew\">תִבְנֶה בֵיתָה בְּקָרוֹב<br/>\nבִּמְהֵרַה בְּיָמֵינוּ בְּקָרוֹב אֶלַה בְּנִי בֵיתֵךְ בְּקָרוֹב</p>\n<p>tivneh veitah b'karov<br/>\n(<i>bimheirah</i>)(2x) b'yameinu b'karov<br/>\nelah b’ni, elah b’ni b’ni veiteich b'karov</p>\n<p class=\"hebrew\">בִּינָה הִיא, גִילָה הִיא, דִמְעָה הִיא</p>\n<p>(<i>binah hi</i>) (<i>gilah hi</i>) (<i>dim'ah hi</i>)</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">הַדָר הִיא, וֶרֶד הִיא, זֶרֶם הִיא</p>\n<p>(<i>hadar hi</i>) (<i>vered hi</i>) (<i>zerem hi</i>)</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">חִידוּשׁ הִיא, טִבּוּר הִיא, יִחוּד הִיא</p>\n<p>(<i>chidush hi</i>) (<i>tibur hi</i>) (<i>yichud hi</i>)</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">כֶּסֶא הִיא, לֵידָה הִיא, מַעָיָן הִיא</p>\n<p>(<i>kese hi</i>) (<i>leidah hi</i>) (<i>ma'ayan hi</i>)</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">נְחַמָה הִיא, סְלִיחָה הִיא, עוֹצְמָה הִיא</p>\n<p>(<i>n'chamah hi</i>) (<i>s'lichah hi</i>) (<i>otzmah hi</i>)</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">פִּדְיוֹן הִיא, צֶדֶק הִיא, קוֹדֶשׁ הִיא</p>\n<p>(<i>pidyon hi</i>) (<i>tzedek hi</i>) (<i>kodesh hi</i>)</p>\n<p>CHORUS</p>\n<p class=\"hebrew\">רַעַיָה הִיא, שׁוֹנָה הִיא, תָּמַה הִיא</p>\n<p>(<i>ra'ayah hi</i>) (<i>shonah hi</i>) (<i>tamah hi</i>)</p>\n<blockquote>She is light, she is light. May she build her house soon, soon, speedily and in our days. God, build your house soon, close to us in time and space.<br/>\nShe is wisdom, she is joy, she is tears.<br/>\nShe is splendor, she is a rose, she is a flowing stream.<br/>\nShe is renewal, she is the center, she is oneness.<br/>\nShe is the full moon, she is birth, she is the fountain-source.<br/>\nShe is comfort, she is forgiveness, she is strength.<br/>\nShe is redemption, she is righteousness, she is holiness.<br/>\nShe is a beloved companion, she is always changing, she is complete and perfect.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
     {
       "title": "S'firat ha'omer",
       "authors": [
-        "Yosef Goldman"
+        "Yosef Goldman",
+        "Shir Feit",
+        "Zach Fredman"
       ],
       "sources": [
         {
@@ -2961,6 +3084,11 @@
           "book": "Psalm",
           "chapter": "150",
           "verse": "6"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "shacharit",
+          "verse": ""
         }
       ],
       "urls": {
@@ -2968,7 +3096,6 @@
         "bandcamp": "https://joeyweisenberg.bandcamp.com/track/kol-haneshamah"
       },
       "tags": [
-        "shacharit",
         "praise"
       ],
       "lyrics": "<p class=\"hebrew\">כֹּל הַנְּשָׁמָה תְּהַלֵּל יָהּ הַלְלוּ־יָהּ</p>\n<p class=\"transliteration\">(kol han'shamah t'haleil yah, hal'luyah)(2x)<br/>\n(hal'luyah)(2x) (aye)(5x) (hal'luyah)(2x)</p>\n<blockquote>All spirit and breath praises the Divine, Halleluyah!</blockquote>",
@@ -2997,7 +3124,8 @@
       },
       "tags": [
         "shavuot",
-        "love"
+        "love",
+        "wedding"
       ],
       "lyrics": "<p class=\"hebrew\">עוֹד יִשָׁמַע בְּעַרֵי יְהוּדָה<br/>\nוּבְחוּצוֹת יְרוּשָלַיִם<br/>\nקוֹל שָשוֹן וְקוֹל שִמְחָה<br/>\nקוֹל חָתָן וְקוֹל כָּלָה<br/>\nקוֹל שָשוֹן וְקוֹל שִמְחָה<br/>\nקוֹל אָהוּב וְקוֹל רֵעָה</p>\n<p>(od yishama b'arei y'hudah<br/>\nuv'chutzot y'rushalayim)(2x)<br/>\nkol sason v'kol simchah<br/>\nkol chatan v'kol kalah<br/>\nkol sason v'kol simchah<br/>\nkol ahuv v'kol rei'ah</p>\n<p class=\"transliteration\">[niggun]</p>\n<blockquote>Yet again there shall be heard in the cities of Judah<br/>\nand in the streets of Jerusalem.<br/>\nThe voice of joy and the voice of gladness<br/>\nThe voice of the bridegroom and the voice of the bride<br/>\nThe voice of the lover and the voice of the friend</blockquote>",
       "notes": "",
@@ -3069,11 +3197,14 @@
         "youtu": "https://youtu.be/YeBQTgKdYvE"
       },
       "tags": [
+        "love",
         "shavuot",
         "peace",
-        "justice"
+        "justice",
+        "call and response",
+        "round"
       ],
-      "lyrics": "<p class=\"hebrew\">וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ<br/>\nאִם לֹא עַכְשָׁיו, אֵימָתָי<br/>\nבְּכׇל לְבָבְךָ נַפְשְׁךָ מְאֹדֶךָ, וְאָהַבְתָּ</p>\n<p class=\"transliteration\">(v'ahavta l'rei'acha kamocha)(2x)<br/>\n(im lo ach'shav eimatai)(4x)<br/>\n(b'chol l'vavcha v'nafsh'cha m'odecha v'ahavta)(2x)</p>\n<blockquote>Love your fellow as yourself.<br/>\nAnd if not now, when?<br/>\nWith all your heart, soul, and might, you must love.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ<br/>\nאִם לֹא עַכְשָׁיו, אֵימָתָי<br/>\nבְּכׇל לְבָבְךָ נַפְשְׁךָ מְאֹדֶךָ, וְאָהַבְתָּ</p>\n<p class=\"transliteration\">(v'ahavta l'rei'acha kamocha)(2x)<br/>\n(im lo ach'shav eimatai)(4x)<br/>\n((<i>b'chol l'vavcha</i>) (<i>v'nafsh'cha)</i><br/>\n<i>m'odecha</i> v'ahavta)(2x)</p>\n<blockquote>Love your fellow as yourself.<br/>\nAnd if not now, when?<br/>\nWith all your heart, soul, and might, you must love.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -3112,8 +3243,8 @@
       "tags": [
         "shavuot"
       ],
-      "lyrics": "<p>(Where you go, I will go (Beloved)/(Biome)/(Children)<br/>\nWhere you go, I will go)(2x)<br/>\nAnd (where you lie, I will lie (Beloved)/(Biome)/(Children)<br/>\nWhere you lie, I will lie)(2x)<br/>\nAnd your people are my people<br/>\nYour people are mine<br/>\nYour people are my people<br/>\nYour Divine my Divine</p>",
-      "notes": "Changed the repeating verses to be shorter",
+      "lyrics": "<p>(Where you go, I will go (Beloved)/(Children)/(Ancestors)<br/>\nWhere you go, I will go)(2x)<br/>\nAnd (where you lie, I will lie (Beloved)/(Children)/(Ancestors)<br/>\nWhere you lie, I will lie)(2x)<br/>\nAnd your people are my people<br/>\nYour people are mine<br/>\nYour people are my people<br/>\nYour Divine my Divine</p>",
+      "notes": "Changed the repeating verses to shorten the song. The original song has the following in this order: Beloved, Refugee, Mother Earth, Children, Ancestors.",
       "language": "english"
     },
     {
@@ -3137,9 +3268,10 @@
         "youtu": "https://youtu.be/dWatxGADvYI"
       },
       "tags": [
-        "shavuot"
+        "shavuot",
+        "community"
       ],
-      "lyrics": "<p class=\"hebrew\">כִּי אֶל־אֲשֶׁר תֵּלְכִי אֵלֵךְ<br/>\nוּבַאֲשֶׁר תָּלִינִי אָלִין<br/>\nעַמֵּךְ עַמִּי<br/>\nוֵאלֹהַיִךְ אֱלֹהָי<br/>\nבַּאֲשֶׁר תָּמוּתִי אָמוּת</p>\n<p class=\"transliteration\">ki el asher teilchi eileich<br/>\nuva'asher talini alin<br/>\nameich ami<br/>\nveilohayich elohai<br/>\nba'asher tamuti amut</p>\n<blockquote>For wherever you go, I will go; wherever you lodge, I will lodge; your people shall be my people, and your God my God. Where you die, I will die  </blockquote>\n<p>On a dusty open road to her homeland in the west<br/>\nNaomi could not hold all the tears that she had left.<br/>\nAs she stood before her journey, she said goodbye to Ruth<br/>\nGo on to your family, may God always bless you<br/>\nBut Ruth would never leave her, Naomi was her home<br/>\nshe said as she held her, “you're the family I know”</p>\n<p>CHORUS:<br/>\nWherever you go, I will go there too.<br/>\nWhere you live, I'll live.<br/>\nYour people will be mine,<br/>\nYour god will be my god<br/>\nAnd where you rest I'll lie.</p>\n<p>Through the barren land beneath the desert flame<br/>\nThe strength found in each other was a providential rain<br/>\nAnd it brought them to the Jordan where they waded through the tides<br/>\nOver hills that followed to a promised land they climbed.</p>\n<p>CHORUS</p>\n<p>Along the path between them, the covenant was sown<br/>\nA bond that gave Ruth freedom in the family she chose.</p>\n<p>CHORUS</p>",
+      "lyrics": "<p class=\"hebrew\">כִּי אֶל־אֲשֶׁר תֵּלְכִי אֵלֵךְ<br/>\nוּבַאֲשֶׁר תָּלִינִי אָלִין<br/>\nעַמֵּךְ עַמִּי<br/>\nוֵאלֹהַיִךְ אֱלֹהָי<br/>\nבַּאֲשֶׁר תָּמוּתִי אָמוּת</p>\n<p class=\"transliteration\">ki el asher teilchi eileich<br/>\nuva'asher talini alin<br/>\nameich ami<br/>\nveilohayich elohai<br/>\nba'asher tamuti amut</p>\n<blockquote>For wherever you go, I will go; wherever you lodge, I will lodge; your people shall be my people, and your God my God. Where you die, I will die  </blockquote>\n<p>On a dusty open road<br/>\nto her homeland in the west<br/>\nNaomi could not hold<br/>\nall the tears that she had left.<br/>\nAs she stood before her journey,<br/>\nshe said goodbye to Ruth:<br/>\n\"Go on to your family,<br/>\nmay God always bless you.\"<br/>\nBut Ruth would never leave her;<br/>\nNaomi was her home<br/>\nshe said as she held her,<br/>\n“you're the family I know”</p>\n<p>CHORUS:<br/>\nWherever you go, I will go there too.<br/>\nWhere you live, I'll live.<br/>\nYour people will be mine,<br/>\nYour god will be my god<br/>\nand where you rest I'll lie.</p>\n<p>Through the barren land<br/>\nbeneath the desert flame<br/>\nthe strength found in each other<br/>\nwas a providential rain<br/>\nand it brought them to the Jordan<br/>\nwhere they waded through the tides<br/>\nover hills that followed<br/>\nto a promised land they climbed.</p>\n<p>CHORUS</p>\n<p>Along the path between them,<br/>\nthe covenant was sown:<br/>\na bond that gave Ruth freedom\n<br/>in the family she chose.</p>\n<p>CHORUS</p>",
       "notes": "",
       "language": "english"
     },
@@ -3164,11 +3296,12 @@
         "youtu": "https://youtu.be/zlRKcwM9tVs"
       },
       "tags": [
-        "rosh hashanah"
+        "protection",
+        "praise"
       ],
-      "lyrics": "<p class=\"hebrew\">וַאָנִי אָשִׁיר עֻזֶךָ<br/>\nוַאֲרַנֵן לַבֹּקֶר חֲסְדֶּךָ<br/>\nכִּי הָיִיתָ מִשְׂגָּב לִי<br/>\nוּמָנוֹס בְּיוֹם צַר לִי</p>\n<p class=\"hebrew\">עֻזִּי אֵלֶיךָ אֲזַמֵּרָה</p>\n<p class=\"transliteration\">(va'ani ashir uzecha<br/>\nva'aranein labokeir chasdecha<br/>\nki hayita misgav li<br/>\nu'manos l'yom tzar li)(2x)<br/>\n(uzi eilecha (azameirah)(2x))(4x)</p>\n<blockquote>But I will sing your strength<br/>\nExtol each morning your lovingkindness<br/>\nFor you have been my haven<br/>\nAnd my refuge in my time of trouble<br/>\nTo you, Oh my strength, I will sing</blockquote>",
+      "lyrics": "<p class=\"hebrew\">וַאָנִי אָשִׁיר עֻזֶךָ<br/>\nוַאֲרַנֵן לַבֹּקֶר חֲסְדֶּךָ<br/>\nכִּי הָיִיתָ מִשְׂגָּב לִי<br/>\nוּמָנוֹס בְּיוֹם צַר לִי<br/>\nעֻזִּי אֵלֶיךָ אֲזַמֵּרָה</p>\n<p class=\"transliteration\">(va'ani ashir uzecha<br/>\nva'aranein labokeir chasdecha<br/>\nki hayita misgav li<br/>\nu'manos l'yom tzar li)(2x)<br/>\n(uzi eilecha (azameirah)(2x))(4x)</p>\n<blockquote>But I will sing your strength<br/>\nExtol each morning your lovingkindness<br/>\nFor you have been my haven<br/>\nAnd my refuge in my time of trouble<br/>\nTo you, Oh my strength, I will sing</blockquote>",
       "notes": "",
-      "language": ""
+      "language": "hebrew"
     },
     {
       "title": "Nasu",
@@ -3220,7 +3353,8 @@
       "tags": [
         "tisha b'av",
         "healing",
-        "mourning"
+        "mourning",
+        "community"
       ],
       "lyrics": "<p class=\"hebrew\">נַחֲמוּ נַחֲמוּ עַמִּי יֹאמַר אֱלֹהֵיכֶם</p>\n<p class=\"transliteration\">((nachamu)(2x) ami yomar eloheichem)(4x)</p>\n<blockquote>Comfort, oh comfort My people, says your God.</blockquote>\n<p>(Comfort us)(2x) in our wilderness<br/>\nComfort us as we struggle to take care of one another<br/>\n(Comfort us)(2x) in our wilderness<br/>\nComfort us as we struggle with this world</p>",
       "notes": "",
@@ -3347,7 +3481,8 @@
         }
       ],
       "urls": {
-        "youtube": "https://www.youtube.com/live/OpPf1fa2mAY?t=119"
+        "youtube": "https://www.youtube.com/live/OpPf1fa2mAY?t=119",
+        "bandcamp": "https://rabbiilan.bandcamp.com/track/shomreini"
       },
       "tags": [
         "tisha b'av",
@@ -3403,7 +3538,8 @@
       },
       "tags": [
         "tisha b'av",
-        "healing"
+        "healing",
+        "mourning"
       ],
       "lyrics": "<p class=\"hebrew\">הָרֹפֵא לִשְׁבוּרֵי לֵב וּמְחַבֵּשׁ לְעַצְּבוֹתָם׃<br/>\nמוֹנֶה מִסְפָּר לַכּוֹכָבִים לְכֻלָּם שֵׁמוֹת יִקְרָא׃<br/>\nהַלְלוּ יָהּ</p>\n<p class=\"transliteration\">(harofei lishvurei lev<br/>\numchabesh le'atzvotam<br/>\nmoneh mispar lakochavim<br/>\nlechulam sheimot yikra)(2x)<br/>\n(hal'lu yah)(4x)</p>\n<blockquote>Who heals the broken hearted<br/>\nand binds their wounds<br/>\nWho counted the stars<br/>\nand gave each its name.</blockquote>\n<p>(Healer of the broken-hearted<br/>\nBinder of (their)/(our) wounds<br/>\nCounter of uncountable stars<br/>\nYou know (where they are)/(who we are))(2x)<br/>\n(hal'lu yah)(4x)</p>",
       "notes": "",
@@ -3434,7 +3570,7 @@
         "mourning",
         "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">גַּם כִּי־אֵלֵךְ בְּגֵיא צַלְמָוֶת לֹא־אִירָא רָע כִּי־אַתָּה עִמָּדִי<br/>\nאַךְ  טוֹב וָחֶסֶד יִרְדְּפוּנִי כׇּל־יְמֵי חַיָּי</p>\n<p class=\"transliteration\">(gam ki eilech b'gei tzalmavet lo ira ra<br/>\nki atah imadi)(x4)<br/>\n(ki atah imadi)(x5)<br/>\n(ach (tov)(2x) vachesed)(3x) (yird'funi)(3x)<br/>\n(kol y'mei chayai)(4x)</p>\n<blockquote>Though I walk through a valley of deepest darkness,<br/>\nI fear no harm, for You are with me.<br/>\nOnly goodness and steadfast love shall pursue me<br/>\nall the days of my life.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">גַּם כִּי־אֵלֵךְ בְּגֵיא צַלְמָוֶת לֹא־אִירָא רָע כִּי־אַתָּה עִמָּדִי<br/>\nאַךְ  טוֹב וָחֶסֶד יִרְדְּפוּנִי כׇּל־יְמֵי חַיָּי</p>\n<p class=\"transliteration\">(gam ki eilech b'gei tzalmavet lo ira ra<br/>\nki atah imadi)(x4)<br/>\n(<i>ki atah imadi</i>)(x2)<br/> ki atah imadi\n(ach (tov)(2x) vachesed)(3x) (yird'funi)(3x)<br/>\n(kol y'mei chayai)(4x)</p>\n<blockquote>Though I walk through a valley of deepest darkness,<br/>\nI fear no harm, for You are with me.<br/>\nOnly goodness and steadfast love shall pursue me<br/>\nall the days of my life.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -3564,9 +3700,10 @@
       },
       "tags": [
         "tu b'av",
-        "wedding"
+        "wedding",
+        "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">דֹּוּדִי לִי וַאֲנִי לוֹ הָרֹעֶה בַּשׁוֹשַׁנִּים.</p>\n<p class=\"transliteration\" style=\"font-style: normal\">A</p>\n<p class=\"transliteration\">(dodi li va'ani lo haro'eh bashoshanim<br/>\n<i>d</i><i>odi </i><i>l</i><i>i va'ani lo haro'eh bashoshanim</i>)(2x)<br/>\nB</p>\n<p class=\"transliteration\">(dodi li va'ani lo, <i>d</i><i>odi </i><i>l</i><i>i va'ani lo</i>)(2x)<br/>\n(dodi li va'ani lo)(2x) (<i>d</i><i>odi </i><i>l</i><i>i va'ani lo</i>)(2x)<br/>\nC</p>\n<p class=\"transliteration\">(dodi li <i>dodi li</i><span style=\"font-style: normal\">)(2x)</span></p>\n<p class=\"transliteration\">(dodi li va'ani lo, <i>d</i><i>odi </i><i>l</i><i>i va'ani lo</i>)(2x)</p>\n<p class=\"transliteration\">(dodi li va'ani lo)(2x) (<i>d</i><i>odi </i><i>l</i><i>i va'ani lo</i>)(2x)</p>\n<p class=\"transliteration\">ABABC</p>\n<blockquote>My beloved is mine and I am his, who browses among the lilies.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">דֹּוּדִי לִי וַאֲנִי לוֹ הָרֹעֶה בַּשׁוֹשַׁנִּים.</p>\n<p class=\"transliteration\">A:</p>\n<p class=\"transliteration\">(<i>dodi li va'ani lo haro'eh bashoshanim</i>)(2x)</p>\n<p class=\"transliteration\">B:</p>\n<p class=\"transliteration\">(<i>dodi li va'ani lo</i>)(2x)<br/>\n<i>(dodi li va'ani lo)(2x)</i></p>\n<p class=\"transliteration\">C:</p>\n<p class=\"transliteration\">(<i>dodi li</i>)(2x)</p>\n<p class=\"transliteration\">(<i>dodi li va'ani lo</i>)(2x)</p>\n<p class=\"transliteration\"><i>(dodi li va'ani lo)(2x)</i></p>\n<p class=\"transliteration\">ABABC</p>\n<blockquote>My beloved is mine and I am his, who browses among the lilies.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -3587,7 +3724,8 @@
       },
       "tags": [
         "tu b'av",
-        "love"
+        "love",
+        "wedding"
       ],
       "lyrics": "<p class=\"hebrew\">אֲנִי לְדוֹדִי וְדוֹדִי לִי הָרֹעֶה בַּשּׁוֹשַׁנִּים</p>\n<p class=\"transliteration\">(ani l'dodi v'dodi li haro'eh bashoshanim<br/>\n(haro'eh)(3x) bashoshanim)(2x)<br/>\n(ani (l'dodi)(2x) v'dodi li (haro'eh)(2x) bashoshanim)(2x)</p>\n<blockquote>I am my beloved's and my beloved is mine;<br/>\nHe browses among the lilies.</blockquote>",
       "notes": "",
@@ -3640,7 +3778,7 @@
         "tu b'av",
         "wedding"
       ],
-      "lyrics": "<p class=\"hebrew\">לִבַּבְתִּנִי אֲחֹתִי כַלָּה לִבַּבְתִּנִי<br/>\nבְּאַחַת מֵעֵינַיִךְ בְּאַחַד עֲנָק מִצַּוְּרֹנָיִךְ<br/>\nמַה־יָּפוּ</p>\n<p class=\"transliteration\">libavtini achoti kallah libavtini<br/>\nbe'echat me'einayich, be'echad anak mi'tzav'ronayich<br/>\n(mah yafu)(2x)</p>\n<blockquote>You have captured my heart,<br/>\nMy own, my bride,<br/>\nYou have captured my heart<br/>\nWith one glance of your eyes,<br/>\nWith one coil of your necklace.<br/>\nHow sweet is your love.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">לִבַּבְתִּנִי אֲחֹתִי כַלָּה לִבַּבְתִּנִי<br/>\nבְּאַחַת מֵעֵינַיִךְ בְּאַחַד עֲנָק מִצַּוְּרֹנָיִךְ<br/>\nמַה־יָּפוּ</p>\n<p class=\"transliteration\">libavtini achoti kallah libavtini<br/>\nb'achat mei'einayich, b'achad anak mitzavronayich<br/>\n(mah yafu)(2x)</p>\n<blockquote>You have captured my heart,<br/>\nMy own, my bride,<br/>\nYou have captured my heart<br/>\nWith one glance of your eyes,<br/>\nWith one coil of your necklace.<br/>\nHow sweet is your love.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -3672,7 +3810,6 @@
       },
       "tags": [
         "tu b'av",
-        "shacharit",
         "wedding",
         "accelerando"
       ],
@@ -3866,7 +4003,8 @@
         "youtube": "https://www.youtube.com/watch?v=Biv9Yh_z4QU"
       },
       "tags": [
-        "healing"
+        "healing",
+        "justice"
       ],
       "lyrics": "<p>(Loosen, loosen, baby<br/>\nYou don't have to carry<br/>\nThe weight of the world <br/>\nIn your muscles and bones<br/>\nLet go, let go, let go)(2x)</p>\n<p>(Holy breath and holy name<br/>\nWill you ease, will you ease this pain)(2x)</p>",
       "notes": "",
@@ -3882,7 +4020,9 @@
         "youtu": "https://youtu.be/Wbo6JC9tAC4"
       },
       "tags": [
-        "journey"
+        "journey",
+        "zipper",
+        "community"
       ],
       "lyrics": "<p>Trust is the way that carries us home.<br/>\nTrust is the way that carries us back home.<br/>\nOn the road of confusion no longer shall we roam, 'cause<br/>\n(Trust is the way that brings us home.)(2x)</p>\n<p>Love is the way that carries us home.<br/>\nLove is the way that carries us back home.<br/>\nOn the road of fear no longer shall we roam, 'cause<br/>\n(Love is the way that brings us home.)(2x)</p>\n<p>Home, we are all on our way home<br/>\nWith different journeys, different lessons, different things to know.<br/>\nNo matter how long it takes or which way we choose to go<br/>\n(Step by step we are walking each other home.)(2x)</p>\n<p>Forgiveness is the way that carries us home.<br/>\nForgiveness is the way that carries us back home.<br/>\nOn the road of resentment no longer shall we roam, 'cause<br/>\n(Forgiveness is the way that brings us home.)(2x)</p>\n<p>Presence is the way that carries us home.<br/>\nPresence is the way that carries us back home.<br/>\nOn the road of distraction no longer shall we roam, 'cause<br/>\n(Presence is the way that brings us home.)(2x)</p>\n<p>Home, we are all being guided home<br/>\nWith different stories, different rules, and different river flows.<br/>\nIt may seem like a far off dream and not one we've been shown<br/>\nBut (step by step we are walking each other home.)(2x)</p>\n<p>Courage is the way that carries us home.<br/>\nCourage is the way that carries us back home.<br/>\nOn the road of doubt no longer shall we roam, 'cause<br/>\n(Courage is the way that brings us home.)(2x)</p>\n<p>Home, we are all on our way home<br/>\nWith different journeys, different lessons, different things to know.<br/>\nNo matter how long it takes or which way we choose to go<br/>\n(Step by step we are walking each other home.)(2x)</p>\n<p>Home, we are all being guided home<br/>\nWith different stories, different rules, and different river flows.<br/>\nIt may seem like a far off dream and not one we've been shown<br/>\nBut (step by step we are walking each other home.)(2x)<br/>\nNo matter how long it takes or which way we choose to go<br/>\n(Step by step we are walking each other home.)(2x)</p>",
       "notes": "",
@@ -3901,9 +4041,10 @@
         "journey",
         "mourning",
         "justice",
-        "call and response"
+        "call and response",
+        "zipper"
       ],
-      "lyrics": "<p>(May the life I lead speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the life I lead speak for me</p>\n<p>(May the songs I sing speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the songs I sing speak for me</p>\n<p>(May the work I do speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the work I do speak for me</p>\n<p>(May the words I speak speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the words I speak speak for me</p>\n<p>(May the path I walk speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the path I walk speak for me</p>\n<p>(May the land I tend speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the land I tend speak for me</p>\n<p>(May the seeds I sow speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the seeds I sow speak for me</p>\n<p>(May the mountain we climb speak for me)(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the mountain we climb speak for me</p>\n<p>When I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the life I lead speak for me</p>",
+      "lyrics": "<p>((<i>May the life I lead</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the life I lead speak for me</p>\n<p>((<i>May the songs I sing</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the songs I sing speak for me</p>\n<p>((<i>May the work I do</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the work I do speak for me</p>\n<p>((<i>May the words I speak</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the words I speak speak for me</p>\n<p>((<i>May the path I walk</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the path I walk speak for me</p>\n<p>((<i>May the land I tend</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the land I tend speak for me</p>\n<p>((<i>May the seeds I sow</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the seeds I sow speak for me</p>\n<p>((<i>May the mountain we climb</i>) (<i>speak for me</i>))(2x)<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the mountain we climb speak for me</p>\n\n<p>ENDING:<br/>\nWhen I come to the end of the road<br/>\nAnd I lay down my heavy load<br/>\nMay the life I lead speak for me</p>",
       "notes": "",
       "language": "english"
     },
@@ -3965,14 +4106,19 @@
           "book": "liturgy",
           "chapter": "",
           "verse": ""
+        },
+        {
+          "book": "Psalm",
+          "chapter": "89",
+          "verse": "5"
         }
       ],
       "urls": {
         "youtu": "https://youtu.be/6rRJ6YN4uz8"
       },
       "tags": [
-        "healing",
-        "nature"
+        "nature",
+        "healing"
       ],
       "lyrics": "<p>(l’dor vador vador)(2x)<br/>\nl’dor vador, ancestors sing from the waters<br/>\nl’dor vador, children shout from the trees<br/>\nGenerations to come demand that we act now<br/>\nTo heal the earth for all to thrive under the sun</p>\n<p>l’dor vador, ancestors share their wisdom<br/>\nl’dor vador, children take the lead<br/>\nGenerations to come demand that we act now<br/>\nTo heal the earth for all to thrive under the sun</p>\n<p>L’dor vador, ancestors call for justice<br/>\nL’dor vador, children chant for peace<br/>\nGenerations to come demand that we act now<br/>\nTo heal the earth for all to thrive under the sun</p>\n<p>[niggun]</p>",
       "notes": "",
@@ -4024,7 +4170,7 @@
         "gratitude"
       ],
       "lyrics": "<p class=\"hebrew\">אֲדֹנָתִי שְׂפָתַי תִּפְתָּחִי, וּפִי יַגִּיד תְּהִלָּתָיִךְ</p>\n<p>(adonati s'fatai tiftachi ufi yagid t'hilatayich</p>\n<p>Open up my lips oh God and I will sing your praise)(2x)</p>\n<p>You bless us Elohei Sarah, You bless us Elohei Rivkah<br/>\nYou bless us Elohei Rachel, You bless us Elohei Leah<br/>\nYou bless us Elohei Avraham, You bless us Elohei Yitzchak<br/>\nYou bless us Elohei Ya'akov, You bless us Elohei Yisra'eil</p>",
-      "notes": "",
+      "notes": "We made the following changes to the original recording:\n* we used the feminine gender for god in the lyrics\n* we removed the \"We are the old people, we are the new people, We are the same people, stronger than before\" since it seems closely tied to a pagan chant.",
       "language": "english and hebrew"
     },
     {
@@ -4036,8 +4182,10 @@
       "urls": {
         "youtube": "https://www.youtube.com/watch?v=ydY3-ysexeM"
       },
-      "tags": [],
-      "lyrics": "<p>Siete modos de guisados<br/>\nse guisa la merenjena.<br/>\nLa primera de las guisá es la vava de Elena<br/>\nYa la hace bokaditos<br/>\ni la mete’n una sena<br/>\nEsta komida la yaman komida de merenjena.</p>\n<p>A mi tiyo, Serasi, que le agrada beber vino:<br/>\nKun el vino, vino, vino,<br/>\nMucho y bien a él vino.</p>\n<p>La segunda que le guisa<br/>\nes la mujer del Shamas,<br/>\nLa kavaca por ariento y la inchi d’aromat<br/>\nEsta komida la yaman<br/>\nla komida la dolmá.</p>\n<p>La tracerá que la guisa<br/>\nes mi prima Ester de Chiote.<br/>\nLa kavaca por arientro y la hinchi d’arroz moti.<br/>\nEsta komida la yaman<br/>\nla komida la alomondrote.</p>\n<p>La alburniya es saborida<br/>\nen kolor y en golor.<br/>\nVen haremos una sena mos gozaremos los dos<br/>\nAntes que venga el guzano<br/>\ny le kite la sabor.</p>\n<p><br/>\n<br/>\n</p>\n<p>En las mezas de la fiestas<br/>\nsyempre briya el jandrajo.<br/>\nYa l’hacemos pastelikos,<br/>\nI las briyan en loz platos<br/>\nAsperando a ser servidos<br/>\nkun los güevos jaminados.</p>\n<p>La salata maljasina es pastosa y saborida.<br/>\nMi vesina la prepara kun mucho aceite de oliva,<br/>\nEstos platos acompañan<br/>\na los rostros de gallinas.</p>\n<p>La setena que la guise<br/>\nes mejor y mas janina.<br/>\nLa prepara Filisti, la hija de la vecina.<br/>\nYa la mete en el forno<br/>\nde kabeza a la kocina kun aceite y pimienta<br/>\nya la yama una meyina.</p>\n<p>There are seven different<br/>\nways to cook eggplant.<br/>\nThe first recipe is Elena’s specialty.<br/>\nShe cuts it into bite-sized pieces<br/>\nand serves it for supper,<br/>\nAnd this meal is called a dish of eggplant.</p>\n<p>My Uncle, Cerasi, likes to drink wine,<br/>\nLots of it;<br/>\nHe feels fine.</p>\n<p>The second one who makes it<br/>\nis the sexton’s wife;<br/>\nShe hollows it out and fills it with herbs.<br/>\nThis meal is called<br/>\na dish of dolma.</p>\n<p>The third one who makes it<br/>\nis my cousin, Ester di Chiote.<br/>\nShe hollows it out and fills it with rice.<br/>\nThis meal is called<br/>\na dish of almondrote.</p>\n<p>The alburnia is a tasty recipe<br/>\nboth for its color and aroma.<br/>\nCome, let’s make a supper to enjoy together,<br/>\nBefore the worm comes<br/>\nand takes the flavor away.</p>\n<p>On the tables at the feasts<br/>\nthe jandrajo always shines.<br/>\nWe make little pastries out of it,<br/>\nThey shine in the plates<br/>\nwaiting to be served<br/>\nwith hard-boiled eggs.</p>\n<p>The maljasina salad is rich and tasty.<br/>\nMy neighbor makes it with a lot olive oil.<br/>\nIt’s served with<br/>\nleft-over hen.</p>\n<p>The seventh way it’s made<br/>\nis the best and most exquisite.<br/>\nFilisti, the neighbor’s daughter, makes it.<br/>\nShe puts it in the oven<br/>\nin an open dish with oil and pepper,<br/>\nAnd they call it a meyina.</p>\n<p><br/>\n<br/>\n</p>",
+      "tags": [
+        "food"
+      ],
+      "lyrics": "<p>Siete modos de guisados<br/>\nse guisa la merenjena.<br/>\nLa primera de las guisá<br/>\nes la vava de Elena<br/>\nYa la hace bokaditos<br/>\ni la mete’n una sena<br/>\nEsta komida la yaman komida de merenjena.</p>\n<p>CHORUS:<br/>\nA mi tiyo, Serasi, que le agrada beber vino:<br/>\nKun el vino, vino, vino,<br/>\nMucho y bien a él vino.</p>\n<p>La segunda que le guisa<br/>\nes la mujer del Shamas,<br/>\nLa kavaca por ariento y la inchi d’aromat<br/>\n(Esta komida la yaman<br/>\nla komida la dolmá)(2x).</p>\n<p>CHORUS</p>\n<p>La tracerá que la guisa<br/>\nes mi prima Ester de Chiote.<br/>\nLa kavaca por arientro y la hinchi d’arroz moti.<br/>\n(Esta komida la yaman<br/>\nla komida la alomondrote)(2x).</p>\n<p>CHORUS</p>\n<p>La alburniya es saborida<br/>\nen kolor y en golor.<br/>\nVen haremos una sena mos gozaremos los dos<br/>\n(Antes que venga el guzano<br/>\ny le kite la sabor)(2x).</p>\n<p>CHORUS</p>\n<p>En las mezas de la fiestas<br/>\nsyempre briya el jandrajo.<br/>\nYa l’hacemos pastelikos,<br/>\nI las briyan en loz platos<br/>\n(Asperando a ser servidos<br/>\nkun los güevos jaminados)(2x).</p>\n<p>CHORUS</p>\n<p>La salata maljasina<br/>\nes pastosa y saborida.<br/>\nMi vesina la prepara<br/>\nkun mucho aceite de oliva,<br/>\n(Estos platos acompañan<br/>\na los rostros de gallinas)(2x).</p>\n<p>CHORUS</p>\n<p>La setena que la guise<br/>\nes mejor y mas janina.<br/>\nLa prepara Filisti,<br/>\nla hija de la vecina.<br/>\nYa la mete en el forno<br/>\nde kabeza a la kocina<br/>\nkun aceite y pimienta<br/>\nya la yama una meyina.</p>\n<p>CHORUS</p>\n\n<blockquote>There are seven different<br/>\nways to cook eggplant.<br/>\nThe first recipe is Elena’s specialty.<br/>\nShe cuts it into bite-sized pieces<br/>\nand serves it for supper,<br/>\nAnd this meal is called a dish of eggplant.</blockquote>\n<blockquote>My Uncle, Cerasi, likes to drink wine,<br/>\nLots of it;<br/>\nHe feels fine.</blockquote>\n<blockquote>The second one who makes it<br/>\nis the sexton’s wife;<br/>\nShe hollows it out and fills it with herbs.<br/>\nThis meal is called<br/>\na dish of dolma.</blockquote>\n<blockquote>The third one who makes it<br/>\nis my cousin, Ester di Chiote.<br/>\nShe hollows it out and fills it with rice.<br/>\nThis meal is called<br/>\na dish of almondrote.</blockquote>\n<blockquote>The alburnia is a tasty recipe<br/>\nboth for its color and aroma.<br/>\nCome, let’s make a supper to enjoy together,<br/>\nBefore the worm comes<br/>\nand takes the flavor away.</blockquote>\n<blockquote>On the tables at the feasts<br/>\nthe jandrajo always shines.<br/>\nWe make little pastries out of it,<br/>\nThey shine in the plates<br/>\nwaiting to be served<br/>\nwith hard-boiled eggs.</blockquote>\n<blockquote>The maljasina salad is rich and tasty.<br/>\nMy neighbor makes it with a lot olive oil.<br/>\nIt’s served with<br/>\nleft-over hen.</blockquote>\n<blockquote>The seventh way it’s made<br/>\nis the best and most exquisite.<br/>\nFilisti, the neighbor’s daughter, makes it.<br/>\nShe puts it in the oven<br/>\nin an open dish with oil and pepper,<br/>\nAnd they call it a meyina.</blockquote>",
       "notes": "",
       "language": "ladino"
     },
@@ -4051,9 +4199,11 @@
         "youtube": "https://www.youtube.com/watch?v=aq7VsyvAU5c"
       },
       "tags": [
-        "chanukah"
+        "chanukah",
+        "pesach",
+        "sukkot"
       ],
-      "lyrics": "<p>Tiya Mazalta muz va a yamar nochi di Hanuka<br/>\nTiya Grasya muz va a yamar nochi di Hanuka</p>\n<p>Para sinder laz kandelikas kun toda la mishpaha<br/>\nLaz hanukiyas di sirma blanka muz kali alimpyar.</p>\n<p>Tiya Luna muz va a yamar nochi di Hagada<br/>\nTiya Safira muz va ayamar nochi di Hagada</p>\n<p>Para kumer laz albondikas kun toda la mishpaha,<br/>\nKantaremus “Un Kavrikiko” dispuez di laz birahas.</p>\n<p>Tiya Paloma mus va a yamar a kumer in la suka<br/>\nTiya Estreya mus va ayamar a kumer in la suka,</p>\n<p>Kun frutas i flores di muchas kolores<br/>\nKun toda la mishpaha.</p>\n<p>Aunt Mazalta will invite us the night of Hanuka;<br/>\nAunt Grasya will invite us the night of Hanuka;</p>\n<p>To light the little candles with the whole family;<br/>\nThe menorahs of white silver must be cleaned.</p>\n<p>Aunt Luna will invite us the night of Passover;<br/>\nAunt Safira will invite us the night of Passover;</p>\n<p>To eat the matzoh balls with the whole family;<br/>\nWe will sing “Had Gadya” after the prayers.</p>\n<p>Aunt Paloma will invite us to eat in the Sukkah;<br/>\nAunt Estrella will invite us to eat in the Sukkah;</p>\n<p>With fruits and flowers of many colors<br/>\nWith the whole family.</p>",
+      "lyrics": "<p>Tiya Mazalta muz va a yamar nochi di Hanuka<br/>\nTiya Grasya muz va a yamar nochi di Hanuka</p>\n<p>Para sinder laz kandelikas kun toda la mishpaha<br/>\nLaz hanukiyas di sirma blanka muz kali alimpyar.</p>\n<p>Tiya Luna muz va a yamar nochi di Hagada<br/>\nTiya Safira muz va ayamar nochi di Hagada</p>\n<p>Para kumer laz albondikas kun toda la mishpaha,<br/>\nKantaremus “Un Kavrikiko” dispuez di laz birahas.</p>\n<p>Tiya Paloma mus va a yamar a kumer in la suka<br/>\nTiya Estreya mus va ayamar a kumer in la suka,</p>\n<p>Kun frutas i flores di muchas kolores<br/>\nKun toda la mishpaha.</p>\n<blockquote>Aunt Mazalta will invite us the night of Hanuka;<br/>\nAunt Grasya will invite us the night of Hanuka;</blockquote>\n<blockquote>To light the little candles with the whole family;<br/>\nThe menorahs of white silver must be cleaned.</blockquote>\n<blockquote>Aunt Luna will invite us the night of Passover;<br/>\nAunt Safira will invite us the night of Passover;</blockquote>\n<blockquote>To eat the matzoh balls with the whole family;<br/>\nWe will sing “Had Gadya” after the prayers.</blockquote>\n<blockquote>Aunt Paloma will invite us to eat in the Sukkah;<br/>\nAunt Estrella will invite us to eat in the Sukkah;</blockquote>\n<blockquote>With fruits and flowers of many colors<br/>\nWith the whole family.</blockquote>",
       "notes": "",
       "language": "ladino"
     },
@@ -4067,7 +4217,7 @@
         "youtube": "https://www.youtube.com/watch?v=Lk36_05CYBQ"
       },
       "tags": [],
-      "lyrics": "<p>Non ay santo komo Adonai,<br/>\nI non ay piyadozo komo ben Amram,<br/>\nI non ay guardrada komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p>De boka del Diyo,<br/>\nde boka del Diyo,<br/>\nSeamoz bendichos todoz loz djudiyoz<br/>\nMipi el, mipi el, yevorah kol Israel.</p>\n<p>Non ay fuerte komo Adonai,<br/>\nI non ay bendicho komo ben Amram,<br/>\nI non ay grande komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p>Non ay ermozo komo Adonai,<br/>\nI non ay viejo komo ben Amram,<br/>\nI non ay limpya komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p>Non ay bueno komo Adonai,<br/>\nI non ay limpyo komo ben Amram,<br/>\nI non ay derecho komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p><br/>\n<br/>\n</p>\n<p>None is holy as God,<br/>\nAnd none is as pious as Amram;<br/>\nNothing is guarded like our law,<br/>\nNor is there anyone to read it as Israel.</p>\n<p>From the mouth of God,<br/>\nfrom the mouth of God<br/>\nAll the Jews should be blessed,<br/>\nfrom the mouth of God</p>\n<p>There is none as mighty as God.<br/>\nNor any as blessed as the son of Amram;<br/>\nNor is there anything greater than our law,<br/>\nNor is there anyone to read it as Israel.</p>\n<p>There is none as beautiful as God,<br/>\nNor any sage such as the son of Amram;<br/>\nNor anything purer than our law,<br/>\nNor is there anyone to read it as Israel.</p>\n<p>There is none as good as God,<br/>\nNor anyone purer than the son of Amram;<br/>\nNor anything more righteous than our law,<br/>\nNor is there anyone to read it as Israel.<br/>\n<br/>\n<br/>\n</p>",
+      "lyrics": "<p>Non ay santo komo Adonai,<br/>\nI non ay piyadozo komo ben Amram,<br/>\nI non ay guardrada komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p>De boka del Diyo,<br/>\nde boka del Diyo,<br/>\nSeamoz bendichos todoz loz djudiyoz<br/>\nMipi el, mipi el, yevorah kol Israel.</p>\n<p>Non ay fuerte komo Adonai,<br/>\nI non ay bendicho komo ben Amram,<br/>\nI non ay grande komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p>Non ay ermozo komo Adonai,<br/>\nI non ay viejo komo ben Amram,<br/>\nI non ay limpya komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p>Non ay bueno komo Adonai,<br/>\nI non ay limpyo komo ben Amram,<br/>\nI non ay derecho komo muestra ley,<br/>\nI no ay ken la malde komo Israel.</p>\n<p>\n</p>\n<p>None is holy as God,<br/>\nAnd none is as pious as Amram;<br/>\nNothing is guarded like our law,<br/>\nNor is there anyone to read it as Israel.</p>\n<p>From the mouth of God,<br/>\nfrom the mouth of God<br/>\nAll the Jews should be blessed,<br/>\nfrom the mouth of God</p>\n<p>There is none as mighty as God.<br/>\nNor any as blessed as the son of Amram;<br/>\nNor is there anything greater than our law,<br/>\nNor is there anyone to read it as Israel.</p>\n<p>There is none as beautiful as God,<br/>\nNor any sage such as the son of Amram;<br/>\nNor anything purer than our law,<br/>\nNor is there anyone to read it as Israel.</p>\n<p>There is none as good as God,<br/>\nNor anyone purer than the son of Amram;<br/>\nNor anything more righteous than our law,<br/>\nNor is there anyone to read it as Israel.<br/>\n</p>",
       "notes": "",
       "language": "ladino"
     },
@@ -4145,12 +4295,12 @@
         "youtu": "https://youtu.be/OXQ87VxAXfk"
       },
       "tags": [
-        "meals",
+        "food",
         "round",
         "gratitude"
       ],
       "lyrics": "<p class=\"hebrew\">בְּרִיךְ רַחֲמָנָא, מַלְכָּא דְעַלְמָא, מָרֵיהּ דְּהַאי פִּיתָּא</p>\n<p class=\"transliteration\">(brich rachamana malka d'alma marei d'hai pita)(4x)<br/>\n(brich rachamana malka d'alma (marei d'hai pita)(2x))(2x)</p>\n<blockquote>Blessed is the All-Merciful, Master of this bread</blockquote>",
-      "notes": "",
+      "notes": "An alternative short version of birkat hamazon",
       "language": "aramaic"
     },
     {
@@ -4194,8 +4344,8 @@
         "community",
         "journey"
       ],
-      "lyrics": "<p>CHORUS:\nWe are living ‘neath the great big dipper<br/>\nWe are washed by the very same rain<br/>\nWe are swimming in this stream together<br/>\nSome in power and some in pain<br/>\nWe can worship this ground we walk on<br/>\nCherishing the beings that we live beside<br/>\nLoving spirits will live forever<br/>\nWe’re all swimming to the other side</p>\n\n<p>I am alone and I am searching<br/>\nHungering for answers in my time<br/>\nI am balanced at the brink of wisdom<br/>\nI’m impatient to receive a sign<br/>\nI move forward with my senses open<br/>\nImperfection, it be my crime<br/>\nIn humility I will listen<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>On this journey through thoughts and feelings<br/>\nBinding intuition, my head, my heart<br/>\nI am gathering the tools together<br/>\nI’m preparing to do my part<br/>\nAll of those who have come before me<br/>\nBand together and be my guide<br/>\nLoving lessons that I will follow<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>When we get there, we’ll discover<br/>\nAll of the gifts we’ve been given to share<br/>\nHave been with us since life’s beginning<br/>\nAnd we never noticed they were there<br/>\nWe can balance at the brink of wisdom<br/>\nNever recognizing that we’ve arrived<br/>\nLoving spirits will live together<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>(Loving spirits will live forever<br/>\nWe’re all swimming to the other side)(2x)</p>",
-      "notes": "Intro to sukkot song circle: This next song has a similar theme of passing through, though this song emphasizing that this activity is communal. We are all on this journey together.",
+      "lyrics": "<p>CHORUS:\nWe are living ‘neath the great big dipper<br/>\nWe are washed by the very same rain<br/>\nWe are swimming in this stream together<br/>\nSome in power and some in pain<br/>\nWe can worship this ground we walk on<br/>\nCherishing the beings that we live beside<br/>\nLoving spirits will live forever<br/>\nWe’re all swimming to the other side</p>\n\n<p>I am alone and I am searching<br/>\nHungering for answers in my time<br/>\nI am balanced at the brink of wisdom<br/>\nI’m impatient to receive a sign<br/>\nI move forward with my senses open<br/>\nImperfection, it is my crime<br/>\nIn humility, I will listen<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>On this journey through thoughts and feelings<br/>\nBinding intuition, my head, my heart<br/>\nI am gathering the tools together<br/>\nI’m preparing to do my part<br/>\nAll of those who have come before me<br/>\nBand together and be my guide<br/>\nLoving lessons that I will follow<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>When we get there, we’ll discover<br/>\nAll of the gifts we’ve been given to share<br/>\nHave been with us since life’s beginning<br/>\nAnd we never noticed they were there<br/>\nWe can balance at the brink of wisdom<br/>\nNever recognizing that we’ve arrived<br/>\nLoving spirits will live together<br/>\nWe’re all swimming to the other side</p>\n\n<p>CHORUS</p>\n\n<p>(Loving spirits will live forever<br/>\nWe’re all swimming to the other side)(2x)</p>",
+      "notes": "We have changed the lyrics from 'it be my crime' to 'it is my crime'.\n\nIntro to sukkot song circle: This next song has a similar theme of passing through, though this song emphasizing that this activity is communal. We are all on this journey together.",
       "language": "english"
     },
     {
