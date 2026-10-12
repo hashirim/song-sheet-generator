@@ -544,7 +544,8 @@
         }
       ],
       "urls": {
-        "youtu": "https://youtu.be/7jauzBNn2qY"
+        "youtu": "https://youtu.be/7jauzBNn2qY",
+        "bandcamp": "https://elianalight.bandcamp.com/track/shirat-nafshi-yedid-nefesh"
       },
       "tags": [
         "shabbat",
@@ -552,7 +553,7 @@
         "yearning",
         "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">הָדוּר נָאֶה זִיו הָעוֹלָם, נַפְשִׁי חוֹלַת אַהֲבָתֶֽךָ</p>\n<p class=\"transliteration\">(hadur na'eh ziv ha'olam (<i>nafshi</i>) (<i>cholat</i>) ahavatech)(3x)<br/>\n(<i>nafshi</i>) (<i>cholat</i>) ahavatech</p>\n<blockquote>Perfect, Pleasing, Radiance of the Universe, my soul is sick for your love.</blockquote>\n<p>((I am yearning)(2x) (<i>yearning</i>)(2x) yearning for your love)(2x)<br/>\n(We are yearning)(2x) (<i>yearning</i>)(2x) yearning for your love<br/>\n(<i>yearning</i>)(2x) yearning for your love</p>",
+      "lyrics": "<p class=\"hebrew\">הָדוּר נָאֶה זִיו הָעוֹלָם נַפְשִי חוֹלַת אַהֲבָתָךְ </p>\n<p class=\"transliteration\">(hadur na'eh ziv ha'olam (<i>nafshi</i>) (<i>cholat</i>) ahavatach)(3x)<br/>\n(<i>nafshi</i>) (<i>cholat</i>) ahavatach</p>\n<blockquote>Perfect, Pleasing, Radiance of the Universe, my soul is sick for your love.</blockquote>\n<p>((I am yearning)(2x) (<i>yearning</i>)(2x) yearning for your love)(2x)<br/>\n(We are yearning)(2x) (<i>yearning</i>)(2x) yearning for your love<br/>\n(<i>yearning</i>)(2x) yearning for your love</p>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -617,13 +618,15 @@
         }
       ],
       "urls": {
-        "youtube": "https://www.youtube.com/watch?v=wi0ZwIvccMo"
+        "youtube": "https://www.youtube.com/watch?v=wi0ZwIvccMo",
+        "bandcamp": "https://joeyweisenberg.bandcamp.com/track/mozi-s-nigun-ana-b-choakh"
       },
       "tags": [
         "shabbat",
-        "accelerando"
+        "accelerando",
+        "plea"
       ],
-      "lyrics": "<p class=\"hebrew\">אָנָּא בְּכֹחַ גְּדֻלַּת יְמִינְךָ תַּתִּיר צְרוּרָה<br/>\nקַבֵּל רִנַּת עַמְּךָ שגְּבֵנוּ טַהֲרֵנוּ נוֹרָא</p>\n<p class=\"transliteration\">ana b'choach gedulat y'mincha (tatir tzrura)(2x)<br/>\nkabel (rinat (2x)) amcha sagveinu tahareinu norah.</p>\n<blockquote>Please, with the strength of your right hand,<br/>\nuntie our tangles.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">אָנָּא בְּכֹחַ גְּדֻלַּת יְמִינְךָ תַּתִּיר צְרוּרָה<br/>\nקַבֵּל רִנַּת עַמְּךָ שגְּבֵנוּ טַהֲרֵנוּ נוֹרָא</p>\n<p class=\"transliteration\">(ana b'choach g'dulat y'mincha (tatir tzrurah)(2x)<br/>\nkabel (rinat)(2x) amcha sagveinu tahareinu nora)(2x)<br/>\n[niggun]</p>\n<blockquote>Please, with the strength of your right hand,<br/>\nuntie our tangles.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -650,7 +653,7 @@
       "tags": [
         "shabbat"
       ],
-      "lyrics": "<p class=\"hebrew\">טוֹב לְהֹדוֹת לַיי , וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן<br/>\nלְהַגִּיד בַּבֹּֽקֶר חַסְדֶּֽךָ, וֶאֱמוּנָתְךָ בַּלֵּילוֹת</p>\n<p class=\"transliteration\">((tov l'hodot l'adonai)(2x), <br/>\n(ulzamer)(2x) l'shimcha elyon, tov l'hodot l'adonai)(2x)<br/>\n(l'hagid baboker chasdecha)(2x), <br/>\n(v'emunatcha baleylot)(2x), tov l'hodot l'adonai.</p>\n<blockquote>It is good to praise God, to proclaim your steadfast love at daybreak, and your faithfulness each night.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">טוֹב לְהֹדוֹת לַיְיָ , וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן<br/>\nלְהַגִּיד בַּבֹּֽקֶר חַסְדֶּֽךָ, וֶאֱמוּנָתְךָ בַּלֵּילוֹת</p>\n<p class=\"transliteration\">((tov l'hodot ladonai)(2x), <br/>\n(ulzamer)(2x) l'shimcha elyon, tov l'hodot ladonai)(2x)<br/>\n(l'hagid baboker chasdecha)(2x), <br/>\n(v'emunatcha baleylot)(2x), tov l'hodot ladonai</p>\n<blockquote>It is good to praise God, to proclaim your steadfast love at daybreak, and your faithfulness each night.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -678,7 +681,7 @@
         "shabbat",
         "praise"
       ],
-      "lyrics": "<p class=\"hebrew\">טוֹב לְהֹדוֹת לַיי , וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן<br/>\nלְהַגִּיד בַּבֹּֽקֶר חַסְדֶּֽךָ, וֶאֱמוּנָתְךָ בַּלֵּילוֹת</p>\n<p class=\"transliteration\">(tov l'hodot l'adonai ul'zameir l'shimcha elyon)(2x)<br/>\n(l'hagid baboker chasdecha v'emunatcha baleilot)(2x)</p>\n<blockquote>It is good to praise God, to proclaim your steadfast love at daybreak, and your faithfulness each night.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">טוֹב לְהֹדוֹת לַיְיָ, וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן<br/>\nלְהַגִּיד בַּבֹּֽקֶר חַסְדֶּֽךָ, וֶאֱמוּנָתְךָ בַּלֵּילוֹת</p>\n<p class=\"transliteration\">(tov l'hodot ladonai ul'zameir l'shimcha elyon)(2x)<br/>\n(l'hagid baboker chasdecha ve'emunatcha baleilot)(2x)</p>\n<blockquote>It is good to praise God, to proclaim your steadfast love at daybreak, and your faithfulness each night.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1014,13 +1017,14 @@
         }
       ],
       "urls": {
-        "youtube": "https://www.youtube.com/watch?v=nTW5Mj2PCsk"
+        "youtube": "https://www.youtube.com/watch?v=nTW5Mj2PCsk",
+        "bandcamp": "https://batyalevine.bandcamp.com/track/hodu"
       },
       "tags": [
         "hallel",
         "praise"
       ],
-      "lyrics": "<p class=\"hebrew\">הוֹדוּ לַיְיָ כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nיֹאמַר נָא יִשְׂרָאֵל, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nיֹאמְרוּ נָא בֵית אַהֲרֹן, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nיֹאמְרוּ נָא יִרְאֵי יְיָ, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p class=\"transliteration\">(hodu l'adonai ki tov, ki l'olam chasdo)(2x)<br/>\nyomar na yisra'eil, ki l'olam chasdo<br/>\nhodu l'adonai ki tov, (ki l'olam chasdo)(2x)<br/>\nyomru na veit aharon, ki l'olam chasdo<br/>\nhodu l'adonai ki tov, ki l'olam chasdo<br/>\nyomru na yir'ei adonai, ki l'olam chasdo<br/>\nhodu l'adonai ki tov, (ki l'olam chasdo)(2x)</p>\n<blockquote>Offer gratitude to God, who is good, whose lovingkindness is eternal!<br/>\nLet Israel declare: God's steadfast love is eternal!<br/>\nLet the house of Aaron declare: God's steadfast love is eternal!<br/>\nLet those who are in awe of God declare: God's steadfast love is eternal!</blockquote>\n<p class=\"hebrew\">הוֹדוּ לַיְיָ כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nהוֹדוּ, לֵאלֹהֵי הָאֱלֹהִים, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nהוֹדוּ, לַאֲדֹנֵי הָאֲדֹנִים, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nלְעֹשֵׂה נִפְלָאוֹת גְּדֹלוֹת לְבַדּוֹ, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p class=\"transliteration\">hodu l'adonai ki tov, ki l'olam chasdo<br/>\nhodu leilohei ha'elohim, ki l'olam chasdo<br/>\nhodu l'adonei ha'adonim, ki l'olam chasdo<br/>\nl'osei nifla'ot g'dolot l'vado, (ki l'olam chasdo)(2x)</p>\n<blockquote>Offer gratitude to God, who is good, whose lovingkindness is eternal!<br/>\nOffer gratitude to the God of gods, whose steadfast love is eternal!<br/>\nOffer gratitude to the ruler above all rulers, whose steadfast love is eternal,<br/>\nwho alone works great marvels, whose steadfast love is eternal!</blockquote>",
+      "lyrics": "<p class=\"hebrew\">הוֹדוּ לַיְיָ כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nיֹאמַר נָא יִשְׂרָאֵל, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nיֹאמְרוּ נָא בֵית אַהֲרֹן, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nיֹאמְרוּ נָא יִרְאֵי יְיָ, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p class=\"hebrew\">הוֹדוּ לַיְיָ כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nהוֹדוּ, לֵאלֹהֵי הָאֱלֹהִים, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nהוֹדוּ, לַאֲדֹנֵי הָאֲדֹנִים, כִּי לְעוֹלָם חַסְדּוֹ<br/>\nלְעֹשֵׂה נִפְלָאוֹת גְּדֹלוֹת לְבַדּוֹ, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p>(hodu ladonai ki tov, ki l'olam chasdo)(2x)<br/>\nyomar na yisra'eil, ki l'olam chasdo<br/>\nhodu ladonai ki tov, (ki l'olam chasdo)(2x)</p>\n<p>yomru na veit aharon, ki l'olam chasdo<br/>\nhodu ladonai ki tov, ki l'olam chasdo<br/>\nyomru na yir'ei adonai, ki l'olam chasdo<br/>\nhodu ladonai ki tov, (ki l'olam chasdo)(2x)</p>\n<p class=\"transliteration\">hodu ladonai ki tov, ki l'olam chasdo<br/>\nhodu leilohei ha'elohim, ki l'olam chasdo<br/>\nhodu la'adonei ha'adonim, ki l'olam chasdo<br/>\nl'osei nifla'ot g'dolot l'vado, (ki l'olam chasdo)(2x)</p>\n<blockquote>Offer gratitude to God, who is good, whose lovingkindness is eternal!<br/>\nLet Israel declare: God's steadfast love is eternal!<br/>\nLet the house of Aaron declare: God's steadfast love is eternal!<br/>\nLet those who are in awe of God declare: God's steadfast love is eternal!<br/>\nOffer gratitude to God, who is good, whose lovingkindness is eternal!<br/>\nOffer gratitude to the God of gods, whose steadfast love is eternal!<br/>\nOffer gratitude to the ruler above all rulers, whose steadfast love is eternal,<br/>\nwho alone works great marvels, whose steadfast love is eternal!</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1042,12 +1046,13 @@
         }
       ],
       "urls": {
-        "youtu": "https://youtu.be/EMe4-ggSkdY"
+        "youtu": "https://youtu.be/EMe4-ggSkdY",
+        "bandcamp": "https://deborahsacksmintz.bandcamp.com/track/min-hameitzar"
       },
       "tags": [
         "hallel"
       ],
-      "lyrics": "<p class=\"hebrew\">מִן הַמֵּצַר קָרָאתִי יָּהּ, עָנָּנִי בַמֶרְחַב יָהּ<br/>\nיי לִי לֹא אִירָא מַה יַּעֲשֶׂה לִי אָדָם</p>\n<p class=\"transliteration\">(min hameitzar karati yah anani vamerchav yah)(4x)<br/>\n(adonai li lo ira mah (ya'aseh)(2x) li adam<br/>\nadonai li lo ira oh mah ya'aseh li adam)(2x)</p>\n<blockquote>From the narrow I called to the Lord,<br/>\nGod answered me in the great freedom of space.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">מִן הַמֵּצַר קָרָאתִי יָּהּ, עָנָּנִי בַמֶרְחַב יָהּ<br/>\nיְיָ לִי לֹא אִירָא מַה יַּעֲשֶׂה לִי אָדָם</p>\n<p class=\"transliteration\">(min hameitzar karati yah anani vamerchav yah)(4x)<br/>\n(adonai li lo ira mah (ya'aseh)(2x) li adam<br/>\nadonai li lo ira oh mah ya'aseh li adam)(2x)</p>\n<blockquote>From the narrow I called to the Lord,<br/>\nGod answered me in the great freedom of space.</blockquote>",
       "notes": "This is sung on the rosh chodesh hallel and pesach hallel.",
       "language": "hebrew"
     },
@@ -1101,9 +1106,10 @@
       },
       "tags": [
         "hallel",
-        "feminine god"
+        "feminine god",
+        "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">עָזִּי וְזִמְרָת תָּהּ וַתְּהִי־לִי לִישׁוּעָה<br/>\n זֹאת אֵלָתִי וְאַנְוֵהָ אֱלֹהֹת אִמִּי וַאֲרֹמְמֶנְהָ</p>\n<p class=\"transliteration\">(elohot)(4x)<br/>\n((ozi)(2x) v'zimrat tah<br/>\n(vat'hi li)(2x) lishu'ah)(2x)<br/>\n(elohot)(2x) imi va'arom'menha<br/>\nelohot imi<br/>\nohhhh (zot eilati (v'anveiha)(2x))(4x)<br/>\n(elohot)(4x)<br/>\n((ozi)(2x) v'zimrat tah<br/>\n(vat'hi li)(2x) lishuah)(2x)<br/>\nohhhh (zot eilati (v'anveiha)(2x))(8x)<br/>\n(elohot)(8x)</p>\n<blockquote>My strength and the song of Tah are my rescue. This is my Goddess and I embellish Her the Goddesses of my mother and I exalt Her.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">עָזִּי וְזִמְרָת תָּהּ וַתְּהִי־לִי לִישׁוּעָה<br/>\n זֹאת אֵלָתִי וְאַנְוֵהָ אֱלֹהֹת אִמִּי וַאֲרֹמְמֶנְהָ</p>\n<p class=\"transliteration\">(elohot)(4x)<br/>\n((<i>ozi</i>) ozi v'zimrat tah<br/>\n(<i>vat'hi li</i>) vat'hi li lishu'ah)(2x)<br/>\n(<i>elohot</i>) (<i>elohot imi</i>) va'arom'menha<br/>\n(<i>elohot imi</i>)<br/>\nohhhh (zot eilati (v'anveiha)(2x))(4x)<br/>\n<blockquote>My strength and the song of Tah are my rescue. This is my Goddess and I embellish Her the Goddesses of my mother and I exalt Her.</blockquote>",
       "notes": "For both rosh chodesh and full hallel.",
       "language": "hebrew"
     },
@@ -1131,7 +1137,7 @@
         "hallel",
         "praise"
       ],
-      "lyrics": "<p class=\"hebrew\"> פִּתְחוּ לִי שַׁעֲרֵי צֶדֶק, אָבֹא בָם, אוֹדֶה יָהּ<br/>\nזֶה הַשַּׁעַר לַיְיָ, צַדִּיקִים יָבֹאוּ בוֹ</p>\n<p class=\"transliteration\">(pitchu li sha'arei tzedek, avo vam odeh yah)(2x)<br/>\n(zeh hasha'ar l'Adonai, tzadikim yavo'u vo)(2x)</p>\n<blockquote>Open the gates of righteousness, so I may enter to praise God. The righteous shall enter through God's gateway.</blockquote>",
+      "lyrics": "<p class=\"hebrew\"> פִּתְחוּ לִי שַׁעֲרֵי צֶדֶק, אָבֹא בָם, אוֹדֶה יָהּ<br/>\nזֶה הַשַּׁעַר לַיְיָ, צַדִּיקִים יָבֹאוּ בוֹ</p>\n<p class=\"transliteration\">(pitchu li sha'arei tzedek, avo vam odeh yah)(2x)<br/>\n(zeh hasha'ar ladonai, tzadikim yavo'u vo)(2x)</p>\n<blockquote>Open the gates of righteousness, so I may enter to praise God. The righteous shall enter through God's gateway.</blockquote>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -1152,7 +1158,8 @@
       },
       "tags": [
         "hallel",
-        "round"
+        "round",
+        "gratitude"
       ],
       "lyrics": "<p class=\"hebrew\">זֶה־הַיּוֹם עָשָׂה יְיָ נָגִילָה וְנִשְׂמְחָה בוֹ</p>\n<p class=\"transliteration\">zeh hayom asah adonai nagilah v'nismechah vo</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it.</blockquote>",
       "notes": "",
@@ -1174,9 +1181,11 @@
         "bandcamp": "https://zachmayermusic.bandcamp.com/track/zeh-hayom"
       },
       "tags": [
-        "hallel"
+        "hallel",
+        "community",
+        "gratitude"
       ],
-      "lyrics": "<p class=\"hebrew\">זֶה הַיּום עָשה ה'. נָגִילָה וְנִשמְחָה בו<br/>\nזֶה הַיּום נִחְיֶה בְּיַחַד. נָגִילָה וְנִשמְחָה בו</p>\n<p class=\"transliteration\">(zeh hayom asah adonai. nagila v'nismekha vo)(8x)<br/>\n(zeh hayom nikhyeh b'yakhad. nagila v'nismekha vo)(8x)</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it<br/>\nThis is the day we will live together.<br/>\nLet us be joyful and rejoice in it</blockquote>",
+      "lyrics": "<p class=\"hebrew\">זֶה הַיּום עָשה ה'. נָגִילָה וְנִשמְחָה בוֹ<br/>\nזֶה הַיּום נִחְיֶה בְּיַחַד. נָגִילָה וְנִשמְחָה בוֹ</p>\n<p class=\"transliteration\">(zeh hayom asah adonai nagila v'nismecha vo)(6x)<br/>\n(zeh hayom nikhyeh b'yachad nagila v'nismecha vo)(8x)</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it<br/>\nThis is the day we will live together.<br/>\nLet us be joyful and rejoice in it</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1203,14 +1212,15 @@
         }
       ],
       "urls": {
-        "youtube": "https://www.youtube.com/watch?v=qMIu8JkQnHM"
+        "youtube": "https://www.youtube.com/watch?v=qMIu8JkQnHM",
+        "bandcamp": "https://deborahsacksmintz.bandcamp.com/track/eli-atah-nigun-nadav"
       },
       "tags": [
         "hallel",
         "praise",
         "accelerando"
       ],
-      "lyrics": "<p class=\"hebrew\">אֵלִי אַתָּה וְאוֹדֶךָּ ,אֱלֹהַי אֲרוֹמְמֶךָּ<br/>\nהוֹדוּ לַיי כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p class=\"transliteration\">eili atah v'odeka, elohai arom'meka<br/>\n(hodu l'adonai ki tov, ki l'olam chasdo)(2x)</p>\n<blockquote>You are my God, and I praise and exalt you. Give thanks to God, for God is good; God's kindness endures forever.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">אֵלִי אַתָּה וְאוֹדֶךָּ ,אֱלֹהַי אֲרוֹמְמֶךָּ<br/>\nהוֹדוּ לַיְיָ כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p class=\"transliteration\">eili atah v'odeka, elohai arom'meka<br/>\n(hodu ladonai ki tov, ki l'olam chasdo)(2x)</p>\n<blockquote>You are my God, and I praise and exalt you. Give thanks to God, for God is good; God's kindness endures forever.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1221,9 +1231,14 @@
       ],
       "sources": [
         {
-          "book": "Shulchan Arukh",
+          "book": "Shulchan Aruch",
           "chapter": "Orach Chayim",
           "verse": "480"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "hallel",
+          "verse": ""
         }
       ],
       "urls": {
@@ -1236,7 +1251,7 @@
         "pesach"
       ],
       "lyrics": "<p class=\"hebrew\">כִּי מֵעוֹלָם וְעַד עוֹלָם אַתָּה אֵל</p>\n<p class=\"transliteration\">((ki mei'olam)(2x) v'ad olam<br/>\nki mei'olam v'ad olam)(2x)<br/>\n(ki mei'olam)(2x) v'ad olam atah el<br/>\n(ki mei'olam v'ad olam)(2x) atah el</p>\n<blockquote>Before time and forever You are The Source of Life.</blockquote>",
-      "notes": "This is recited in both rosh chodesh and pesach hallel",
+      "notes": "This is recited in both rosh chodesh and pesach hallel, near the end.",
       "language": "hebrew"
     },
     {
@@ -1249,6 +1264,11 @@
           "book": "Sanhedrin",
           "chapter": "42a",
           "verse": ""
+        },
+        {
+          "book": "liturgy",
+          "chapter": "rosh chodesh",
+          "verse": "kiddush levanah"
         }
       ],
       "urls": {
@@ -1258,7 +1278,7 @@
         "rosh chodesh",
         "nature"
       ],
-      "lyrics": "<p class=\"hebrew\">וְלַלְּבָנָה אָמַר שֶׁתִּתְחַדֵּשׁ<br/>\nעֲטֶרֶת תִּפְאֶרֶת לַעֲמוּסֵי בָטֶן<br/>\nשֶׁהֵם עֲתִידִים לְהִתְחַדֵּשׁ כְּמוֹתָהּ</p>\n<p class=\"transliteration\">v'lalvanah amar (shetitchadeish)(2x)<br/>\nateret tiferet la'amusay vaten<br/>\n(sheheim atidim l'hitchadeish k'motah)(2x)</p>\n<blockquote>And God said “Renew yourself, moon.” Crown to us all living beneath you, destined to be renewed just like you.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">וְלַלְּבָנָה אָמַר שֶׁתִּתְחַדֵּשׁ<br/>\nעֲטֶרֶת תִּפְאֶרֶת לַעֲמוּסֵי בָטֶן<br/>\nשֶׁהֵם עֲתִידִים לְהִתְחַדֵּשׁ כְּמוֹתָהּ</p>\n<p class=\"transliteration\">v'lalvanah amar (shetitchadeish)(2x)<br/>\nateret tiferet la'amusei vaten<br/>\n(sheheim atidim l'hitchadeish k'motah)(2x)</p>\n<blockquote>And God said “Renew yourself, moon.” Crown to us all living beneath you, destined to be renewed just like you.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1282,7 +1302,7 @@
         "shabbat",
         "justice"
       ],
-      "lyrics": "<p class=\"hebrew\">עוֹד יְנוּבוּן בְּשֵׂיבָה דְּשֵׁנִים וְרַעֲנַנִּים יִהְיוּ</p>\n<p>(od y'nuvun b'seivah)(2x)<br/>\n(d'sheinim v'ra'ananim yehiyu)(2x)<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)<br/>\n(yehiyu)(6x)<br/>\n[niggun]<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)</p>\n<blockquote>In old age the righteous still produce fruit;<br/>\nthey are full of sap and aliveness.</blockquote>\n<p>Like the fruit of the vine, ripening in its time<br/>\nlike the fruit of the vine, bringing sweetness of the divine</p>",
+      "lyrics": "<p class=\"hebrew\">עוֹד יְנוּבוּן בְּשֵׂיבָה דְּשֵׁנִים וְרַעֲנַנִּים יִהְיוּ</p>\n<p>(od y'nuvun b'seivah)(2x)<br/>\n(d'sheinim v'ra'ananim yih'yu)(2x)<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)<br/>\n(yih'yu)(6x)<br/>\n[niggun]<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)</p>\n<blockquote>In old age the righteous still produce fruit;<br/>\nthey are full of sap and aliveness.</blockquote>\n<p>Like the fruit of the vine, ripening in its time<br/>\nlike the fruit of the vine, bringing sweetness of the divine</p>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -1934,9 +1954,10 @@
       "tags": [
         "rosh hashanah",
         "slichot",
-        "call and response"
+        "call and response",
+        "round"
       ],
-      "lyrics": "<p>(((<i>We return</i>)(2x) We return, return again)(2x)<br/>\nand again to ((love)/(truth))(3x) <br/>\nwe return again to (love)/(truth))(2x)</p>\n<p class=\"hebrew\">הֲשִׁיבֵנוּ יְיָ  אֵלֶיךָ וְנָשׁוּבָה חַדֵּשׁ יָמֵינוּ כְּקֶדֶם</p>\n<p class=\"transliteration\">hashiveinu adonai eilecha v'nashuvah<br/>\nchadeish yameinu k'kedem<br/>\n[niggun]</p>\n<blockquote>Take us back, God, to Yourself, And let us come back; Renew our days as of old!  </blockquote>",
+      "lyrics": "<p>(((<i>We return</i>)(2x) We return, return again)(2x)<br/>\nand again to ((love)/(truth))(3x) <br/>\nwe return again to (love)/(truth))(2x)</p>\n<p class=\"hebrew\">הֲשִׁיבֵנוּ יְיָ  אֵלֶיךָ וְנָשׁוּבָה חַדֵּשׁ יָמֵינוּ כְּקֶדֶם</p>\n<p class=\"transliteration\">hashiveinu adonai eilecha v'nashuvah<br/>\nchadeish yameinu k'kedem<br/>\n[niggun]</p>\n<blockquote>Take us back, God, to Yourself, And let us come back; Renew our days as of old!</blockquote>\n<p class=\"hebrew\">לְשָׁנָה טוֹבָה תִּכָּתֵבוּ</p>\n<p class=\"transliteration\">l'shanah tovah tikateivu</p>\n<blockquote>May you be inscribed for a good year</blockquote>\n<p>((<i>We return</i>)(2x) We return, return again)(2x)<br/>\nand again to you)(3x) <br/>\nwe return again to you</p>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -4354,6 +4375,26 @@
       "lyrics": "<p>[niggun]</p>\n<p>Life is born and life moves on <br/>\nand the earth has held and will hold it all.<br/>\nThe sun rises and the sun sets <br/>\nand returns again to rise and fall.</p>\n\n<p>The wind turns south and the wind turns north, <br/>\nturning, turning, returning still.<br/>\nThe rivers run from the clouds to the sea <br/>\nand become the rain, and the sea is never filled.</p>\n\n<p>So the beginning moves to the end <br/>\nand the end flows on to begin again.<br/>\nThe one at the end is the one who begins <br/>\nand the breath of breath is within all things.</p>",
       "notes": "Intro to sukkot song circle: On sukkot, many read from the book of Ecclesiastes, which highlights the natural cycles of nature. This next song comes from that book.",
       "language": "english"
+    },
+    {
+      "title": "All the leaves",
+      "authors": [
+        "Batya Levine"
+      ],
+      "sources": [],
+      "urls": {
+        "bandcamp": "https://batyalevine.bandcamp.com/track/all-the-leaves",
+        "youtube": "https://www.youtube.com/watch?v=ToOFTuVMBtE"
+      },
+      "tags": [
+        "rosh hashanah",
+        "nature",
+        "sukkot",
+        "round"
+      ],
+      "lyrics": "<p>Part 1:<br/>\n(All the leaves have fallen down, have fallen down)(2x)\nPart 2:\nI am the water, earth, fire and wind,\nDig deep my roots and return again.\nI am the water, earth, fire and wind, return again. (2x)\n</p>\n  ",
+      "notes": "",
+      "language": "English"
     }
   ]
 }
