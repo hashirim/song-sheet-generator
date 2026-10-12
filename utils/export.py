@@ -104,16 +104,76 @@ def add_section_with_columns(doc):
     if not sectPr.xpath('./w:cols'):
         sectPr.append(cols)
 
+def _next_xml_id(parent, tag, attribute):
+    """
+    Return an unused numeric ID for the specified XML elements.
+    
+    This is used in add_numbering_to_heading.
+    """
+    existing_ids = []
+
+    for element in parent.findall(qn(tag)):
+        value = element.get(qn(attribute))
+        if value is not None:
+            try:
+                existing_ids.append(int(value))
+            except ValueError:
+                pass
+
+    return max(existing_ids, default=-1) + 1
+
+
+def _get_or_add_child(parent, tag):
+    """
+    Return an existing child or create one.
+    
+    This is used in add_numbering_to_heading.
+    """
+    child = parent.find(qn(tag))
+
+    if child is None:
+        child = OxmlElement(tag)
+        parent.append(child)
+
+    return child
+
+
+def _insert_before(parent, element, later_tags):
+    """
+    Insert an XML element before the first specified later element.
+    
+    This is used in add_numbering_to_heading.
+    """
+    for index, child in enumerate(parent):
+        if child.tag in {qn(tag) for tag in later_tags}:
+            parent.insert(index, element)
+            return
+
+    parent.append(element)
+
 
 def add_numbering_to_heading(doc, style_name, number_songs=20):
-    # Access numbering definitions
     numbering = doc.part.numbering_part.element
 
-    # Create an abstract numbering definition
-    abstract_num = OxmlElement("w:abstractNum")
-    abstract_num.set(qn("w:abstractNumId"), "100")
+    # Generate unique IDs.
+    abstract_num_id = _next_xml_id(
+        numbering, "w:abstractNum", "w:abstractNumId"
+    )
+    num_id = _next_xml_id(
+        numbering, "w:num", "w:numId"
+    )
 
-    # Level 0 = Heading 1
+    # --------------------------------------------------
+    # 1. Create the abstract numbering definition.
+    # --------------------------------------------------
+
+    abstract_num = OxmlElement("w:abstractNum")
+    abstract_num.set(qn("w:abstractNumId"), str(abstract_num_id))
+
+    multi_level_type = OxmlElement("w:multiLevelType")
+    multi_level_type.set(qn("w:val"), "singleLevel")
+    abstract_num.append(multi_level_type)
+
     lvl = OxmlElement("w:lvl")
     lvl.set(qn("w:ilvl"), "0")
 
@@ -134,53 +194,148 @@ def add_numbering_to_heading(doc, style_name, number_songs=20):
     lvl.append(lvl_jc)
 
     abstract_num.append(lvl)
-    numbering.append(abstract_num)
 
-    # Create a concrete numbering instance
+    # Insert abstractNum BEFORE existing num elements.
+    first_num = numbering.find(qn("w:num"))
+
+    if first_num is not None:
+        numbering.insert(numbering.index(first_num), abstract_num)
+    else:
+        numbering.append(abstract_num)
+
+    # --------------------------------------------------
+    # 2. Create the concrete numbering instance.
+    # --------------------------------------------------
+
     num = OxmlElement("w:num")
-    num.set(qn("w:numId"), "100")
+    num.set(qn("w:numId"), str(num_id))
 
-    abstract_num_id = OxmlElement("w:abstractNumId")
-    abstract_num_id.set(qn("w:val"), "100")
-    num.append(abstract_num_id)
+    abstract_num_ref = OxmlElement("w:abstractNumId")
+    abstract_num_ref.set(qn("w:val"), str(abstract_num_id))
+    num.append(abstract_num_ref)
 
     numbering.append(num)
 
-    # Attach numbering to Heading 1 style
+    # --------------------------------------------------
+    # 3. Associate numbering with the paragraph style.
+    # --------------------------------------------------
+
     style = doc.styles[style_name]
     pPr = style.element.get_or_add_pPr()
 
-    numPr = OxmlElement("w:numPr")
+    # Replace any existing numPr.
+    old_num_pr = pPr.find(qn("w:numPr"))
+
+    if old_num_pr is not None:
+        pPr.remove(old_num_pr)
+
+    num_pr = OxmlElement("w:numPr")
 
     ilvl = OxmlElement("w:ilvl")
     ilvl.set(qn("w:val"), "0")
-    numPr.append(ilvl)
+    num_pr.append(ilvl)
 
-    # adjust space based on number of songs. This is font dependent.
+    num_id_element = OxmlElement("w:numId")
+    num_id_element.set(qn("w:val"), str(num_id))
+    num_pr.append(num_id_element)
+
+    # numPr must precede tabs, indentation, and later pPr elements.
+    later_tags = [
+        "w:suppressLineNumbers",
+        "w:pBdr",
+        "w:shd",
+        "w:tabs",
+        "w:suppressAutoHyphens",
+        "w:kinsoku",
+        "w:wordWrap",
+        "w:overflowPunct",
+        "w:topLinePunct",
+        "w:autoSpaceDE",
+        "w:autoSpaceDN",
+        "w:bidi",
+        "w:adjustRightInd",
+        "w:snapToGrid",
+        "w:spacing",
+        "w:ind",
+        "w:contextualSpacing",
+        "w:mirrorIndents",
+        "w:suppressOverlap",
+        "w:jc",
+        "w:textDirection",
+        "w:textAlignment",
+        "w:outlineLvl",
+        "w:divId",
+        "w:cnfStyle",
+        "w:rPr",
+        "w:sectPr",
+        "w:pPrChange",
+    ]
+
+    _insert_before(pPr, num_pr, later_tags)
+
+    # --------------------------------------------------
+    # 4. Set indentation and tab position.
+    # --------------------------------------------------
+
     if number_songs < 10:
-        heading_gap = "240"
+        heading_gap = 240
     elif number_songs < 20:
-        heading_gap = "340"
+        heading_gap = 340
     else:
-        heading_gap = "390"
-    #adjust spacing after number
-    ind = OxmlElement("w:ind")
-    ind.set(qn("w:left"), heading_gap)
-    ind.set(qn("w:hanging"), heading_gap)
-    pPr.append(ind)
-    tabs = OxmlElement("w:tabs")
+        heading_gap = 390
+
+    # Update existing indentation
+    ind = _get_or_add_child(pPr, "w:ind")
+    ind.set(qn("w:left"), str(heading_gap))
+    ind.set(qn("w:hanging"), str(heading_gap))
+
+    # Update existing tab definitions.
+    tabs = pPr.find(qn("w:tabs"))
+
+    if tabs is None:
+        tabs = OxmlElement("w:tabs")
+
+        # tabs must precede spacing and indentation.
+        _insert_before(
+            pPr,
+            tabs,
+            [
+                "w:suppressAutoHyphens",
+                "w:kinsoku",
+                "w:wordWrap",
+                "w:overflowPunct",
+                "w:topLinePunct",
+                "w:autoSpaceDE",
+                "w:autoSpaceDN",
+                "w:bidi",
+                "w:adjustRightInd",
+                "w:snapToGrid",
+                "w:spacing",
+                "w:ind",
+                "w:contextualSpacing",
+                "w:mirrorIndents",
+                "w:suppressOverlap",
+                "w:jc",
+                "w:textDirection",
+                "w:textAlignment",
+                "w:outlineLvl",
+                "w:divId",
+                "w:cnfStyle",
+                "w:rPr",
+                "w:sectPr",
+                "w:pPrChange",
+            ],
+        )
+
+    # Remove an existing numbering tab so the function can be called multiple times
+    for tab in list(tabs.findall(qn("w:tab"))):
+        if tab.get(qn("w:val")) == "num":
+            tabs.remove(tab)
+
     tab = OxmlElement("w:tab")
     tab.set(qn("w:val"), "num")
-    tab.set(qn("w:pos"), heading_gap)
+    tab.set(qn("w:pos"), str(heading_gap))
     tabs.append(tab)
-    pPr.append(tabs)
-
-    numId = OxmlElement("w:numId")
-    numId.set(qn("w:val"), "100")
-    numPr.append(numId)
-
-    pPr.append(numPr)
-
 
 def modify_styles(doc):
     styles = doc.styles
