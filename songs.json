@@ -4401,6 +4401,24 @@
       "lyrics": "<p>Part 1:<br/>\n(All the leaves have fallen down, have fallen down)(2x)</p>\n<p>Part 2:<br/>\nI am the water, earth, fire and wind,<br/>\nDig deep my roots and return again.<br/>\nI am the water, earth, fire and wind, return again. (2x)</p>\n  ",
       "notes": "",
       "language": "English"
+    },
+    {
+      "title": "Ma'ayan ganim",
+      "authors": [
+        "Yoni Battat"
+      ],
+      "sources": [
+        {
+          "book": "Song of Songs",
+          "chapter": "4",
+          "verse": "15"
+        }
+      ],
+      "urls": {},
+      "tags": [],
+      "lyrics": "<p class=\"hebrew\">מַעְיַן גַּנִּים בְּאֵר מַיִם חַיִּים וְנֹזְלִים מִן־לְבָנוֹן</p>\n<p class=\"transliteration\">(ma'ayan ganim b'eir mayim chayim)(4x)<br/>\nv'nozlim)(7x) min l'vanon</p>\n<blockquote>[You are] a garden spring, A well of fresh water, and streams of Lebanon.\n<br/>\n</blockquote>\n  ",
+      "notes": "Translation from Revised JPS, 2023 with 'a rill' changed to 'and streams' for more easy understanding.",
+      "language": "hebrew"
     }
   ]
 }
