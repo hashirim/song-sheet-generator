@@ -4419,6 +4419,81 @@
       "lyrics": "<p class=\"hebrew\">מַעְיַן גַּנִּים בְּאֵר מַיִם חַיִּים וְנֹזְלִים מִן־לְבָנוֹן</p>\n<p class=\"transliteration\">(ma'ayan ganim b'eir mayim chayim)(4x)<br/>\nv'nozlim)(7x) min l'vanon</p>\n<blockquote>[You are] a garden spring, A well of fresh water, and streams of Lebanon.\n<br/>\n</blockquote>\n  ",
       "notes": "Translation from Revised JPS, 2023 with 'a rill' changed to 'and streams' for more easy understanding.",
       "language": "hebrew"
+    },
+    {
+      "title": "Sunrise",
+      "authors": [
+        "Joey Becker"
+      ],
+      "sources": [],
+      "urls": {
+        "bandcamp": "https://joeybecker.bandcamp.com/track/sunrise"
+      },
+      "tags": [
+        "nature",
+        "hope"
+      ],
+      "lyrics": "<p>The sun will always rise<br/>\nThe day will always dawn</br>\nEven through cloudy skies</br>\nThe light will come\n</p>\n  ",
+      "notes": "",
+      "language": "english"
+    },
+    {
+      "title": "Ki Heim Chayeinu",
+      "authors": [
+        "Joey Becker"
+      ],
+      "sources": [
+        {
+          "book": "liturgy",
+          "chapter": "maariv",
+          "verse": "shema"
+        }
+      ],
+      "urls": {
+        "bandcamp": "https://joeybecker.bandcamp.com/track/ki-hem-chayeinu"
+      },
+      "tags": [
+        "joy"
+      ],
+      "lyrics": "<p class=\"hebrew\">וְנִשְׂמַח בְּדִבְרֵי תוֹרָתֶֽךָ וּבְמִצְוֹתֶֽיךָ לְעוֹלָם וָעֶד:<br/>\n כִּי הֵם חַיֵּֽינוּ וְאֹֽרֶךְ יָמֵֽינוּ וּבָהֶם נֶהְגֶּה יוֹמָם וָלָֽיְלָה:\n</p>\n<p class=\"transliteration\">\nv'nismach b'divrei<br/>\ntoratecha<br/>\nuv'mitzvotecha<br/>\nl'olam va'ed<br/>\n(ki heim chayeinu v'orech yameinu<br/>\nuvahem nehgeh yomam valailah)(2x)\n</p>\n<blockquote>We will rejoice in the words of Your Torah and in Your commandments forever. For they are our life and they lengthen our days, and on them we will meditate day and night.\n</blockquote>\n  ",
+      "notes": "Translation based on the Metsudah linear siddur, by Avrohom Davis, 1981\n",
+      "language": "hebrew"
+    },
+    {
+      "title": "Hameitzarim",
+      "authors": [
+        "Joey Becker"
+      ],
+      "sources": [
+        {
+          "book": "writing",
+          "chapter": "Nachman of Breslov",
+          "verse": "Likutey Moharan"
+        },
+        {
+          "book": "Psalm",
+          "chapter": "118",
+          "verse": "5"
+        },
+        {
+          "book": "liturgy",
+          "chapter": "haggadah",
+          "verse": "magid"
+        }
+      ],
+      "urls": {
+        "bandcamp": "https://joeybecker.bandcamp.com/track/hameitzarim"
+      },
+      "tags": [
+        "hallel",
+        "pesach",
+        "plea",
+        "trust",
+        "round"
+      ],
+      "lyrics": "<p class=\"hebrew\">כָּל הַעוֺלַם כּוּלוֺ, גֶשֶׁר צַר מְאוֺד<br/>\nמִֽן־הַ֭מֵּצַר קָרָ֣אתִי יָּ֑הּ עָנָ֖נִי בַמֶּרְחָ֣ב יָֽהּ׃\n<br/>\nאִלּוּ הוֹצִיאָנוּ מִמִּצְרָיִם דַּיֵּנוּ\n</p>\n<p class=\"transliteration\">(kol ha'olam kulo gesher tzar me'od)(4x)<br/>\n(min hameitzar karati yah anani vamerchav yah)(2x)<br/>\n((ilu)(2x) hotzianu mimitzrayim dayeinu)(2x)\n</p>\n<blockquote>The whole entire world is a very narrow bridge.<br/>\nFrom the narrow I called to the Lord.<br/>\nIf God had brought us out from Egypt, it would have sufficed.\n</blockquote>\n  ",
+      "notes": "",
+      "language": "hebrew"
     }
   ]
 }
