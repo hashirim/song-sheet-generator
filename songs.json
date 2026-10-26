@@ -3974,11 +3974,13 @@
     {
       "title": "We shall be known",
       "authors": [
-        "MaMuse"
+        "MaMuse",
+        "Karisha Longaker"
       ],
       "sources": [],
       "urls": {
-        "youtube": "https://www.youtube.com/watch?v=k4xhQcgyoLk"
+        "youtube": "https://www.youtube.com/watch?v=k4xhQcgyoLk",
+        "bandcamp": "https://bandofsingers.bandcamp.com/album/we-shall-be-known"
       },
       "tags": [
         "community"
@@ -4494,6 +4496,25 @@
       "lyrics": "<p class=\"hebrew\">כָּל הַעוֺלַם כּוּלוֺ, גֶשֶׁר צַר מְאוֺד<br/>\nמִן הַמֵּצַר קָרָאתִי יָּהּ, עָנָּנִי בַמֶרְחַב יָהּ\n<br/>\nאִלּוּ הוֹצִיאָנוּ מִמִּצְרָיִם דַּיֵּנוּ\n</p>\n<p class=\"transliteration\">(kol ha'olam kulo gesher tzar me'od)(4x)<br/>\n(min hameitzar karati yah anani vamerchav yah)(2x)<br/>\n((ilu)(2x) hotzianu mimitzrayim dayeinu)(2x)\n</p>\n<blockquote>The whole entire world is a very narrow bridge.<br/>\nFrom the narrow I called to the Lord.<br/>\nIf God had brought us out from Egypt, it would have sufficed.\n</blockquote>\n  ",
       "notes": "",
       "language": "hebrew"
+    },
+    {
+      "title": "Hallelujah",
+      "authors": [
+        "MaMuse",
+        "Sorah Nutting",
+        "Karisha Longaker"
+      ],
+      "sources": [],
+      "urls": {
+        "bandcamp": "https://mamuse.bandcamp.com/track/hallelujah"
+      },
+      "tags": [
+        "tashlich",
+        "round"
+      ],
+      "lyrics": "<p>Every time I feel this way<br/>\nThis old familiar sinking<br/>\nI will lay my troubles down by the water<br/>\nWhere the river will never run dry</p>\n\n<p>CHORUS:<br/>\nRound 1:<br/>\n(Hallelujah )(3x)<br/>\nRound 2:<br/>\n(I’m gonna let myself be lifted)(3x)<br/>\nTogether:<br/>\nBy and by<br/>\nI will lay my troubles down by the water<br/>\nWhere the river will never run dry</p>\n\n<p>It’s been said and I do believe<br/>\nAs you ask, so shall you receive<br/>\nSo take from me these troubles, Bring me sweet release<br/>\nWhere the river will never run dry</p>\n\n<p>CHORUS</p>\n\n<p>There is a river in this heart of hearts<br/>\nWith a knowingness of my highest good<br/>\nI am willing, I will do my part<br/>\nWhere the river will never run dry</p>\n \n<p>CHORUS</p>",
+      "notes": "",
+      "language": "English"
     }
   ]
 }
