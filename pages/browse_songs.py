@@ -81,9 +81,10 @@ def show():
         author_options = []
         author_value_map = {}
         for author in authors:
-            count = count_author_songs(current_filtered, author)
+            count = count_author_songs(songs, author)
+            count_filtered = count_author_songs(current_filtered, author)
             # Only show if count > 0 or if already selected
-            if count > 0 or author in st.session_state.selected_authors:
+            if count_filtered > 0 or author in st.session_state.selected_authors:
                 # Always update cache with current count
                 display = f"{author} ({count})"
                 st.session_state.author_display_cache[author] = display
@@ -122,8 +123,9 @@ def show():
         language_options = []
         language_value_map = {}
         for language in languages:
-            count = count_language_songs(current_filtered, language)
-            if count > 0 or language in st.session_state.selected_languages:
+            count = count_language_songs(songs, language)
+            count_filtered = count_language_songs(current_filtered, language)
+            if count_filtered > 0 or language in st.session_state.selected_languages:
                 display = f"{language} ({count})"
                 st.session_state.language_display_cache[language] = display
                 language_options.append(display)
@@ -160,8 +162,9 @@ def show():
         service_options = []
         service_value_map = {}
         for tag in service_tags:
-            count = count_tag_songs(current_filtered, tag)
-            if count > 0 or tag in st.session_state.selected_service_tags:
+            count = count_tag_songs(songs, tag)
+            count_filtered = count_tag_songs(current_filtered, tag)
+            if count_filtered > 0 or tag in st.session_state.selected_service_tags:
                 display = f"{tag} ({count})"
                 st.session_state.service_display_cache[tag] = display
                 service_options.append(display)
@@ -200,8 +203,9 @@ def show():
         theme_options = []
         theme_value_map = {}
         for tag in theme_tags:
-            count = count_tag_songs(current_filtered, tag)
-            if count > 0 or tag in st.session_state.selected_theme_tags:
+            count = count_tag_songs(songs, tag)
+            count_filtered = count_tag_songs(current_filtered, tag)
+            if count_filtered > 0 or tag in st.session_state.selected_theme_tags:
                 display = f"{tag} ({count})"
                 st.session_state.theme_display_cache[tag] = display
                 theme_options.append(display)
@@ -238,8 +242,9 @@ def show():
         other_options = []
         other_value_map = {}
         for tag in other_tags:
-            count = count_tag_songs(current_filtered, tag)
-            if count > 0 or tag in st.session_state.selected_other_tags:
+            count = count_tag_songs(songs, tag)
+            count_filtered = count_tag_songs(current_filtered, tag)
+            if count_filtered > 0 or tag in st.session_state.selected_other_tags:
                 display = f"{tag} ({count})"
                 st.session_state.other_display_cache[tag] = display
                 other_options.append(display)
@@ -287,8 +292,9 @@ def show():
         book_options = ["All Books"]
         book_value_map = {"All Books": ""}
         for book in books:
-            count = count_book_songs(current_filtered, book)
-            if count > 0 or book == st.session_state.selected_book:
+            count_filtered = count_book_songs(current_filtered, book)
+            count = count_book_songs(songs, book)
+            if count_filtered > 0 or book == st.session_state.selected_book:
                 display = f"{book} ({count})"
                 st.session_state.book_display_cache[book] = display
                 book_options.append(display)
@@ -330,8 +336,9 @@ def show():
             chapter_options = ["All Chapters"]
             chapter_value_map = {"All Chapters": ""}
             for chapter in chapters:
-                count = count_chapter_songs(current_filtered, st.session_state.selected_book, chapter)
-                if count > 0 or chapter == st.session_state.selected_chapter:
+                count_filtered = count_chapter_songs(current_filtered, st.session_state.selected_book, chapter)
+                count = count_chapter_songs(songs, st.session_state.selected_book, chapter)
+                if count_filtered > 0 or chapter == st.session_state.selected_chapter:
                     cache_key = f"{st.session_state.selected_book}_{chapter}"
                     display = f"{chapter} ({count})"
                     st.session_state.chapter_display_cache[cache_key] = display
@@ -376,8 +383,9 @@ def show():
             verse_options = ["All Verses"]
             verse_value_map = {"All Verses": ""}
             for verse in verses:
-                count = count_verse_songs(current_filtered, st.session_state.selected_book, st.session_state.selected_chapter, verse)
-                if count > 0 or verse == st.session_state.selected_verse:
+                count = count_verse_songs(songs, st.session_state.selected_book, st.session_state.selected_chapter, verse)
+                count_filtered = count_verse_songs(current_filtered, st.session_state.selected_book, st.session_state.selected_chapter, verse)
+                if count_filtered > 0 or verse == st.session_state.selected_verse:
                     cache_key = f"{st.session_state.selected_book}_{st.session_state.selected_chapter}_{verse}"
                     display = f"{verse} ({count})"
                     st.session_state.verse_display_cache[cache_key] = display
