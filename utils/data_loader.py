@@ -42,7 +42,7 @@ def get_service_tags(songs: List[Dict[str, Any]]) -> List[str]:
     """Get service/holiday tags in desired order"""
     service_tags = {
         'maariv', 'shacharit', 'mincha', 'hallel', 'shabbat', 'havdalah',
-        'rosh chodesh', 'rosh hashanah', 'yom kippur', 'sukkot', 'shmini atzeret',
+        'rosh chodesh', 'rosh hashanah', 'tashlich', 'yom kippur', 'sukkot', 'shmini atzeret',
         'simchat torah', 'chanukah', 'tu bishvat', 'purim', 'pesach', 'omer', 'lag b\'omer',
         'shavuot', 'tu b\'av', 'tisha b\'av', 'slichot'
     }
@@ -55,7 +55,7 @@ def get_service_tags(songs: List[Dict[str, Any]]) -> List[str]:
     
     ordered = [
         'maariv', 'shacharit', 'mincha', 'hallel', 'shabbat', 'havdalah',
-        'rosh chodesh', 'rosh hashanah', 'yom kippur', 'sukkot', 'shmini atzeret',
+        'rosh chodesh', 'rosh hashanah', 'tashlich', 'yom kippur', 'sukkot', 'shmini atzeret',
         'simchat torah', 'chanukah', 'tu bishvat', 'purim', 'pesach', 'omer', 'lag b\'omer',
         'shavuot', 'tu b\'av', 'tisha b\'av', 'slichot'
     ]
@@ -67,7 +67,7 @@ def get_theme_tags(songs: List[Dict[str, Any]]) -> List[str]:
     theme_tags = {
         'creation', 'redemption', 'revelation', 'love', 'healing', 'nature',
         'trust', 'gratitude', 'praise', 'celebration', 'mourning', 'justice', 'community',
-        'peace', 'protection', 'journey'
+        'peace', 'protection', 'journey', 'yearning', 'plea', 'hope'
     }
     
     found_tags = set()
@@ -79,7 +79,7 @@ def get_theme_tags(songs: List[Dict[str, Any]]) -> List[str]:
     ordered = [
         'creation', 'redemption', 'revelation', 'love', 'healing', 'nature',
         'trust', 'gratitude', 'praise', 'celebration', 'mourning', 'yearning', 'justice', 'community',
-        'peace', 'protection', 'journey'
+        'peace', 'protection', 'journey', 'yearning', 'plea', 'hope'
     ]
     
     return [tag for tag in ordered if tag in found_tags]
@@ -88,7 +88,7 @@ def get_other_tags(songs: List[Dict[str, Any]]) -> List[str]:
     """Get all other tags not in service or theme categories"""
     service_tags = {
         'maariv', 'shacharit', 'mincha', 'hallel', 'shabbat', 'havdalah',
-        'rosh chodesh', 'rosh hashanah', 'yom kippur', 'sukkot', 'shmini atzeret',
+        'rosh chodesh', 'rosh hashanah', 'tashlich', 'yom kippur', 'sukkot', 'shmini atzeret',
         'simchat torah', 'chanukah', 'tu bishvat', 'purim', 'pesach', 'omer', 'lag b\'omer',
         'shavuot', 'tu b\'av', 'tisha b\'av', 'slichot'
     }
@@ -96,7 +96,7 @@ def get_other_tags(songs: List[Dict[str, Any]]) -> List[str]:
     theme_tags = {
         'creation', 'redemption', 'revelation', 'love', 'healing', 'nature',
         'trust', 'gratitude', 'praise', 'celebration', 'mourning', 'justice', 'community',
-        'peace', 'protection', 'journey'
+        'peace', 'protection', 'journey', 'yearning', 'plea', 'hope'
     }
     
     other_tags = set()
