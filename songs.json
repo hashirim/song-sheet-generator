@@ -627,7 +627,7 @@
         "accelerando",
         "plea"
       ],
-      "lyrics": "<p class=\"hebrew\">אָנָּא בְּכֹחַ גְּדֻלַּת יְמִינְךָ תַּתִּיר צְרוּרָה<br/>\nקַבֵּל רִנַּת עַמְּךָ שגְּבֵנוּ טַהֲרֵנוּ נוֹרָא</p>\n<p class=\"transliteration\">(ana b'choach g'dulat y'mincha (tatir tzrurah)(2x)<br/>\nkabel (rinat)(2x) amcha sagveinu tahareinu nora)(2x)<br/>\n[niggun]</p>\n<blockquote>Please, with the strength of your right hand,<br/>\nuntie our tangles.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">אָנָּא בְּכֹחַ גְּדֻלַּת יְמִינְךָ תַּתִּיר צְרוּרָה<br/>\nקַבֵּל רִנַּת עַמְּךָ שגְּבֵנוּ טַהֲרֵנוּ נוֹרָא</p>\n<p class=\"transliteration\">(ana b'choach g'dulat y'mincha (tatir tz'rurah)(2x)<br/>\nkabeil (rinat)(2x) amcha sagveinu tahareinu nora)(2x)<br/>\n[niggun]</p>\n<blockquote>Please, with the strength of your right hand,<br/>\nuntie our tangles.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -680,7 +680,8 @@
       },
       "tags": [
         "shabbat",
-        "praise"
+        "praise",
+        "accelerando"
       ],
       "lyrics": "<p class=\"hebrew\">טוֹב לְהֹדוֹת לַיְיָ, וּלְזַמֵּר לְשִׁמְךָ עֶלְיוֹן<br/>\nלְהַגִּיד בַּבֹּֽקֶר חַסְדֶּֽךָ, וֶאֱמוּנָתְךָ בַּלֵּילוֹת</p>\n<p class=\"transliteration\">(tov l'hodot ladonai ul'zameir l'shimcha elyon)(2x)<br/>\n(l'hagid baboker chasdecha ve'emunatcha baleilot)(2x)</p>\n<blockquote>It is good to praise God, to proclaim your steadfast love at daybreak, and your faithfulness each night.</blockquote>",
       "notes": "",
@@ -1185,8 +1186,8 @@
         "community",
         "gratitude"
       ],
-      "lyrics": "<p class=\"hebrew\">זֶה הַיּום עָשה ה'. נָגִילָה וְנִשמְחָה בוֹ<br/>\nזֶה הַיּום נִחְיֶה בְּיַחַד. נָגִילָה וְנִשמְחָה בוֹ</p>\n<p class=\"transliteration\">(zeh hayom asah adonai nagila v'nismecha vo)(6x)<br/>\n(zeh hayom nikhyeh b'yachad nagila v'nismecha vo)(8x)</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it<br/>\nThis is the day we will live together.<br/>\nLet us be joyful and rejoice in it</blockquote>",
-      "notes": "",
+      "lyrics": "<p class=\"hebrew\">זֶה־הַיּוֹם עָשָׂה יְהֹוָה נָגִילָה וְנִשְׂמְחָה בוֹ<br/>\nזֶה הַיּום נִחְיֶה בְּיַחַד. נָגִילָה וְנִשְׂמְחָה בוֹ</p>\n<p class=\"transliteration\">(zeh hayom asah adonai nagilah v'nism'chah vo)(4x)<br/>\n(zeh hayom nichyeh b'yachad nagilah v'nism'chah vo)(4x)</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it<br/>\nThis is the day we will live together.<br/>\nLet us be joyful and rejoice in it</blockquote>",
+      "notes": "changed from 6x to 4x (eliminated repetitions 2 and 3 and musical break)",
       "language": "hebrew"
     },
     {
@@ -1220,7 +1221,7 @@
         "praise",
         "accelerando"
       ],
-      "lyrics": "<p class=\"hebrew\">אֵלִי אַתָּה וְאוֹדֶךָּ ,אֱלֹהַי אֲרוֹמְמֶךָּ<br/>\nהוֹדוּ לַיְיָ כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p class=\"transliteration\">eili atah v'odeka, elohai arom'meka<br/>\n(hodu ladonai ki tov, ki l'olam chasdo)(2x)</p>\n<blockquote>You are my God, and I praise and exalt you. Give thanks to God, for God is good; God's kindness endures forever.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">אֵלִי אַתָּה וְאוֹדֶךָּ ,אֱלֹהַי אֲרוֹמְמֶךָּ<br/>\nהוֹדוּ לַיְיָ כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ</p>\n<p class=\"transliteration\">eili atah v'odeka, elohai arom'meka<br/>\n(hodu ladonai ki tov, ki l'olam chasdo)(2x) chasdo<br/>\n[niggun]<br/>\n(hodu ladonai ki tov, ki l'olam chasdo)(2x)</p>\n<blockquote>You are my God, and I praise and exalt you. Give thanks to God, for God is good; God's kindness endures forever.</blockquote>",
       "notes": "",
       "language": "hebrew"
     },
@@ -1302,7 +1303,7 @@
         "shabbat",
         "justice"
       ],
-      "lyrics": "<p class=\"hebrew\">עוֹד יְנוּבוּן בְּשֵׂיבָה דְּשֵׁנִים וְרַעֲנַנִּים יִהְיוּ</p>\n<p>(od y'nuvun b'seivah)(2x)<br/>\n(d'sheinim v'ra'ananim yih'yu)(2x)<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)<br/>\n(yih'yu)(6x)<br/>\n[niggun]<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)</p>\n<blockquote>In old age the righteous still produce fruit;<br/>\nthey are full of sap and aliveness.</blockquote>\n<p>Like the fruit of the vine, ripening in its time<br/>\nlike the fruit of the vine, bringing sweetness of the divine</p>",
+      "lyrics": "<p class=\"hebrew\">עוֹד יְנוּבוּן בְּשֵׂיבָה דְּשֵׁנִים וְרַעֲנַנִּים יִהְיוּ</p>\n<p class=\"transliteration\">(od y'nuvun b'seivah)(2x)<br/>\n(d'sheinim v'ra'ananim yih'yu)(2x)<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)<br/>\n(yih'yu)(6x)<br/>\n[niggun]<br/>\n(od y'nuvun b'seivah d'sheinim v'ra'ananim)(2x)</p>\n<blockquote>In old age the righteous still produce fruit;<br/>\nthey are full of sap and aliveness.</blockquote>\n<p>Like the fruit of the vine, ripening in its time<br/>\nlike the fruit of the vine, bringing sweetness of the divine</p>",
       "notes": "",
       "language": "english and hebrew"
     },
@@ -4435,7 +4436,7 @@
       "language": "english"
     },
     {
-      "title": "Ki Heim Chayeinu",
+      "title": "Ki heim chayeinu",
       "authors": [
         "Joey Becker"
       ],
