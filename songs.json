@@ -1110,7 +1110,7 @@
         "feminine god",
         "call and response"
       ],
-      "lyrics": "<p class=\"hebrew\">עָזִּי וְזִמְרָת תָּהּ וַתְּהִי־לִי לִישׁוּעָה<br/>\n זֹאת אֵלָתִי וְאַנְוֵהָ אֱלֹהֹת אִמִּי וַאֲרֹמְמֶנְהָ</p>\n<p class=\"transliteration\">(elohot)(4x)<br/>\n((<i>ozi</i>) ozi v'zimrat tah<br/>\n(<i>vat'hi li</i>) vat'hi li lishu'ah)(2x)<br/>\n(<i>elohot</i>) (<i>elohot imi</i>) va'arom'menha<br/>\n(<i>elohot imi</i>)<br/>\nohhhh (zot eilati (v'anveiha)(2x))(4x)<br/>\n<blockquote>My strength and the song of Tah are my rescue. This is my Goddess and I embellish Her the Goddesses of my mother and I exalt Her.</blockquote>",
+      "lyrics": "<p class=\"hebrew\">עָזִּי וְזִמְרָת תָּהּ וַתְּהִי־לִי לִישׁוּעָה<br/>\n זֹאת אֵלָתִי וְאַנְוֵהָ אֱלֹהֹת אִמִּי וַאֲרֹמְמֶנְהָ</p>\n<p class=\"transliteration\">(elohot)(4x)<br/>\n((<i>ozi</i>) ozi v'zimrat tah<br/>\n(<i>vat'hi li</i>) vat'hi li lishu'ah)(2x)<br/>\n(<i>elohot</i>) (<i>elohot imi</i>) va'arom'menha<br/>\n(<i>elohot imi</i>)<br/>\nohhhh (zot eilati (v'anveiha)(2x))(4x)</p>\n<blockquote>My strength and the song of Tah are my rescue. This is my Goddess and I embellish Her the Goddesses of my mother and I exalt Her.</blockquote>",
       "notes": "For both rosh chodesh and full hallel.",
       "language": "hebrew"
     },
@@ -1186,7 +1186,7 @@
         "community",
         "gratitude"
       ],
-      "lyrics": "<p class=\"hebrew\">זֶה־הַיּוֹם עָשָׂה יְהֹוָה נָגִילָה וְנִשְׂמְחָה בוֹ<br/>\nזֶה הַיּום נִחְיֶה בְּיַחַד. נָגִילָה וְנִשְׂמְחָה בוֹ</p>\n<p class=\"transliteration\">(zeh hayom asah adonai nagilah v'nism'chah vo)(4x)<br/>\n(zeh hayom nichyeh b'yachad nagilah v'nism'chah vo)(4x)</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it<br/>\nThis is the day we will live together.<br/>\nLet us be joyful and rejoice in it</blockquote>",
+      "lyrics": "<p class=\"hebrew\">זֶה־הַיּוֹם עָשָׂה יְיָ נָגִילָה וְנִשְׂמְחָה בוֹ<br/>\nזֶה הַיּום נִחְיֶה בְּיַחַד. נָגִילָה וְנִשְׂמְחָה בוֹ</p>\n<p class=\"transliteration\">(zeh hayom asah adonai nagilah v'nism'chah vo)(4x)<br/>\n(zeh hayom nichyeh b'yachad nagilah v'nism'chah vo)(4x)</p>\n<blockquote>This is the day that God has made.<br/>\nLet us be joyful and rejoice in it<br/>\nThis is the day we will live together.<br/>\nLet us be joyful and rejoice in it</blockquote>",
       "notes": "changed from 6x to 4x (eliminated repetitions 2 and 3 and musical break)",
       "language": "hebrew"
     },
@@ -1205,11 +1205,6 @@
           "book": "Psalm",
           "chapter": "118",
           "verse": "29"
-        },
-        {
-          "book": "Psalm",
-          "chapter": "136",
-          "verse": "1"
         }
       ],
       "urls": {
