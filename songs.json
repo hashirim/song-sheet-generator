@@ -4506,6 +4506,72 @@
       "lyrics": "<p>Every time I feel this way<br/>\nThis old familiar sinking<br/>\nI will lay my troubles down by the water<br/>\nWhere the river will never run dry</p>\n\n<p>CHORUS:<br/>\nRound 1:<br/>\n(Hallelujah )(3x)<br/>\nRound 2:<br/>\n(I’m gonna let myself be lifted)(3x)<br/>\nTogether:<br/>\nBy and by<br/>\nI will lay my troubles down by the water<br/>\nWhere the river will never run dry</p>\n\n<p>It’s been said and I do believe<br/>\nAs you ask, so shall you receive<br/>\nSo take from me these troubles, Bring me sweet release<br/>\nWhere the river will never run dry</p>\n\n<p>CHORUS</p>\n\n<p>There is a river in this heart of hearts<br/>\nWith a knowingness of my highest good<br/>\nI am willing, I will do my part<br/>\nWhere the river will never run dry</p>\n \n<p>CHORUS</p>",
       "notes": "",
       "language": "English"
+    },
+    {
+      "title": "Kirtan Hallel",
+      "authors": [
+        "Danielle Upbin"
+      ],
+      "sources": [
+        {
+          "book": "Psalm",
+          "chapter": "118",
+          "verse": "25"
+        },
+        {
+          "book": "Psalm",
+          "chapter": "118",
+          "verse": "26"
+        },
+        {
+          "book": "Psalm",
+          "chapter": "118",
+          "verse": "27"
+        },
+        {
+          "book": "Psalm",
+          "chapter": "118",
+          "verse": "28"
+        },
+        {
+          "book": "Psalm",
+          "chapter": "118",
+          "verse": "29"
+        }
+      ],
+      "urls": {
+        "youtu": "https://youtu.be/K14nWtaVtCI"
+      },
+      "tags": [
+        "call and response",
+        "hallel"
+      ],
+      "lyrics": "<p class=\"transliteration\">CHORUS:</p>\n<p class=\"hebrew\">אָנָּא יְיָ הוֹשִׁיעָה נָּא אָנָּא יְיָ הַצְלִיחָה נָּא<br/>\n</p>\n<p class=\"transliteration\">(<i>ana yah hoshi'ah na</i>)(2x)<br/>\n(<i>ana yah hatzlichah na</i>)(2x)<br/>\n(ana ana yah)(2x)\n</p>\n<blockquote>O ETERNAL One, deliver us!\nO ETERNAL One, let us prosper!\n\n</blockquote>\n\n<p class=\"hebrew\">\nבָּרוּךְ הַבָּא בְּשֵׁם יְיָ בֵּרַכְנוּכֶם מִבֵּית יְיָ</p>\n<p class=\"transliteration\">(baruch haba b'sheim adonai berachnuchem mibeit adonai)(2x)\n</p>\n<blockquote>May everyone who enters be blessed in the name of GOD;\nwe bless you from the House of GOD.\n\n</blockquote>\n\n<p>CHORUS</p>\n\n<p class=\"hebrew\">\nאֵל  יְיָ וַיָּאֶר לָנוּ אִסְרוּ־חַג בַּעֲבֹתִים עַד־קַרְנוֹת הַמִּזְבֵּחַ\n</p>\n<p class=\"transliteration\">(eil adonai vaya'er lanu isru chag ba'avotim ad karnot hamizbei'ach)(2x)\n</p>\n<blockquote>The ETERNAL is God,\nwho has given us light;\nbind the festal offering to the horns of the altar with cords.\n\n</blockquote>\n\n<p>CHORUS</p>\n\n<p class=\"hebrew\">\nאֵלִי אַתָּה וְאוֹדֶךָּ אֱלֹהַי אֲרוֹמְמֶךָּ\n</p>\n<p class=\"transliteration\">eili atah v'odecha (elohai)(2x) arom'mecha\n</p>\n<blockquote>You are my God and I will praise You;\nYou are my God and I will extol You.\n\n</blockquote>\n\n<p>CHORUS</p>\n\n\n<p class=\"hebrew\">\nהוֹדוּ לַיְיָ כִּי־טוֹב כִּי לְעוֹלָם חַסְדּוֹ\n</p>\n<p class=\"transliteration\">(hodu ladonai ki tov ki l'olam chasdo)(2x)\n</p>\n<blockquote>Praise GOD, who is good—\nwhose steadfast love is eternal.\n\n</blockquote>\n\n<p>CHORUS</p>",
+      "notes": "Translation from JPS 2023. ",
+      "language": "hebrew"
+    },
+    {
+      "title": "Kol Haneshama",
+      "authors": [
+        "Danielle Upbin"
+      ],
+      "sources": [
+        {
+          "book": "Psalm",
+          "chapter": "150",
+          "verse": "6"
+        }
+      ],
+      "urls": {
+        "youtu": "https://youtu.be/JiZ1EG9juXI"
+      },
+      "tags": [
+        "round",
+        "shacharit"
+      ],
+      "lyrics": "<p>With every breath our souls sing to you the mystery, hal'luyah</p>\n\n<p class=\"hebrew\">כֹּל הַנְּשָׁמָה תְּהַלֵּל יָהּ הַלְלוּ־יָהּ</p>\n<p class=\"transliteration\">kol han'shamah t'haleil yah hal'luyah\n</p>\n<blockquote>All spirit and breath praises the Divine, Halleluyah!\n</blockquote>\n  ",
+      "notes": "This round is offset singing the same lyrics.\n\nModified lyrics to remove 'with every soul our breath' and made 'soul' plural for ease of teaching and grammatical consistency, respectively.\n\nTranslation from JPS 2023. \n",
+      "language": "english and hebrew"
     }
   ]
 }
